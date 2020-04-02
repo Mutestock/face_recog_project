@@ -1,6 +1,9 @@
 import click
 from logic import print_me
 
+# pip install --editable .
+# AFTER pipenv shell
+
 @click.group()
 def manager():
     pass

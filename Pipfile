@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 click = "*"
 nose2 = "*"
+face-recognition = "*"
 
 [requires]
 python_version = "3.7"
