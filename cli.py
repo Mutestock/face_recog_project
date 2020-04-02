@@ -5,10 +5,10 @@ from logic import print_me
 # AFTER pipenv shell
 
 @click.group()
-def manager():
+def frecog():
     pass
 
-@manager.command()
+@frecog.command()
 @click.option("--test", "-t")
 @click.option("--sync", "-s", is_flag=True)
 def ex(test, sync):
