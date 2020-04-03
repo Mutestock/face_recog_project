@@ -7,7 +7,10 @@ setup(
     install_requires=[
         'Click',
         'nose2',
-        'face_recognition'
+        'face_recognition',
+        'configparser',
+        'opencv-python'
+        
     ],
     author='TeamOne',
     entry_points='''
