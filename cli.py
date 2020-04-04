@@ -1,20 +1,17 @@
 import click
-from logic import print_me
+from logic.recognition import face_recognition_load
 
 # pip install --editable .
 # AFTER pipenv shell
 
+
 @click.group()
-def manager():
+def frecog():
     pass
 
-@manager.command()
-@click.option("--test", "-t")
-@click.option("--sync", "-s", is_flag=True)
-def ex(test, sync):
-    if(test):
-        print_me(test)
-    elif(sync):
-        pass
-    
-    
+
+@frecog.command()
+@click.option("--iterate", "-i", is_flag=True)
+def run(iterate):
+    if iterate:
+        face_recognition_load()
