@@ -4,17 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "*"
 
 [packages]
-click = "*"
-nose2 = "*"
-face-recognition = "*"
-opencv-python = "*"
-configparser = "*"
 
 [requires]
 python_version = "3.7"
-
-[pipenv]
-allow_prereleases = true
