@@ -4,17 +4,9 @@ import cv2
 import configparser
 import click
 import logging
-#import logconfig
+import logic.logconfig as log
 
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
-
-formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
-
-file_handler = logging.FileHandler('log/genrallog.log')
-file_handler.setFormatter(formatter)
-
-logger.addHandler(file_handler)
+logger = log.logger
 
 def face_recognition_load():
     conf = configparser.ConfigParser()
