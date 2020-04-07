@@ -1,6 +1,10 @@
 *facerec
 Pipfile.lock
+*Pipfile
+Pipfile
 *.vscode
+.vscode
+*sensitive.ini
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
@@ -32,8 +36,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.vscode
-
 MANIFEST
 
 # PyInstaller
@@ -60,7 +62,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d0a40cbacef4c59a5d17ad32329653e60192445b
 # Translations
 *.mo
 *.pot
