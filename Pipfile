@@ -4,8 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
+click = "*"
+nose2 = "*"
+face-recognition = "*"
+pymysql = "*"
+cmake = "*"
+sqlalchemy = "*"
+configparser = "*"
+opencv-python = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"

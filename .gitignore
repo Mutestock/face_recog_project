@@ -1,6 +1,10 @@
 *facerec
 Pipfile.lock
+*Pipfile
+Pipfile
 *.vscode
+.vscode
+*sensitive.ini
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
