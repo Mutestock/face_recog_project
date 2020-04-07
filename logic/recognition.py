@@ -3,7 +3,6 @@ import os
 import cv2
 import configparser
 import click
-import logging
 import logic.logconfig as log
 
 logger = log.logger
@@ -23,7 +22,6 @@ def face_recognition_load():
     with click.progressbar(os.listdir(frecog_conf["KnownFacesDir"])) as faces:
         for name in faces:
             for filename in os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}"):
-                logger.info(filename)
                 image = face_recognition.load_image_file(
                     f"{frecog_conf['KnownFacesDir']}/{name}/{filename}"
                 )
@@ -35,8 +33,7 @@ def face_recognition_load():
 
 def __unknown_faces_processing(cv2_conf, frecog_conf, known_faces, known_names):
     logger.info("Processing unknown faces...")
-    #let flag
-    #might be needed for logging more info
+
     for filename in os.listdir(frecog_conf["UnknownFacesDir"]):
         logger.info(filename)
         image = face_recognition.load_image_file(

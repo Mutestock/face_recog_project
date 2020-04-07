@@ -33,6 +33,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 .vscode
+
 MANIFEST
 
 # PyInstaller
@@ -44,6 +45,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+.log
 
 # Unit test / coverage reports
 htmlcov/
@@ -57,6 +59,7 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
+
 
 # Translations
 *.mo
