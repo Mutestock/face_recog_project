@@ -6,6 +6,7 @@ import click
 import logic.logconfig as log
 
 logger = log.logger
+video = cv2.VideoCapture(0)
 
 def face_recognition_load():
     conf = configparser.ConfigParser()
@@ -29,7 +30,7 @@ def face_recognition_load():
                 known_faces.append(encoding)
                 known_names.append(name)
     __unknown_faces_processing(cv2_conf, frecog_conf, known_faces, known_names)
-    #__unknown_faces_processing_video(cv2_conf, frecog_conf, known_faces, known_names)
+    #__unknown_faces_processing_video(cv2_conf, frecog_conf, known_faces, known_names) #Video mode
 
 
 def __unknown_faces_processing(cv2_conf, frecog_conf, known_faces, known_names):
@@ -104,7 +105,6 @@ def __unknown_faces_processing_video(cv2_conf, frecog_conf, known_faces, known_n
                     color,
                     int(cv2_conf["FrameThickness"]),
                 )
-                print("2")
                 top_left = (face_location[3], face_location[2])
                 bottom_right = (face_location[1], face_location[2] + 22)
                 cv2.rectangle(image, top_left, bottom_right, color, cv2.FILLED)
@@ -117,7 +117,6 @@ def __unknown_faces_processing_video(cv2_conf, frecog_conf, known_faces, known_n
                     (200, 200, 200),
                     int(cv2_conf["FontThickness"]),
                 )
-        print("3")
         cv2.imshow("Video", image)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             cv2.destroyWindow(filename)
