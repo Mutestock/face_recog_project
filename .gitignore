@@ -62,10 +62,6 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> d0a40cbacef4c59a5d17ad32329653e60192445b
 # Translations
 *.mo
 *.pot
