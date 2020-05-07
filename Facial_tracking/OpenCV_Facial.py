@@ -5,9 +5,9 @@ import time
 
 def executor():
     #Loading cascades
-    face_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
-    eye_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_eye.xml')
-    smile_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_smile.xml')
+    #face_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+    #eye_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_eye.xml')
+    #smile_cascade = cv2.CascadeClassifier('C:/Python/Lib/site-packages/cv2/data/haarcascade_smile.xml')
 
     #face_cascade_path =""
     #eye_cascade_path = ""
@@ -22,15 +22,17 @@ def executor():
     #    face_cascade_path = f"{os.path.dirname(cv2.__file__)}\data\haarcascade_frontalface_default.xml"
     #    eye_cascade_path = f"{os.path.dirname(cv2.__file__)}\data\haarcascade_eye.xml"
     #    smile_cascade_path = f"{os.path.dirname(cv2.__file__)}\data\haarcascade_smile.xml"
+
+    
     cv2dir = os.path.dirname(cv2.__file__)
 
-    #face_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_frontalface_default.xml")
-    #eye_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_eye.xml")
-    #smile_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_smile.xml")
+    face_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_frontalface_default.xml")
+    eye_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_eye.xml")
+    smile_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_smile.xml")
 
-    #face_cascade = cv2.CascadeClassifier(face_cascade_path)
-    #eye_sascade = cv2.CascadeClassifier(eye_cascade_path)
-    #smile_cascade = cv2.CascadeClassifier(smile_cascade_path)
+    face_cascade = cv2.CascadeClassifier(face_cascade_path)
+    eye_sascade = cv2.CascadeClassifier(eye_cascade_path)
+    smile_cascade = cv2.CascadeClassifier(smile_cascade_path)
 
     #Detection function
    
@@ -70,7 +72,7 @@ def executor():
         canvas = detect(gray,frame)
         cv2.imshow('Face recognition',canvas)
         if cv2.waitKey(1) & 0xFF==ord('q'):
-            break
+        break
                 
     cam.release()
     cv2.destroyAllWindows() 

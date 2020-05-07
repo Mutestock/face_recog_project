@@ -1,5 +1,5 @@
 import unittest
-from settings.connector import DB_connection
+#from settings.connector import DB_connection
 from settings.pathing import os_parse_path
 import os
 import cv2
