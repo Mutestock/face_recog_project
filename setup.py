@@ -9,7 +9,11 @@ setup(
         'nose2',
         'face_recognition',
         'configparser',
-        'opencv-python'
+        'opencv-python',
+        'matplotlib',
+        'sklearn',
+        'keras',
+        'tensorflow'
         
     ],
     author='TeamOne',

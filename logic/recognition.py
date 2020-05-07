@@ -8,6 +8,8 @@ import logic.logconfig as log
 logger = log.logger
 video = cv2.VideoCapture(0)
 
+# Clean up. Separate in multiple files annd functions - They're too big.
+
 def face_recognition_load():
     conf = configparser.ConfigParser()
     conf.read("./settings/configuration.ini")
