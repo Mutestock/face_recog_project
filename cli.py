@@ -32,6 +32,7 @@ def stream_detection(url):
     # Open selenium on links
     # Window capture
     # Face recognition function
+    raise NotImplementedError()
 
 @frecog.command()
 @click.option(
@@ -45,7 +46,7 @@ def info(success):
     '''
     # Read entry names
     # format tpd.
-
+    raise NotImplemented()
 
 
 
