@@ -15,7 +15,8 @@ setup(
         'keras',
         'tensorflow',
         'pymysql',
-        'sqlalchemy'
+        'sqlalchemy',
+        'dlib'
         
     ],
     author='TeamOne',

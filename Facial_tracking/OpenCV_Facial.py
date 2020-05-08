@@ -72,7 +72,7 @@ def executor():
         canvas = detect(gray,frame)
         cv2.imshow('Face recognition',canvas)
         if cv2.waitKey(1) & 0xFF==ord('q'):
-        break
+            break
                 
     cam.release()
     cv2.destroyAllWindows() 
