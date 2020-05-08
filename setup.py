@@ -9,7 +9,9 @@ setup(
         'nose2',
         'face_recognition',
         'configparser',
-        'opencv-python'
+        'opencv-python',
+        'pymysql',
+        'sqlalchemy'
         
     ],
     author='TeamOne',
