@@ -10,6 +10,10 @@ setup(
         'face_recognition',
         'configparser',
         'opencv-python',
+        'matplotlib',
+        'sklearn',
+        'keras',
+        'tensorflow',
         'pymysql',
         'sqlalchemy'
         
