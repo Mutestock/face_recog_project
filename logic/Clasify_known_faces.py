@@ -8,21 +8,21 @@ import dlib
 import numpy as np
 from pkg_resources import resource_filename
 
-model_save_path = "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/knn_model.clf"
+model_save_path = os.path.join("Face_learning_model/models/knn_model.clf")
 train_dir = "facerec/known_faces"
-model_path = "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/knn_model.clf"
+model_path = os.path.join("Face_learning_model/models/knn_model.clf")
 
 def pose_predictor_five_point_model_location():
-    return "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/shape_predictor_5_face_landmarks.dat"
+    return os.path.join("Face_learning_model/models/shape_predictor_5_face_landmarks.dat")
 
 def pose_predictor_model_location():
-    return "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/shape_predictor_68_face_landmarks.dat"
+    return os.path.join("Face_learning_model/models/shape_predictor_68_face_landmarks.dat")
 
 def face_recognition_model_location():
-    return "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/dlib_face_recognition_resnet_model_v1.dat"
+    return os.path.join("Face_learning_model/models/dlib_face_recognition_resnet_model_v1.dat")
 
 def cnn_face_detector_model_location():
-    return "C:/Users/rasmu/Desktop/face_recog_project/Face_learning_model/models/mmod_human_face_detector.dat"
+    return os.path.join("Face_learning_model/models/mmod_human_face_detector.dat")
 
 face_detector = dlib.get_frontal_face_detector()
 
@@ -39,6 +39,7 @@ face_recognition_model = face_recognition_model_location()
 face_encoder = dlib.face_recognition_model_v1(face_recognition_model)
 
 
+#train
 def train(n_neighbors=None, knn_algo='ball_tree'):
     
     X = []
@@ -52,7 +53,7 @@ def train(n_neighbors=None, knn_algo='ball_tree'):
             image = load_image_file(img_path)
             face_bounding_boxes = face_locations(image)
 
-            if 1 != len(face_bounding_boxes) != 1:
+            if len(face_bounding_boxes) != 1:
                 print("No people in the picture: ", img_path)
             else:
                 X.append(face_encodings(image, known_face_locations=face_bounding_boxes)[0])
@@ -76,12 +77,13 @@ def image_files_in_folder(folder):
     return [os.path.join(folder, f) for f in os.listdir(folder)]
 
 
-def predict(X_img_path, distance_threshold=0.6):
+#predict
+def predict(X_img, distance_threshold=0.6):
 
     with open(model_path, 'rb') as f:
         knn_clf = pickle.load(f)
 
-    X_img = load_image_file(X_img_path)
+    #X_img = load_image_file(X_img_path)
     X_face_locations = face_locations(X_img)
 
     if len(X_face_locations) == 0:
@@ -167,3 +169,19 @@ def load_image_file(file, mode='RGB'):
     if mode:
         im = im.convert(mode)
     return np.array(im)
+
+
+if __name__ == "__main__":
+    print("Training KNN classifier...")
+    classifier = train(n_neighbors=2)
+    print("Training complete!")
+
+    for image_file in os.listdir("facerec/unknown_faces"):
+        full_file_path = os.path.join("facerec/unknown_faces", image_file)
+
+        print("Looking for faces in {}".format(full_file_path))
+        X_img = load_image_file(full_file_path)
+        predictions = predict(X_img)
+
+        for name, (top, right, bottom, left) in predictions:
+            print("- Found {} at ({}, {})".format(name, left, top))

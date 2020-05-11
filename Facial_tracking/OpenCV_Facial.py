@@ -33,7 +33,6 @@ def executor():
         print(count)
         faces = face_cascade.detectMultiScale(gray, 1.3, 5)
         for (x,y,w,h) in faces:
-            cv2.rectangle(frame, (x,y), (x+w,y+h), (0, 255, 0), 2)
             roi_gray = gray[y:y+h, x:x+w]
             roi_color = frame[y:y+h, x:x+w]    
             if keyboard.is_pressed('r'):
@@ -47,8 +46,10 @@ def executor():
                         known_faces_path = pathFace
                     pic = pathFace +  USER_INP + str(count)+".jpg"
                     print(pic)
-                    cv2.imwrite(pic, frame[y:y+h, x:x+w])
+                    cv2.imwrite(pic, frame)
                     count += 1
+            cv2.rectangle(frame, (x,y), (x+w,y+h), (0, 255, 0), 2)
+
             eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 22)
             for (ex,ey,ew,eh) in eyes:
                 cv2.rectangle(roi_color, (ex,ey), (ex+ew, ey+eh),(0, 255, 0), 1)
