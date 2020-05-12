@@ -1,6 +1,5 @@
 import click
-from logic.recognition import face_recognition_load
-from Facial_tracking.OpenCV_Facial import executor
+from facial_tracking.facial_tracking import executor
 from logic.video_handling import play_mp4
 # pip install --editable .
 # AFTER pipenv shell
@@ -20,7 +19,7 @@ def run(iterate, find):
     '''
     if iterate:
         face_recognition_load()
-    if(find):
+    if find:
         executor()
     
 

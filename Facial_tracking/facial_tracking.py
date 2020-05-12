@@ -6,8 +6,9 @@ import tkinter as tk
 from tkinter import simpledialog
 import keyboard
 
-USER_INP = " "
+USER_INP = ""
 known_faces_path = "./facerec/known_faces"
+take_picture = False
 
 def executor():
     #Loading cascades    
@@ -28,26 +29,35 @@ def executor():
     def detect(grey, frame):
         global known_faces_path
         global USER_INP
+        global take_picture
+
         path, dirs, files = next(os.walk(known_faces_path))
         count = len(files)
-        print(count)
         faces = face_cascade.detectMultiScale(gray, 1.3, 5)
         for (x,y,w,h) in faces:
             roi_gray = gray[y:y+h, x:x+w]
-            roi_color = frame[y:y+h, x:x+w]    
+            roi_color = frame[y:y+h, x:x+w]  
+
             if keyboard.is_pressed('r'):
-                if count < 10:
-                    if (USER_INP == " "):
-                        USER_INP = simpledialog.askstring(title="Name", prompt="What's your Name?:")
-                    #time.sleep(0.5)
+                name = simpledialog.askstring(title="Name", prompt="What's your Name?:")
+                if (name != None):
+                    take_picture = True
+                    USER_INP = name
+
+            if take_picture == True:
+                if count <= 5:
                     pathFace = "facerec/known_faces/" + USER_INP + "/"
                     if not os.path.exists(pathFace):
                         os.makedirs(pathFace)
                         known_faces_path = pathFace
                     pic = pathFace +  USER_INP + str(count)+".jpg"
-                    print(pic)
                     cv2.imwrite(pic, frame)
                     count += 1
+                else:
+                    take_picture = False 
+                    USER_INP == ""
+                    known_faces_path = "facerec/known_faces/" 
+                
             cv2.rectangle(frame, (x,y), (x+w,y+h), (0, 255, 0), 2)
 
             eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 22)
@@ -63,8 +73,6 @@ def executor():
 
     #Face recognition with webcam
     cam = cv2.VideoCapture(0)
-    #boole = True
-    #count =0
     while True:
         _,frame=cam.read()
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -74,10 +82,4 @@ def executor():
             break
                 
     cam.release()
-    cv2.destroyAllWindows() 
-
-
-if(__name__ == '__main__'):
-    cvf2dirtest = os.path.dirname(cv2.__file__)
-    face_cascade_pathtest = os_parse_path(f"{cvf2dirtest}\data\haarcascade_frontalface_default.xml")
-    print(face_cascade_pathtest)
+    cv2.destroyAllWindows()

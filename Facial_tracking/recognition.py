@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os, os.path
 import logic.logconfig as log
-from logic.Clasify_known_faces import load_image_file, face_encodings, face_locations
+from logic.clasify_known_faces import load_image_file, face_encodings, face_locations
 import click
 import configparser
 
@@ -83,7 +83,7 @@ while True:
 
             cv2.putText(image, match, (face_location[3] + 10, face_location[2] + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200, 200, 200), FONT_THICKNESS)
 
-    cv2.imshow(filename, image)
+    cv2.imshow('Face recognition', image)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 

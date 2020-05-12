@@ -8,21 +8,21 @@ import dlib
 import numpy as np
 from pkg_resources import resource_filename
 
-model_save_path = os.path.join("Face_learning_model/models/knn_model.clf")
+model_save_path = os.path.join("face_learning_model/models/knn_model.clf")
 train_dir = "facerec/known_faces"
-model_path = os.path.join("Face_learning_model/models/knn_model.clf")
+model_path = os.path.join("face_learning_model/models/knn_model.clf")
 
 def pose_predictor_five_point_model_location():
-    return os.path.join("Face_learning_model/models/shape_predictor_5_face_landmarks.dat")
+    return os.path.join("face_learning_model/models/shape_predictor_5_face_landmarks.dat")
 
 def pose_predictor_model_location():
-    return os.path.join("Face_learning_model/models/shape_predictor_68_face_landmarks.dat")
+    return os.path.join("face_learning_model/models/shape_predictor_68_face_landmarks.dat")
 
 def face_recognition_model_location():
-    return os.path.join("Face_learning_model/models/dlib_face_recognition_resnet_model_v1.dat")
+    return os.path.join("face_learning_model/models/dlib_face_recognition_resnet_model_v1.dat")
 
 def cnn_face_detector_model_location():
-    return os.path.join("Face_learning_model/models/mmod_human_face_detector.dat")
+    return os.path.join("face_learning_model/models/mmod_human_face_detector.dat")
 
 face_detector = dlib.get_frontal_face_detector()
 
