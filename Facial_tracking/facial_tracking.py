@@ -10,7 +10,7 @@ USER_INP = ""
 known_faces_path = "./facerec/known_faces"
 take_picture = False
 
-def executor():
+def execute_tracking():
     #Loading cascades    
     cv2dir = os.path.dirname(cv2.__file__)
 

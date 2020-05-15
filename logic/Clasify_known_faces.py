@@ -8,6 +8,7 @@ import dlib
 import numpy as np
 from pkg_resources import resource_filename
 
+
 model_save_path = os.path.join("face_learning_model/models/knn_model.clf")
 train_dir = "facerec/known_faces"
 model_path = os.path.join("face_learning_model/models/knn_model.clf")
@@ -40,7 +41,7 @@ face_encoder = dlib.face_recognition_model_v1(face_recognition_model)
 
 
 #train
-def train(n_neighbors=None, knn_algo='ball_tree'):
+def train_classifier(n_neighbors=None, knn_algo='ball_tree'):
     
     X = []
     y = []
@@ -171,13 +172,9 @@ def load_image_file(file, mode='RGB'):
     return np.array(im)
 
 
-if __name__ == "__main__":
-    print("Training KNN classifier...")
-    classifier = train(n_neighbors=2)
-    print("Training complete!")
-
-    for image_file in os.listdir("facerec/unknown_faces"):
-        full_file_path = os.path.join("facerec/unknown_faces", image_file)
+def classify_people_from_path(picture_path):
+    for image_file in os.listdir(picture_path):
+        full_file_path = os.path.join(picture_path, image_file)
 
         print("Looking for faces in {}".format(full_file_path))
         X_img = load_image_file(full_file_path)
@@ -185,3 +182,11 @@ if __name__ == "__main__":
 
         for name, (top, right, bottom, left) in predictions:
             print("- Found {} at ({}, {})".format(name, left, top))
+
+
+def classify_single_image(full_picture_path):
+    X_img = load_image_file(full_picture_path)
+    predictions = predict(X_img)
+
+    for name, (top, right, bottom, left) in predictions:
+        print("- Found {} at ({}, {})".format(name, left, top))
