@@ -5,13 +5,12 @@ import os
 
 
 class Decorators:
-    # Question now is: Why would you use this decorator if you can just call the method?
-    # It doesn't interact with the variables..
     '''
     Determines environment based on system ownership. 
     If the environment is defined as 'PRODUCTION', then the program will attempt to read the 'PRODUCTION' credentials in the sensitive.ini file.
     This file needs to be manually placed in the settings folder.
     '''
+    # Determine relevance of it being a decorator
     @staticmethod
     def determine_environment(func):
         def wrapper(*args, **kwargs):
