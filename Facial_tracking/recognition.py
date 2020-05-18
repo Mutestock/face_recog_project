@@ -2,9 +2,13 @@ import cv2
 import numpy as np
 import os, os.path
 import logic.logconfig as log
-from logic.clasify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations
+from logic.clasify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
 import click
 import configparser
+from logic.write_to_csv import csv_writer
+
+
+logger = log.logger
 
 
 def execute_recognition():
@@ -16,19 +20,26 @@ def execute_recognition():
 
     known_faces_list, known_names_list = loading_known_faces()
 
+    logger.info("Processing unknown faces...")
     print('Processing unknown faces...')
+
     while True:
         ret, image = cam.read()
 
         locations = find_face_locations(image)
         encodings = find_facial_encodings(image, locations)
 
+        logger.info(f", found {len(encodings)} faces")
         print(f', found {len(encodings)} faces')
+
         for facial_encoding, face_location in zip(encodings, locations):
             recognition_results = face_comparison_list(known_faces_list, facial_encoding, recognition_tolerance)
+            print("result: ",recognition_results)
             facial_match = None
             if True in recognition_results:
                 facial_match = known_names_list[recognition_results.index(True)]
+                
+                logger.info(f"Match found: {facial_match}")
                 print(f' - {facial_match}')
 
                 top_left = (face_location[3], face_location[0])
@@ -37,6 +48,7 @@ def execute_recognition():
                 name_color = convert_name_to_color(facial_match)
 
                 cv2.rectangle(image, top_left, bottom_right, name_color, frame)
+                print("Local: ", find_raw_facial_landmarks(imgage, face_location))
 
                 top_left = (face_location[3], face_location[2])
                 bottom_right = (face_location[1], face_location[2] + 22)
@@ -58,19 +70,25 @@ def loading_known_faces():
     conf.read("./settings/configuration.ini")
     frecog_conf = conf["FACE_RECOGNITION"]
 
+    logger.info("loading known faces and names...\n")
     print('Loading known faces and names...')
+
     known_faces_list = []
     known_names_list = []
 
     with click.progressbar(os.listdir(frecog_conf["KnownFacesDir"])) as faces:
         for name in faces:
+
+            logger.info(len(os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}")))
             print(len(os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}")))
+
             for filename in os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}"):
                 image = load_image_from_path(f"{frecog_conf['KnownFacesDir']}/{name}/{filename}")
                 encoding = find_facial_encodings(image)
                 if len(encoding) > 0:
                     encoding = encoding[0]
                 else:
+                    logger.info("No faces found in the image!")
                     print("No faces found in the image!")
                     pass
                 known_faces_list.append(encoding)
@@ -86,7 +104,9 @@ def face_comparison_list(known_face_encodings, face_encoding_to_check, recogniti
 def linear_face_distance(face_encodings_list, face_to_compare):
     if len(face_encodings_list) == 0:
         return np.empty((0))
-    return np.linalg.norm(face_encodings_list - face_to_compare, axis=1)
+    linarg = np.linalg.norm(face_encodings_list - face_to_compare, axis=1)
+    csv_writer(min(linarg))
+    return linarg
 
 
 def convert_name_to_color(name):
