@@ -16,29 +16,33 @@ def frecog():
 @frecog.command()
 @click.option("--track", "-t", is_flag=True)
 @click.option("--recognize", "-r", is_flag=True)
-def run(track, recognize):
+@click.argument('model', required=False)
+def run(track, recognize, model):
     '''
     Primary executable functionalities
+    Eks: frecog run -t
+    Eks: frecog run -r
     '''
     if track:
         execute_tracking()
     if recognize:
-        execute_recognition()
+        execute_recognition(model)
 
 #Done
 @frecog.command()
 @click.option("--train", "-tr", is_flag=True)
 @click.argument('value', required=False)
-def train_facial_classifier(train, value):
+@click.argument('model', required=False)
+def train_facial_classifier(train, value, model):
     '''
     Train facial classifier
+    Eks: frecog train-facial-classifier -tr 2 large
     '''
     if train:
         if value != None:
-            if value.isnumeric():
-                train_classifier(int(value))
+            train_classifier(number_neighbors=int(value), model=model)
         else:
-            train_classifier()
+            train_classifier(model=model)
 
 #Done
 @frecog.command()
@@ -47,7 +51,7 @@ def train_facial_classifier(train, value):
 def classify_people(classify, path):
     '''
     Classifies unknown pictures in a directory using the knn_model
-    path: eks. facerec/unknown_faces
+    Eks: frecog classify-people -c facerec/unknown_faces
     '''
     if classify:
         classify_people_from_path(path)
@@ -59,7 +63,7 @@ def classify_people(classify, path):
 def classify_single_person(single, path):
     '''
     Classifies unknown pictures in a directory using the knn_model
-    path: eks. C:/Users/rasmu/Desktop/face_recog_project/facerec/unknown_faces/eka01.jpg
+    Eks: frecog classify-single-person -si C:/Users/rasmu/Desktop/face_recog_project/facerec/unknown_faces/eka01.jpg
     '''
     if single:
         classify_single_image(path)
@@ -71,6 +75,7 @@ def classify_single_person(single, path):
 def csv_to_graph(graph):
     '''
     Plots a graph of the linalg norm distance 
+    Eks: frecog csv-to-graph -g
     '''
     if graph:
         plot_csv_data()

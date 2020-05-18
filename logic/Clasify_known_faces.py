@@ -40,7 +40,7 @@ cnn_face_detection_model = cnn_model_location()
 cnn_facial_detector = dlib.cnn_face_detection_model_v1(cnn_face_detection_model)
 
 
-def train_classifier(number_neighbors=None, knn_algorithm='ball_tree'):
+def train_classifier(number_neighbors=None, knn_algorithm='ball_tree',model='small'):
     
     X_train = []
     y_train = []
@@ -56,12 +56,12 @@ def train_classifier(number_neighbors=None, knn_algorithm='ball_tree'):
             if len(face_bounding_boxes) != 1:
                 print("No people in the picture: ", img_path)
             else:
-                X_train.append(find_facial_encodings(image, known_face_locations=face_bounding_boxes)[0])
+                X_train.append(find_facial_encodings(image, face_bounding_boxes, 1, model)[0])
                 y_train.append(class_dir)
 
     if number_neighbors is None:
-        number_neighbors = int(round(math.sqrt(len(X))))
-        print("Number of neighbors:", number_neighbors)
+        number_neighbors = int(round(math.sqrt(len(X_train))))
+        print("Number of neighbors: ", number_neighbors)
 
     knn_clf_model = neighbors.KNeighborsClassifier(n_neighbors=number_neighbors, algorithm=knn_algorithm, weights='distance')
     knn_clf_model.fit(X_train, y_train)
@@ -77,7 +77,7 @@ def find_images_in_folder(folder):
     return [os.path.join(folder, f) for f in os.listdir(folder)]
 
 
-def predict(image, distance_threshold=0.6):
+def predict(image, distance_threshold=0.6, model='small'):
 
     with open(model_path, 'rb') as f:
         knn_clf_model = pickle.load(f)
@@ -87,7 +87,7 @@ def predict(image, distance_threshold=0.6):
     if len(face_locations) == 0:
         return []
 
-    facial_encodings = find_facial_encodings(image, known_face_locations=face_locations)
+    facial_encodings = find_facial_encodings(image, face_locations, 1, model)
 
     closest_distances = knn_clf_model.kneighbors(facial_encodings, n_neighbors=1)
     matches = [closest_distances[0][i][0] <= distance_threshold for i in range(len(face_locations))]
