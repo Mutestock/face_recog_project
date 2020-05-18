@@ -3,6 +3,7 @@ from facial_tracking.facial_tracking import execute_tracking
 from facial_tracking.recognition import execute_recognition
 from logic.video_handling import play_mp4
 from logic.clasify_known_faces import train_classifier, classify_people_from_path, classify_single_image
+from logic.write_to_csv import plot_csv_data
 # pip install --editable .
 # AFTER pipenv shell
 
@@ -62,6 +63,17 @@ def classify_single_person(single, path):
     '''
     if single:
         classify_single_image(path)
+
+
+#Done
+@frecog.command()
+@click.option("--graph", "-g", is_flag=True)
+def csv_to_graph(graph):
+    '''
+    Plots a graph of the linalg norm distance 
+    '''
+    if graph:
+        plot_csv_data()
 
 
 @frecog.command()
