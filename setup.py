@@ -7,17 +7,15 @@ setup(
     install_requires=[
         'Click',
         'nose2',
-        'face_recognition',
         'configparser',
         'opencv-python',
         'matplotlib',
         'sklearn',
         'keras',
         'tensorflow',
-        'pymysql',
-        'sqlalchemy',
         'dlib',
-        'imutils'
+        'imutils',
+        'keyboard'
         
     ],
     author='TeamOne',

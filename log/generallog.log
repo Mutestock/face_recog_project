@@ -8478,3 +8478,280 @@
 2020-05-19 12:10:02,077:INFO:, found 0 faces
 2020-05-19 12:10:02,295:INFO:, found 0 faces
 2020-05-19 12:10:02,489:INFO:, found 0 faces
+2020-05-19 13:19:14,908:INFO:loading known faces and names...
+
+2020-05-19 13:19:14,913:INFO:8
+2020-05-19 13:19:18,096:INFO:10
+2020-05-19 13:19:22,678:INFO:Processing unknown faces...
+2020-05-19 13:19:23,997:INFO:, found 0 faces
+2020-05-19 13:19:24,269:INFO:, found 0 faces
+2020-05-19 13:19:24,407:INFO:, found 0 faces
+2020-05-19 13:19:24,547:INFO:, found 0 faces
+2020-05-19 13:19:24,684:INFO:, found 0 faces
+2020-05-19 13:19:24,823:INFO:, found 0 faces
+2020-05-19 13:19:24,960:INFO:, found 0 faces
+2020-05-19 13:19:25,097:INFO:, found 0 faces
+2020-05-19 13:19:25,563:INFO:, found 1 faces
+2020-05-19 13:19:25,573:INFO:Linarg norm value: 0.5029473579319897
+2020-05-19 13:19:25,573:INFO:Match found: Rasmus
+2020-05-19 13:19:26,036:INFO:, found 1 faces
+2020-05-19 13:19:26,048:INFO:Linarg norm value: 0.36067572723125685
+2020-05-19 13:19:26,048:INFO:Match found: Rasmus
+2020-05-19 13:19:26,513:INFO:, found 1 faces
+2020-05-19 13:19:26,521:INFO:Linarg norm value: 0.3879025603134575
+2020-05-19 13:19:26,521:INFO:Match found: Rasmus
+2020-05-19 13:19:26,988:INFO:, found 1 faces
+2020-05-19 13:19:26,999:INFO:Linarg norm value: 0.41814261010289
+2020-05-19 13:19:27,000:INFO:Match found: Rasmus
+2020-05-19 13:19:27,144:INFO:, found 0 faces
+2020-05-19 13:19:27,280:INFO:, found 0 faces
+2020-05-19 13:19:27,418:INFO:, found 0 faces
+2020-05-19 13:19:27,555:INFO:, found 0 faces
+2020-05-19 13:19:27,692:INFO:, found 0 faces
+2020-05-19 13:19:27,834:INFO:, found 0 faces
+2020-05-19 13:19:27,971:INFO:, found 0 faces
+2020-05-19 13:19:28,109:INFO:, found 0 faces
+2020-05-19 13:19:28,247:INFO:, found 0 faces
+2020-05-19 13:19:28,384:INFO:, found 0 faces
+2020-05-19 13:19:28,523:INFO:, found 0 faces
+2020-05-19 13:19:28,663:INFO:, found 0 faces
+2020-05-19 13:19:29,124:INFO:, found 1 faces
+2020-05-19 13:19:29,132:INFO:Linarg norm value: 0.49632183956500586
+2020-05-19 13:19:29,133:INFO:Match found: Rasmus
+2020-05-19 13:19:29,728:INFO:, found 1 faces
+2020-05-19 13:19:29,739:INFO:Linarg norm value: 0.4424139915404538
+2020-05-19 13:19:29,740:INFO:Match found: Rasmus
+2020-05-19 13:19:30,359:INFO:, found 1 faces
+2020-05-19 13:19:30,370:INFO:Linarg norm value: 0.41591870344804577
+2020-05-19 13:19:30,370:INFO:Match found: Rasmus
+2020-05-19 13:19:30,973:INFO:, found 1 faces
+2020-05-19 13:19:30,981:INFO:Linarg norm value: 0.3841232974346582
+2020-05-19 13:19:30,981:INFO:Match found: Rasmus
+2020-05-19 13:19:31,272:INFO:, found 0 faces
+2020-05-19 13:19:31,410:INFO:, found 0 faces
+2020-05-19 13:19:31,548:INFO:, found 0 faces
+2020-05-19 13:19:32,008:INFO:, found 1 faces
+2020-05-19 13:19:32,020:INFO:Linarg norm value: 0.6415854430094091
+2020-05-19 13:19:32,159:INFO:, found 0 faces
+2020-05-19 13:19:32,296:INFO:, found 0 faces
+2020-05-19 13:19:32,434:INFO:, found 0 faces
+2020-05-19 13:19:32,896:INFO:, found 1 faces
+2020-05-19 13:19:32,905:INFO:Linarg norm value: 0.5018432172834455
+2020-05-19 13:19:32,905:INFO:Match found: Rasmus
+2020-05-19 13:19:33,504:INFO:, found 1 faces
+2020-05-19 13:19:33,515:INFO:Linarg norm value: 0.49657794122212023
+2020-05-19 13:19:33,515:INFO:Match found: Rasmus
+2020-05-19 13:19:33,787:INFO:, found 0 faces
+2020-05-19 13:19:34,267:INFO:, found 1 faces
+2020-05-19 13:19:34,275:INFO:Linarg norm value: 0.5087543817311342
+2020-05-19 13:19:34,276:INFO:Match found: Rasmus
+2020-05-19 13:19:34,547:INFO:, found 0 faces
+2020-05-19 13:19:35,011:INFO:, found 1 faces
+2020-05-19 13:19:35,022:INFO:Linarg norm value: 0.5474316632665286
+2020-05-19 13:19:35,022:INFO:Match found: Rasmus
+2020-05-19 13:19:35,295:INFO:, found 0 faces
+2020-05-19 13:19:35,438:INFO:, found 0 faces
+2020-05-19 13:19:35,578:INFO:, found 0 faces
+2020-05-19 13:19:36,044:INFO:, found 1 faces
+2020-05-19 13:19:36,054:INFO:Linarg norm value: 0.5336585497299327
+2020-05-19 13:19:36,054:INFO:Match found: Rasmus
+2020-05-19 13:19:36,655:INFO:, found 1 faces
+2020-05-19 13:19:36,666:INFO:Linarg norm value: 0.4521724715278776
+2020-05-19 13:19:36,666:INFO:Match found: Rasmus
+2020-05-19 13:19:36,941:INFO:, found 0 faces
+2020-05-19 13:19:37,082:INFO:, found 0 faces
+2020-05-19 13:19:37,221:INFO:, found 0 faces
+2020-05-19 13:19:37,362:INFO:, found 0 faces
+2020-05-19 13:19:37,500:INFO:, found 0 faces
+2020-05-19 13:19:37,639:INFO:, found 0 faces
+2020-05-19 13:19:37,776:INFO:, found 0 faces
+2020-05-19 13:19:37,914:INFO:, found 0 faces
+2020-05-19 13:19:38,050:INFO:, found 0 faces
+2020-05-19 13:19:45,858:INFO:loading known faces and names...
+
+2020-05-19 13:19:45,860:INFO:8
+2020-05-19 13:19:49,026:INFO:10
+2020-05-19 13:19:53,661:INFO:Processing unknown faces...
+2020-05-19 13:19:55,257:INFO:, found 1 faces
+2020-05-19 13:19:55,266:INFO:Linarg norm value: 0.5223774020414402
+2020-05-19 13:19:55,267:INFO:Match found: Rasmus
+2020-05-19 13:19:55,539:INFO:, found 0 faces
+2020-05-19 13:19:56,002:INFO:, found 1 faces
+2020-05-19 13:19:56,013:INFO:Linarg norm value: 0.5666823173862462
+2020-05-19 13:19:56,013:INFO:Match found: Rasmus
+2020-05-19 13:19:56,482:INFO:, found 1 faces
+2020-05-19 13:19:56,491:INFO:Linarg norm value: 0.5794314978868141
+2020-05-19 13:19:56,491:INFO:Match found: Rasmus
+2020-05-19 13:19:56,953:INFO:, found 1 faces
+2020-05-19 13:19:56,965:INFO:Linarg norm value: 0.4138367384386985
+2020-05-19 13:19:56,965:INFO:Match found: Rasmus
+2020-05-19 13:19:57,431:INFO:, found 1 faces
+2020-05-19 13:19:57,439:INFO:Linarg norm value: 0.4228509987041543
+2020-05-19 13:19:57,439:INFO:Match found: Rasmus
+2020-05-19 13:19:57,908:INFO:, found 1 faces
+2020-05-19 13:19:57,920:INFO:Linarg norm value: 0.43708244346231606
+2020-05-19 13:19:57,920:INFO:Match found: Rasmus
+2020-05-19 13:19:58,422:INFO:, found 1 faces
+2020-05-19 13:19:58,430:INFO:Linarg norm value: 0.4165671387943844
+2020-05-19 13:19:58,431:INFO:Match found: Rasmus
+2020-05-19 13:19:58,896:INFO:, found 1 faces
+2020-05-19 13:19:58,907:INFO:Linarg norm value: 0.4577726280289496
+2020-05-19 13:19:58,908:INFO:Match found: Rasmus
+2020-05-19 13:19:59,377:INFO:, found 1 faces
+2020-05-19 13:19:59,384:INFO:Linarg norm value: 0.5043461716268027
+2020-05-19 13:19:59,385:INFO:Match found: Rasmus
+2020-05-19 13:19:59,521:INFO:, found 0 faces
+2020-05-19 13:19:59,660:INFO:, found 0 faces
+2020-05-19 13:19:59,797:INFO:, found 0 faces
+2020-05-19 13:19:59,944:INFO:, found 0 faces
+2020-05-19 13:20:00,082:INFO:, found 0 faces
+2020-05-19 13:20:00,218:INFO:, found 0 faces
+2020-05-19 13:20:00,356:INFO:, found 0 faces
+2020-05-19 13:20:00,496:INFO:, found 0 faces
+2020-05-19 13:20:00,636:INFO:, found 0 faces
+2020-05-19 13:20:00,773:INFO:, found 0 faces
+2020-05-19 13:20:00,910:INFO:, found 0 faces
+2020-05-19 13:20:01,048:INFO:, found 0 faces
+2020-05-19 13:20:01,188:INFO:, found 0 faces
+2020-05-19 13:20:01,328:INFO:, found 0 faces
+2020-05-19 13:20:01,470:INFO:, found 0 faces
+2020-05-19 13:20:01,610:INFO:, found 0 faces
+2020-05-19 13:20:01,749:INFO:, found 0 faces
+2020-05-19 13:20:01,886:INFO:, found 0 faces
+2020-05-19 13:20:02,024:INFO:, found 0 faces
+2020-05-19 13:20:02,162:INFO:, found 0 faces
+2020-05-19 13:20:02,303:INFO:, found 0 faces
+2020-05-19 13:20:02,441:INFO:, found 0 faces
+2020-05-19 13:20:02,579:INFO:, found 0 faces
+2020-05-19 13:20:02,717:INFO:, found 0 faces
+2020-05-19 13:20:02,855:INFO:, found 0 faces
+2020-05-19 13:20:02,995:INFO:, found 0 faces
+2020-05-19 13:20:03,134:INFO:, found 0 faces
+2020-05-19 13:20:03,272:INFO:, found 0 faces
+2020-05-19 13:20:03,408:INFO:, found 0 faces
+2020-05-19 13:20:03,547:INFO:, found 0 faces
+2020-05-19 13:20:03,684:INFO:, found 0 faces
+2020-05-19 13:20:03,822:INFO:, found 0 faces
+2020-05-19 13:20:03,959:INFO:, found 0 faces
+2020-05-19 13:20:04,099:INFO:, found 0 faces
+2020-05-19 13:20:04,237:INFO:, found 0 faces
+2020-05-19 13:20:04,375:INFO:, found 0 faces
+2020-05-19 13:20:04,512:INFO:, found 0 faces
+2020-05-19 13:20:04,667:INFO:, found 0 faces
+2020-05-19 13:20:04,803:INFO:, found 0 faces
+2020-05-19 13:20:04,942:INFO:, found 0 faces
+2020-05-19 13:20:05,079:INFO:, found 0 faces
+2020-05-19 13:20:05,218:INFO:, found 0 faces
+2020-05-19 13:20:05,355:INFO:, found 0 faces
+2020-05-19 13:20:05,494:INFO:, found 0 faces
+2020-05-19 13:20:05,631:INFO:, found 0 faces
+2020-05-19 13:20:05,769:INFO:, found 0 faces
+2020-05-19 13:20:05,906:INFO:, found 0 faces
+2020-05-19 13:20:06,044:INFO:, found 0 faces
+2020-05-19 13:20:06,185:INFO:, found 0 faces
+2020-05-19 13:20:06,324:INFO:, found 0 faces
+2020-05-19 13:20:06,462:INFO:, found 0 faces
+2020-05-19 13:20:06,600:INFO:, found 0 faces
+2020-05-19 13:20:06,738:INFO:, found 0 faces
+2020-05-19 13:20:06,876:INFO:, found 0 faces
+2020-05-19 13:20:07,013:INFO:, found 0 faces
+2020-05-19 13:20:07,150:INFO:, found 0 faces
+2020-05-19 13:20:07,659:INFO:, found 1 faces
+2020-05-19 13:20:07,671:INFO:Linarg norm value: 0.6319343497084837
+2020-05-19 13:20:08,133:INFO:, found 1 faces
+2020-05-19 13:20:08,142:INFO:Linarg norm value: 0.48384492331185025
+2020-05-19 13:20:08,142:INFO:Match found: Rasmus
+2020-05-19 13:20:08,605:INFO:, found 1 faces
+2020-05-19 13:20:08,616:INFO:Linarg norm value: 0.40168027343947565
+2020-05-19 13:20:08,617:INFO:Match found: Rasmus
+2020-05-19 13:20:09,084:INFO:, found 1 faces
+2020-05-19 13:20:09,092:INFO:Linarg norm value: 0.408715417423387
+2020-05-19 13:20:09,092:INFO:Match found: Rasmus
+2020-05-19 13:20:09,558:INFO:, found 1 faces
+2020-05-19 13:20:09,569:INFO:Linarg norm value: 0.43252576401918785
+2020-05-19 13:20:09,569:INFO:Match found: Rasmus
+2020-05-19 13:20:10,036:INFO:, found 1 faces
+2020-05-19 13:20:10,043:INFO:Linarg norm value: 0.48250196306700227
+2020-05-19 13:20:10,044:INFO:Match found: Rasmus
+2020-05-19 13:20:10,538:INFO:, found 1 faces
+2020-05-19 13:20:10,549:INFO:Linarg norm value: 0.524448269079123
+2020-05-19 13:20:10,549:INFO:Match found: Rasmus
+2020-05-19 13:20:11,013:INFO:, found 1 faces
+2020-05-19 13:20:11,021:INFO:Linarg norm value: 0.5196541086189858
+2020-05-19 13:20:11,022:INFO:Match found: Rasmus
+2020-05-19 13:20:11,484:INFO:, found 1 faces
+2020-05-19 13:20:11,495:INFO:Linarg norm value: 0.5008089584296901
+2020-05-19 13:20:11,496:INFO:Match found: Rasmus
+2020-05-19 13:20:11,960:INFO:, found 1 faces
+2020-05-19 13:20:11,967:INFO:Linarg norm value: 0.5176061853973298
+2020-05-19 13:20:11,968:INFO:Match found: Rasmus
+2020-05-19 13:20:12,433:INFO:, found 1 faces
+2020-05-19 13:20:12,444:INFO:Linarg norm value: 0.4920920240424875
+2020-05-19 13:20:12,445:INFO:Match found: Rasmus
+2020-05-19 13:20:12,926:INFO:, found 1 faces
+2020-05-19 13:20:12,933:INFO:Linarg norm value: 0.5413431880883838
+2020-05-19 13:20:12,934:INFO:Match found: Rasmus
+2020-05-19 13:20:13,072:INFO:, found 0 faces
+2020-05-19 13:20:13,213:INFO:, found 0 faces
+2020-05-19 13:20:13,354:INFO:, found 0 faces
+2020-05-19 13:20:13,492:INFO:, found 0 faces
+2020-05-19 13:20:13,955:INFO:, found 1 faces
+2020-05-19 13:20:13,967:INFO:Linarg norm value: 0.555376664937219
+2020-05-19 13:20:13,967:INFO:Match found: Rasmus
+2020-05-19 13:20:14,104:INFO:, found 0 faces
+2020-05-19 13:20:14,240:INFO:, found 0 faces
+2020-05-19 13:20:14,379:INFO:, found 0 faces
+2020-05-19 13:20:14,519:INFO:, found 0 faces
+2020-05-19 13:20:14,657:INFO:, found 0 faces
+2020-05-19 13:20:14,793:INFO:, found 0 faces
+2020-05-19 13:20:14,930:INFO:, found 0 faces
+2020-05-19 13:20:15,068:INFO:, found 0 faces
+2020-05-19 13:20:15,206:INFO:, found 0 faces
+2020-05-19 13:20:15,344:INFO:, found 0 faces
+2020-05-19 13:20:15,489:INFO:, found 0 faces
+2020-05-19 13:20:15,630:INFO:, found 0 faces
+2020-05-19 13:20:15,769:INFO:, found 0 faces
+2020-05-19 13:20:15,910:INFO:, found 0 faces
+2020-05-19 13:20:16,422:INFO:, found 1 faces
+2020-05-19 13:20:16,430:INFO:Linarg norm value: 0.568233412568363
+2020-05-19 13:20:16,430:INFO:Match found: Rasmus
+2020-05-19 13:20:16,566:INFO:, found 0 faces
+2020-05-19 13:20:16,706:INFO:, found 0 faces
+2020-05-19 13:20:17,175:INFO:, found 1 faces
+2020-05-19 13:20:17,185:INFO:Linarg norm value: 0.6213957950278266
+2020-05-19 13:20:17,647:INFO:, found 1 faces
+2020-05-19 13:20:17,659:INFO:Linarg norm value: 0.4270800515696816
+2020-05-19 13:20:17,659:INFO:Match found: Rasmus
+2020-05-19 13:20:18,263:INFO:, found 1 faces
+2020-05-19 13:20:18,271:INFO:Linarg norm value: 0.4149574971321959
+2020-05-19 13:20:18,271:INFO:Match found: Rasmus
+2020-05-19 13:20:18,889:INFO:, found 1 faces
+2020-05-19 13:20:18,900:INFO:Linarg norm value: 0.4938034632665557
+2020-05-19 13:20:18,900:INFO:Match found: Rasmus
+2020-05-19 13:20:19,577:INFO:, found 1 faces
+2020-05-19 13:20:19,588:INFO:Linarg norm value: 0.4915368444640851
+2020-05-19 13:20:19,588:INFO:Match found: Rasmus
+2020-05-19 13:20:20,221:INFO:, found 1 faces
+2020-05-19 13:20:20,229:INFO:Linarg norm value: 0.4419398309774784
+2020-05-19 13:20:20,230:INFO:Match found: Rasmus
+2020-05-19 13:20:20,842:INFO:, found 1 faces
+2020-05-19 13:20:20,853:INFO:Linarg norm value: 0.45313924240503006
+2020-05-19 13:20:20,854:INFO:Match found: Rasmus
+2020-05-19 13:20:21,451:INFO:, found 1 faces
+2020-05-19 13:20:21,459:INFO:Linarg norm value: 0.45235229955763734
+2020-05-19 13:20:21,459:INFO:Match found: Rasmus
+2020-05-19 13:20:22,052:INFO:, found 1 faces
+2020-05-19 13:20:22,063:INFO:Linarg norm value: 0.4127745206453496
+2020-05-19 13:20:22,064:INFO:Match found: Rasmus
+2020-05-19 13:20:22,394:INFO:, found 0 faces
+2020-05-19 13:20:22,553:INFO:, found 0 faces
+2020-05-19 13:20:22,690:INFO:, found 0 faces
+2020-05-19 13:20:22,826:INFO:, found 0 faces
+2020-05-19 13:20:22,962:INFO:, found 0 faces
+2020-05-19 13:20:23,101:INFO:, found 0 faces
+2020-05-19 13:20:23,239:INFO:, found 0 faces
+2020-05-19 13:20:23,705:INFO:, found 1 faces
+2020-05-19 13:20:23,713:INFO:Linarg norm value: 0.5491285228651908
+2020-05-19 13:20:23,713:INFO:Match found: Rasmus
+2020-05-19 13:20:23,984:INFO:, found 0 faces
+2020-05-19 13:20:24,120:INFO:, found 0 faces
