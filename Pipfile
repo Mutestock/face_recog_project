@@ -15,6 +15,7 @@ cmake = "*"
 sqlalchemy = "*"
 configparser = "*"
 opencv-python = "*"
+frecog = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
