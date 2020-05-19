@@ -16,7 +16,8 @@ setup(
         'tensorflow',
         'pymysql',
         'sqlalchemy',
-        'dlib'
+        'dlib',
+        'imutils'
         
     ],
     author='TeamOne',
