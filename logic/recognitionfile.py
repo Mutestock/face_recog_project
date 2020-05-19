@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os, os.path
 import logic.logconfig as log
-from logic.Clasify_known_faces import load_image_file, face_encodings, face_locations
+from logic.clasify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations
 import click
 import configparser
 
@@ -42,10 +42,10 @@ with click.progressbar(os.listdir(frecog_conf["KnownFacesDir"])) as faces:
     for name in faces:
         print(len(os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}")))
         for filename in os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}"):
-            image = load_image_file(
+            image = load_image_from_path(
                 f"{frecog_conf['KnownFacesDir']}/{name}/{filename}"
             )
-            encoding = face_encodings(image)
+            encoding = find_facial_encodings(image)
             if len(encoding) > 0:
                 encoding = encoding[0]
             else:
@@ -58,10 +58,10 @@ print('Processing unknown faces...')
 while True:
     print(os.listdir(f"{frecog_conf['TestFacesDir']}")[0])
     name = os.listdir(f"{frecog_conf['TestFacesDir']}")[0]
-    image = load_image_file(f"{frecog_conf['TestFacesDir']}/{name}")
+    image = load_image_from_path(f"{frecog_conf['TestFacesDir']}/{name}")
     #video.read()
-    locations = face_locations(image)
-    encodings = face_encodings(image, locations)
+    locations = find_face_locations(image)
+    encodings = find_facial_encodings(image, locations)
     print(f', found {len(encodings)} face(s)')
     for face_encoding, face_location in zip(encodings, locations):
           results = compare_faces(known_faces, face_encoding, TOLERANCE)
