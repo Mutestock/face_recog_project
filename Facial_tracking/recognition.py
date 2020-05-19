@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os, os.path
 import logic.logconfig as log
-from logic.clasify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
+from logic.classify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
 import click
 import configparser
 from logic.write_to_csv import csv_writer

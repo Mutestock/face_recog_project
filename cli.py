@@ -2,8 +2,8 @@ import click
 from facial_tracking.facial_tracking import execute_tracking
 from facial_tracking.recognition import execute_recognition
 from logic.video_handling import play_mp4
-#from logic.recognitionfile import loadrecog
-from logic.clasify_known_faces import train_classifier, classify_people_from_path, classify_single_image
+#from logic.recognition_file import loadrecog
+from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
 # pip install --editable .
 # AFTER pipenv shell
@@ -79,30 +79,6 @@ def csv_to_graph(graph):
     '''
     if graph:
         plot_csv_data()
-
-
-@frecog.command()
-@click.argument('url', nargs=-1)
-def stream_detection(url):
-    '''
-    Opens any number of youtube links with the face recognition functions
-    '''
-    # Stretch 
-    # Open selenium on links
-    # Window capture
-    # Face recognition function
-    raise NotImplementedError()
-
-
-@frecog.command()
-@click.option('--succes', '-s', is_flag=True, help='Shows the possible displayable entries for success rates graphs')
-def info(success):
-    '''
-    Shows user practical information 
-    '''
-    # Read entry names
-    # format tpd.
-    raise NotImplemented()
 
 
 @frecog.command()
