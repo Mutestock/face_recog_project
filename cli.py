@@ -82,30 +82,6 @@ def csv_to_graph(graph):
 
 
 @frecog.command()
-@click.argument('url', nargs=-1)
-def stream_detection(url):
-    '''
-    Opens any number of youtube links with the face recognition functions
-    '''
-    # Stretch 
-    # Open selenium on links
-    # Window capture
-    # Face recognition function
-    raise NotImplementedError()
-
-
-@frecog.command()
-@click.option('--succes', '-s', is_flag=True, help='Shows the possible displayable entries for success rates graphs')
-def info(success):
-    '''
-    Shows user practical information 
-    '''
-    # Read entry names
-    # format tpd.
-    raise NotImplemented()
-
-
-@frecog.command()
 @click.option('--movie' , '-m', type=click.Choice(['matrix']))
 def play(movie):
     if(movie=='matrix'):
