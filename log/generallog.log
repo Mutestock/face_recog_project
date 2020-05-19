@@ -8755,3 +8755,50 @@
 2020-05-19 13:20:23,713:INFO:Match found: Rasmus
 2020-05-19 13:20:23,984:INFO:, found 0 faces
 2020-05-19 13:20:24,120:INFO:, found 0 faces
+2020-05-19 16:08:13,393:INFO:loading known faces and names...
+
+2020-05-19 16:08:13,395:INFO:8
+2020-05-19 16:08:16,489:INFO:10
+2020-05-19 16:08:21,079:INFO:Processing unknown faces...
+2020-05-19 16:08:22,405:INFO:, found 0 faces
+2020-05-19 16:08:22,667:INFO:, found 0 faces
+2020-05-19 16:08:22,809:INFO:, found 0 faces
+2020-05-19 16:08:22,945:INFO:, found 0 faces
+2020-05-19 16:08:23,083:INFO:, found 0 faces
+2020-05-19 16:08:23,223:INFO:, found 0 faces
+2020-05-19 16:08:23,360:INFO:, found 0 faces
+2020-05-19 16:08:23,498:INFO:, found 0 faces
+2020-05-19 16:08:23,635:INFO:, found 0 faces
+2020-05-19 16:08:23,770:INFO:, found 0 faces
+2020-05-19 16:08:23,906:INFO:, found 0 faces
+2020-05-19 16:08:24,042:INFO:, found 0 faces
+2020-05-19 16:08:24,498:INFO:, found 1 faces
+2020-05-19 16:08:24,508:INFO:Linarg norm value: 0.42228892224405834
+2020-05-19 16:08:24,508:INFO:Match found: Rasmus
+2020-05-19 16:08:24,965:INFO:, found 1 faces
+2020-05-19 16:08:24,977:INFO:Linarg norm value: 0.43803921406052526
+2020-05-19 16:08:24,977:INFO:Match found: Rasmus
+2020-05-19 16:08:25,435:INFO:, found 1 faces
+2020-05-19 16:08:25,443:INFO:Linarg norm value: 0.41572709307958955
+2020-05-19 16:08:25,443:INFO:Match found: Rasmus
+2020-05-19 16:08:25,916:INFO:, found 1 faces
+2020-05-19 16:08:25,927:INFO:Linarg norm value: 0.43911478246627106
+2020-05-19 16:08:25,927:INFO:Match found: Rasmus
+2020-05-19 16:08:26,072:INFO:, found 0 faces
+2020-05-19 16:08:26,209:INFO:, found 0 faces
+2020-05-19 16:08:26,345:INFO:, found 0 faces
+2020-05-19 16:08:26,481:INFO:, found 0 faces
+2020-05-19 16:08:26,617:INFO:, found 0 faces
+2020-05-19 16:08:26,753:INFO:, found 0 faces
+2020-05-19 16:08:26,889:INFO:, found 0 faces
+2020-05-19 16:08:27,025:INFO:, found 0 faces
+2020-05-19 16:08:27,161:INFO:, found 0 faces
+2020-05-19 16:08:27,297:INFO:, found 0 faces
+2020-05-19 16:08:27,440:INFO:, found 0 faces
+2020-05-19 16:08:27,579:INFO:, found 0 faces
+2020-05-19 16:08:27,717:INFO:, found 0 faces
+2020-05-19 16:08:27,853:INFO:, found 0 faces
+2020-05-19 16:08:27,990:INFO:, found 0 faces
+2020-05-19 16:08:28,128:INFO:, found 0 faces
+2020-05-19 16:08:28,264:INFO:, found 0 faces
+2020-05-19 16:08:28,400:INFO:, found 0 faces

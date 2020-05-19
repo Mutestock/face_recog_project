@@ -6,5 +6,4 @@ def os_parse_path(path):
         path = re.sub(r'(?is)\\', '/', path)
     else:
         path = re.sub(r'(?is)/', '\\', path)
-    print(path)
     return path
