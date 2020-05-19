@@ -68,7 +68,6 @@ def classify_single_person(single, path):
     if single:
         classify_single_image(path)
 
-
 #Done
 @frecog.command()
 @click.option("--graph", "-g", is_flag=True)
