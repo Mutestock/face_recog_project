@@ -5,6 +5,7 @@ from logic.video_handling import play_mp4
 #from logic.recognition_file import loadrecog
 from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
+from facial_tracking.videorecog import execute_videorecog
 # pip install --editable .
 # AFTER pipenv shell
 
@@ -83,12 +84,6 @@ def csv_to_graph(graph, name, file_name):
         plot_csv_data(name, file_name)
 
 
-@frecog.command()
-@click.option('--movie' , '-m', type=click.Choice(['matrix']))
-def play(movie):
-    if(movie=='matrix'):
-        play_mp4("file:///home/mute/Downloads/The+Matrix+-+A+system+of+Control.mp4")
-
 #Done
 @frecog.command()
 @click.option("--benchmark", "-b", is_flag=True)
@@ -103,3 +98,11 @@ def benchmark(benchmark, file_name, name, model):
     if benchmark:
         execute_recognition(model=model, benchmark=file_name)
         plot_csv_data(name, file_name)
+
+
+@frecog.command()   
+@click.option('--movie' , '-m', is_flag=True)
+@click.argument('model', required=False)
+def play(movie, model):
+    if(movie):
+        execute_videorecog(model)
