@@ -39,5 +39,5 @@ def plot_csv_data(name, file_name):
     ax.plot(df2.index, df2["Linalg norm"], label='False positive', color='red')
     #plt.xticks(rotation=90)
     plt.legend(loc=1)
-    plt.savefig(os.path.join('facerec/csv_data/' + name + '.png'))
+    plt.savefig(os.path.join('facerec/csv_data/' + file_name[:-4] + '.png'))
     plt.show()

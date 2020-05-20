@@ -104,5 +104,9 @@ def benchmark(benchmark, file_name, name, model):
 @click.option('--movie' , '-m', is_flag=True)
 @click.argument('model', required=False)
 def play(movie, model):
-    if(movie):
+    '''
+    Plays and recognizes the faces in a video
+    Eks: frecog play -m large
+    '''
+    if movie:
         execute_videorecog(model)

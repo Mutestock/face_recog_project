@@ -80,6 +80,7 @@ def execute_recognition(model="large", benchmark=None):
             break
 
         if keyboard.is_pressed('f'):
+            print('f',show_facial_landmarks)
             if show_facial_landmarks:
                 show_facial_landmarks = False
             else:

@@ -7,6 +7,7 @@ from PIL import Image, ImageDraw
 import dlib
 import numpy as np
 from pkg_resources import resource_filename
+import click
 
 
 model_save_path = os.path.join("face_learning_model/models/knn_model.clf")
@@ -45,19 +46,20 @@ def train_classifier(number_neighbors=None, knn_algorithm='ball_tree',model='sma
     X_train = []
     y_train = []
 
-    for class_dir in os.listdir(train_dir):
-        if not os.path.isdir(os.path.join(train_dir, class_dir)):
-            continue
+    with click.progressbar(os.listdir(train_dir)) as dir_:
+        for class_dir in dir_:
+            if not os.path.isdir(os.path.join(train_dir, class_dir)):
+                continue
 
-        for img_path in find_images_in_folder(os.path.join(train_dir, class_dir)):
-            image = load_image_from_path(img_path)
-            face_bounding_boxes = find_face_locations(image)
+            for img_path in find_images_in_folder(os.path.join(train_dir, class_dir)):
+                image = load_image_from_path(img_path)
+                face_bounding_boxes = find_face_locations(image)
 
-            if len(face_bounding_boxes) != 1:
-                print("No people in the picture: ", img_path)
-            else:
-                X_train.append(find_facial_encodings(image, face_bounding_boxes, 1, model)[0])
-                y_train.append(class_dir)
+                if len(face_bounding_boxes) != 1:
+                    print("No people in the picture: ", img_path)
+                else:
+                    X_train.append(find_facial_encodings(image, face_bounding_boxes, 1, model)[0])
+                    y_train.append(class_dir)
 
     if number_neighbors is None:
         number_neighbors = int(round(math.sqrt(len(X_train))))
