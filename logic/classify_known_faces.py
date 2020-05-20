@@ -158,7 +158,7 @@ def classify_people_from_path(picture_path):
         predictions = predict(image)
 
         for name, (top, right, bottom, left) in predictions:
-            print("- Found {} at ({}, {})".format(name, left, top))
+            print("- Found {} at ({}, {},{}, {})".format(name, top, right, bottom, left))
 
 
 def classify_single_image(full_picture_path):
@@ -166,4 +166,4 @@ def classify_single_image(full_picture_path):
     predictions = predict(image)
 
     for name, (top, right, bottom, left) in predictions:
-        print("- Found {} at ({}, {})".format(name, left, top))
+        print("- Found {} at ({}, {},{}, {})".format(name, top, right, bottom, left))
