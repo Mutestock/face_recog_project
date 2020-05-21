@@ -16,7 +16,6 @@ setup(
         'dlib',
         'imutils',
         'keyboard'
-        
     ],
     author='TeamOne',
     entry_points='''

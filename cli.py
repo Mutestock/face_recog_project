@@ -1,7 +1,7 @@
 import click
 from facial_tracking.facial_tracking import execute_tracking
 from facial_tracking.recognition import execute_recognition
-#from logic.recognition_file import loadrecog
+from logic.recognition_file import loadrecog
 from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
 from facial_tracking.videorecog import execute_videorecog
@@ -27,7 +27,7 @@ def run(track, recognize, model):
     if track:
         execute_tracking()
     if recognize:
-        execute_recognition(model)
+        execute_recognition(model=model)
 
 #Done
 @frecog.command()
@@ -72,16 +72,34 @@ def classify_single_person(single, path):
 #Done
 @frecog.command()
 @click.option("--graph", "-g", is_flag=True)
-def csv_to_graph(graph):
+@click.argument('file_name', required=True)
+@click.argument('name', required=True)
+def csv_to_graph(graph, name, file_name):
     '''
     Plots a graph of the linalg norm distance 
-    Eks: frecog csv-to-graph -g
+    Eks: frecog csv-to-graph -g rasmusb1.csv Rasmus
     '''
     if graph:
-        plot_csv_data()
+        plot_csv_data(name, file_name)
 
 
+#Done
 @frecog.command()
+@click.option("--benchmark", "-b", is_flag=True)
+@click.argument('file_name', required=True)
+@click.argument('name', required=True)
+@click.argument('model', required=False)
+def benchmark(benchmark, file_name, name, model):
+    '''
+    Plots a graph of the linalg norm distance 
+    Eks: frecog benchmark -b rasmusb1.csv Rasmus large
+    '''
+    if benchmark:
+        execute_recognition(model=model, benchmark=file_name)
+        plot_csv_data(name, file_name)
+
+
+@frecog.command()   
 @click.option('--movie' , '-m', is_flag=True)
 @click.argument('model', required=False)
 @click.argument('path', required=False)
@@ -92,3 +110,14 @@ def play(movie, model, path):
     '''
     if(movie):
         execute_videorecog(model, path)
+
+@frecog.command()
+@click.option("--folder", "-f", is_flag=True)
+@click.argument('path', required=False)
+def fold(folder, path):
+    '''
+    Face recognises on a folder of pictures
+    Eks: frecog fold -f ./facerec/unknown_faces
+    '''
+    if folder:
+        loadrecog(path)
