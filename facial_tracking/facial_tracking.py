@@ -61,11 +61,11 @@ def detect(gray, frame):
                 user_input = name
 
         if take_picture == True:
-            if count <= 5:
+            if count < 5:
                 pathFace = "facerec/known_faces/" + user_input + "/"
                 if not os.path.exists(pathFace):
                     os.makedirs(pathFace)
-                    known_faces_path = pathFace
+                known_faces_path = pathFace
                 pic = pathFace +  user_input + str(count)+".jpg"
                 cv2.imwrite(pic, frame)
                 count += 1

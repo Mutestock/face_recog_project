@@ -28,7 +28,7 @@ def run(track, recognize, model):
     if track:
         execute_tracking()
     if recognize:
-        execute_recognition(model)
+        execute_recognition(model=model)
 
 #Done
 @frecog.command()
@@ -72,18 +72,40 @@ def classify_single_person(single):
 #Done
 @frecog.command()
 @click.option("--graph", "-g", is_flag=True)
-def csv_to_graph(graph):
+@click.argument('file_name', required=True)
+@click.argument('name', required=True)
+def csv_to_graph(graph, name, file_name):
     '''
     Plots a graph of the linalg norm distance 
-    Eks: frecog csv-to-graph -g
+    Eks: frecog csv-to-graph -g rasmusb1.csv Rasmus
     '''
     if graph:
-        plot_csv_data()
+        plot_csv_data(name, file_name)
 
 
+#Done
 @frecog.command()
+@click.option("--benchmark", "-b", is_flag=True)
+@click.argument('file_name', required=True)
+@click.argument('name', required=True)
+@click.argument('model', required=False)
+def benchmark(benchmark, file_name, name, model):
+    '''
+    Plots a graph of the linalg norm distance 
+    Eks: frecog benchmark -b rasmusb1.csv Rasmus large
+    '''
+    if benchmark:
+        execute_recognition(model=model, benchmark=file_name)
+        plot_csv_data(name, file_name)
+
+
+@frecog.command()   
 @click.option('--movie' , '-m', is_flag=True)
 @click.argument('model', required=False)
 def play(movie, model):
-    if(movie):
+    '''
+    Plays and recognizes the faces in a video
+    Eks: frecog play -m large
+    '''
+    if movie:
         execute_videorecog(model)
