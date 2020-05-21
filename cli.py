@@ -1,7 +1,6 @@
 import click
 from facial_tracking.facial_tracking import execute_tracking
 from facial_tracking.recognition import execute_recognition
-from logic.video_handling import play_mp4
 #from logic.recognition_file import loadrecog
 from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
@@ -85,6 +84,11 @@ def csv_to_graph(graph):
 @frecog.command()
 @click.option('--movie' , '-m', is_flag=True)
 @click.argument('model', required=False)
-def play(movie, model):
+@click.argument('path', required=False)
+def play(movie, model, path):
+    '''
+    Face recognises on a video
+    Eks: frecog play -m small ./vids/pathTest.mp4
+    '''
     if(movie):
-        execute_videorecog(model)
+        execute_videorecog(model, path)

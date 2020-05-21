@@ -19,13 +19,13 @@ def rescale_frame(frame, percent=75):
     dim = (width, height)
     return cv2.resize(frame, dim, interpolation =cv2.INTER_AREA)
 
-def execute_videorecog(model="large"):
+def execute_videorecog(model="large", path =' '):
     global show_facial_landmarks
 
     recognition_tolerance = 0.6
     frame = 3
     font = 2
-    videoname = ' ' 
+    videoname = path 
     if(videoname == ' '):
         cam = cv2.VideoCapture('./vids/test.mp4')
     else:
