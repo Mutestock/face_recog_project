@@ -135,7 +135,6 @@ def linear_face_distance(face_encodings_list, face_to_compare):
     if len(face_encodings_list) == 0:
         return np.empty((0))
     linarg = np.linalg.norm(face_encodings_list - face_to_compare, axis=1)
-    csv_writer(min(linarg))
 
     logger.info(f"Linarg norm value: {min(linarg)}")
     print("Linarg norm value: ",min(linarg))
