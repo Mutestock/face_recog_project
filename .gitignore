@@ -8,7 +8,8 @@ Pipfile
 *sensitive.ini
 sensitive.ini
 settings/sensitive.ini
-'.log
+log/generallog.log
+*generallog.log
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 

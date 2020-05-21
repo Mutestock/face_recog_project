@@ -1,7 +1,7 @@
 import click
 from facial_tracking.facial_tracking import execute_tracking
 from facial_tracking.recognition import execute_recognition
-from logic.video_handling import play_mp4
+#from logic.video_handling import play_mp4
 #from logic.recognition_file import loadrecog
 from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
@@ -46,29 +46,28 @@ def train_facial_classifier(train, value, model):
         else:
             train_classifier(model=model)
 
+
 #Done
 @frecog.command()
-@click.option("--classify", "-c", is_flag=True)
-@click.argument('path', required=True)
-def classify_people(classify, path):
+@click.option("--classify", "-c", default="large")
+def classify_people(classify):
     '''
     Classifies unknown pictures in a directory using the knn_model
     Eks: frecog classify-people -c facerec/unknown_faces
     '''
     if classify:
-        classify_people_from_path(path)
+        classify_people_from_path(classify)
 
 #Done
 @frecog.command()
-@click.option("--single", "-si", is_flag=True)
-@click.argument('path', required=True)
-def classify_single_person(single, path):
+@click.option("--single", "-si")
+def classify_single_person(single):
     '''
     Classifies unknown pictures in a directory using the knn_model
     Eks: frecog classify-single-person -si C:/Users/rasmu/Desktop/face_recog_project/facerec/unknown_faces/eka01.jpg
     '''
     if single:
-        classify_single_image(path)
+        classify_single_image(single)
 
 #Done
 @frecog.command()

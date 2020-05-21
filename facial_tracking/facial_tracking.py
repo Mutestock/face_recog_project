@@ -5,13 +5,16 @@ import time
 import tkinter as tk
 from tkinter import simpledialog
 import keyboard
+from pathlib import Path, PurePosixPath, PureWindowsPath
 
 
-cv2dir = os.path.dirname(cv2.__file__)
+cv2dir = str(os.path.dirname(cv2.__file__))
 
-face_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_frontalface_default.xml")
-eye_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_eye.xml")
-smile_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_smile.xml")
+face_cascade_path = f"{cv2dir}/data/haarcascade_frontalface_default.xml"
+eye_cascade_path = f"{cv2dir}/data/haarcascade_eye.xml"
+smile_cascade_path = f"{cv2dir}/data/haarcascade_smile.xml"
+
+print(face_cascade_path)
 
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 eye_cascade = cv2.CascadeClassifier(eye_cascade_path)

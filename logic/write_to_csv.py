@@ -4,16 +4,19 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 from pandas.plotting import register_matplotlib_converters
+from pathlib import Path
     
 
-csv_path = os.path.join('facerec/csv_data/recognition_linalg_data.csv')
+csv_path = Path(f'{Path.cwd()}/facerec/csv_data/recognition_linalg_data.csv')
 
+if(not(Path(f'{Path.cwd()}/facerec/csv_data/').is_dir())):
+        Path.mkdir(Path(f'{Path.cwd()}/facerec/csv_data/'))
 
 def csv_writer(linalg_norm):
     information = {'Date': [], 'Linalg norm': []}
     df = pd.DataFrame(information, columns= ['Date', 'Linalg norm'])
 
-    if os.path.isfile(csv_path):
+    if csv_path.is_file():
         df = open(csv_path)
         df = pd.read_csv(df, sep = ',')
 
