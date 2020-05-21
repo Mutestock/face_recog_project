@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='frecog',
-    version='0.0.1',
+    version='0.0.2',
     py_modules=['main'],
     install_requires=[
         'Click',
@@ -11,11 +11,14 @@ setup(
         'opencv-python',
         'matplotlib',
         'sklearn',
+        'cmake',
         'keras',
         'tensorflow',
         'dlib',
         'imutils',
-        'keyboard'
+        'keyboard',
+        'pandas'
+        
     ],
     author='TeamOne',
     entry_points='''

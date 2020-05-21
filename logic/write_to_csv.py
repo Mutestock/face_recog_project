@@ -4,10 +4,13 @@ import os
 import datetime
 import matplotlib.pyplot as plt
 from pandas.plotting import register_matplotlib_converters
+from pathlib import Path
     
 
 csv_path = os.path.join('facerec/csv_data/')
 
+if(not(Path(f'{Path.cwd()}/facerec/csv_data/').is_dir())):
+        Path.mkdir(Path(f'{Path.cwd()}/facerec/csv_data/'))
 
 def csv_writer(linalg_norm, name, file_name):
     information = {'Date': [], 'Linalg norm': [], 'Name': []}
