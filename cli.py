@@ -64,7 +64,7 @@ def classify(single, path):
 
 #Done
 @frecog.command()
-@click.option("--csv", "-c", nargs=2)
+@click.option("--csv", "-c", nargs=2, required=True)
 @click.option("--benchmark", '-b')
 def graph(csv, benchmark):
     '''
@@ -80,12 +80,11 @@ def graph(csv, benchmark):
 
 
 @frecog.command()   
-@click.option('--movie' , '-m', is_flag=True)
-@click.argument('model', required=False)
-def play(movie, model):
+@click.option('--movie' , '-m', type=click.Choice(['small','large']))
+def play(movie):
     '''
     Plays and recognizes the faces in a video
     Eks: frecog play -m large
     '''
     if movie:
-        execute_videorecog(model)
+        execute_videorecog(movie)
