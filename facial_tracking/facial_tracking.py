@@ -14,8 +14,6 @@ face_cascade_path = f"{cv2dir}/data/haarcascade_frontalface_default.xml"
 eye_cascade_path = f"{cv2dir}/data/haarcascade_eye.xml"
 smile_cascade_path = f"{cv2dir}/data/haarcascade_smile.xml"
 
-print(face_cascade_path)
-
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
 smile_cascade = cv2.CascadeClassifier(smile_cascade_path)
