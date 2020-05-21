@@ -1,4 +1,5 @@
-*Face_learning_model/vgg_face_matconvnet/vgg_face.mat 
+*face_learning_model/vgg_face_matconvnet/vgg_face.mat
+*face_learning_model/self-trained models/neural_network_with_VGG_weigths.model
 Pipfile.lock
 *Pipfile
 Pipfile
