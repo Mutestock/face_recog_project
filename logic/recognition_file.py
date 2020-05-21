@@ -5,6 +5,7 @@ import logic.logconfig as log
 from logic.classify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations
 import click
 import configparser
+import keyboard
 
 
 KNOWN_FACES_DIR = 'known_faces'
@@ -96,9 +97,13 @@ def loadrecog(path=' '):
             count+=1
             print(count)
             print(size)
-            if cv2.waitKey(1) & 0xFF == ord("q"):
-                break
-            cv2.waitKey(0)
+            
+            if cv2.waitKey(3000) & 0xFF == ord("q"):
+                cv2.destroyWindow(name)
+            else:
+                cv2.destroyWindow(name)
+                
+            
         if count>=size:
             #cv2.destroyWindow(name)
             break
