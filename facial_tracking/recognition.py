@@ -81,11 +81,11 @@ def execute_recognition(model="large", benchmark=None):
             break
 
         if keyboard.is_pressed('f'):
-            print('f',show_facial_landmarks)
             if show_facial_landmarks:
                 show_facial_landmarks = False
             else:
                 show_facial_landmarks = True
+            print('f',show_facial_landmarks)
 
     cam.release()
     cv2.destroyAllWindows()

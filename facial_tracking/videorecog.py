@@ -50,33 +50,37 @@ def execute_videorecog(model="large", path =' '):
                 print(f', found {len(encodings)} faces')
 
                 for facial_encoding, face_location in zip(encodings, locations):
-                    recognition_results = face_comparison_list(known_faces_list, facial_encoding, recognition_tolerance)
+                    recognition_results, values = face_comparison_list(known_faces_list, facial_encoding, recognition_tolerance)
 
-                    facial_match = None
-                    if True in recognition_results:
-                        facial_match = known_names_list[recognition_results.index(True)]
+                    facial_match = "Unknown"
 
-                        logger.info(f"Match found: {facial_match}")
-                        print(f' - {facial_match}')
+                    best_linarg_value = np.argmin(values)
+                    linarg_value = (1-min(values))
+                    if recognition_results[best_linarg_value]:
+                        facial_match = known_names_list[best_linarg_value]
 
-                        top_left = (face_location[3], face_location[0])
-                        bottom_right = (face_location[1], face_location[2])
+                    logger.info(f"Match found: {facial_match}, Linarg norm value: {linarg_value}%")
+                    print(f"Match found: {facial_match}, Linarg norm value: {linarg_value}%")
 
-                        name_color = convert_name_to_color(facial_match)
+                    top_left = (face_location[3], face_location[0])
+                    bottom_right = (face_location[1], face_location[2])
 
-                        cv2.rectangle(image, top_left, bottom_right, name_color, frame)
+                    name_color = convert_name_to_color(facial_match)
 
-                        if show_facial_landmarks == True:
-                            for face_land in find_raw_facial_landmarks(image,None, model):
-                                for (x, y) in face_utils.shape_to_np(face_land):
-                                    cv2.circle(image,(x, y),3,name_color,-1)
+                    cv2.rectangle(image, top_left, bottom_right, name_color, frame)
 
-                        top_left = (face_location[3], face_location[2])
-                        bottom_right = (face_location[1], face_location[2] + 22)
+                    if show_facial_landmarks:
+                        for face_land in find_raw_facial_landmarks(image,None, model):
+                            for (x, y) in face_utils.shape_to_np(face_land):
+                                cv2.circle(image,(x, y),3,name_color,-1)
 
-                        cv2.rectangle(image, top_left, bottom_right, name_color, cv2.FILLED)
+                    top_left = (face_location[3], face_location[2])
+                    bottom_right = (face_location[1], face_location[2] + 22)
 
-                        cv2.putText(image, facial_match, (face_location[3] + 10, face_location[2] + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (200, 200, 200), font)
+                    cv2.rectangle(image, top_left, bottom_right, name_color, cv2.FILLED)
+
+                    percent = linarg_value * 100
+                    cv2.putText(image, facial_match + f' {"%.2f" % percent}%', (face_location[3] + 10, face_location[2] + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (200, 200, 200), font)
 
                 cv2.imshow('Face recognizing on video', image)
                 if cv2.waitKey(1) & 0xFF == ord("q"):
@@ -128,17 +132,14 @@ def loading_known_faces(model):
 
 
 def face_comparison_list(known_face_encodings, face_encoding_to_check, recognition_tolerance):
-    return list(linear_face_distance(known_face_encodings, face_encoding_to_check) <= recognition_tolerance)
+    values = linear_face_distance(known_face_encodings, face_encoding_to_check)
+    return list(values <= recognition_tolerance), values
 
 
 def linear_face_distance(face_encodings_list, face_to_compare):
     if len(face_encodings_list) == 0:
         return np.empty((0))
     linarg = np.linalg.norm(face_encodings_list - face_to_compare, axis=1)
-
-    logger.info(f"Linarg norm value: {min(linarg)}")
-    print("Linarg norm value: ",min(linarg))
-
     return linarg
 
 

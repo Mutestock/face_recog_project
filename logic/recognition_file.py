@@ -95,8 +95,7 @@ def loadrecog(path=' '):
             cv2.imshow(name, image)
             
             count+=1
-            print(count)
-            print(size)
+            print(f'{count} out of: {size}')
             
             if cv2.waitKey(3000) & 0xFF == ord("q"):
                 cv2.destroyWindow(name)

@@ -22,8 +22,8 @@ def frecog():
 def run(track, recognize, model):
     '''
     Primary executable functionalities
-    Eks: frecog run -t
-    Eks: frecog run -r
+    E.g: frecog run -t
+    E.g: frecog run -r
     '''
     if track:
         execute_tracking()
@@ -37,7 +37,7 @@ def run(track, recognize, model):
 def trainer(train, value):
     '''
     Train facial classifier
-    E.g: frecog train-facial-classifier -tr large 2
+    E.g: frecog trainer -tr large 2
     '''
     if train:
         if value != None:
@@ -53,8 +53,7 @@ def trainer(train, value):
 def classify(single, path):
     '''
     Classifies unknown pictures in a directory using the knn_model
-
-    E.g. path:   frecog classify -p facerec/unknown_faces
+    E.g. path: frecog classify -p facerec/unknown_faces
     E.g. single: frecog classify -s C:/Users/rasmu/Desktop/face_recog_project/facerec/unknown_faces/eka01.jpg
     '''
     if path:
@@ -68,17 +67,16 @@ def classify(single, path):
 @click.option("--benchmark", '-b')
 def graph(csv, benchmark):
     '''
-    where csv[1] is name and csv[0] is file name
-    Plots a graph of the linalg norm distance 
-    Eks: frecog graph -c rasmusb1.csv Rasmus
-    Eks benchmark: frecog graph -c rasmusb1.csv Rasmus -b large
+    Plots a graph of the linalg norm distance where csv[1] is name and csv[0] is file name
+    E.g. csv: frecog graph -c rasmusb1.csv Rasmus
+    E.g. benchmark: frecog graph -c rasmusb1.csv Rasmus -b large
     '''
     if csv:
         if benchmark:
             execute_recognition(model=benchmark, benchmark=csv[0])
         plot_csv_data(csv[1], csv[0])
 
-
+#Done
 @frecog.command()   
 @click.option('--movie' , '-m', is_flag=True)
 @click.argument('model', required=False)
@@ -86,18 +84,19 @@ def graph(csv, benchmark):
 def play(movie, model, path):
     '''
     Face recognises on a video
-    Eks: frecog play -m small ./vids/pathTest.mp4
+    E.g: frecog play -m small ./vids/pathTest.mp4
     '''
     if(movie):
         execute_videorecog(model, path)
 
+#Done
 @frecog.command()
 @click.option("--folder", "-f", is_flag=True)
 @click.argument('path', required=False)
 def fold(folder, path):
     '''
     Face recognises on a folder of pictures
-    Eks: frecog fold -f ./facerec/unknown_faces
+    E.g: frecog fold -f ./facerec/unknown_faces
     '''
     if folder:
         loadrecog(path)
