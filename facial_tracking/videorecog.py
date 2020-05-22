@@ -4,6 +4,7 @@ import logic.logconfig as log
 from logic.classify_known_faces import face_comparison_list, convert_name_to_color, loading_known_faces, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
 from imutils import face_utils
 import keyboard
+from pathlib import Path
 
 
 logger = log.logger
@@ -25,7 +26,10 @@ def execute_videorecog(model="large", path =' '):
     if(videoname == ' '):
         cam = cv2.VideoCapture('./vids/test.mp4')
     else:
-        cam = cv2.VideoCapture(videoname)
+        if(Path(videoname).exists()):
+            cam = cv2.VideoCapture(videoname)
+        else:
+            raise FileNotFoundError
     known_faces_list, known_names_list = loading_known_faces(model)
     # Sets the resolution to 240p
     cam.set(3, 426)
