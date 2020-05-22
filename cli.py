@@ -44,7 +44,6 @@ def trainer(train, value):
             train_classifier(model=train)
 
 
-
 @frecog.command()
 @click.option('--path','-p')
 @click.option("--single", "-s")
