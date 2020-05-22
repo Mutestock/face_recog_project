@@ -20,9 +20,9 @@ Goals for functionality:
 - Use pre-trained models by dlib to display a more accurate use of facial recognition within the framework itself. Here pre-trained models for face detectors, facial landmark predictors and recognition models will be used.
 - Use facial recognition to recognize faces within webcam footage as well as videos and pictures from local directories.
 - Use a benchmark to test the recognition values and probabilities.
--- If the face in question is recognized, save the match accuracy to a csv file, and return the correct name of the verified person's face.
--- If the face is not recognized, run the function again and save the failed match accuracy to a csv file.
--- Visualize/plot the verification data from the csv.
+	- If the face in question is recognized, save the match accuracy to a csv file, and return the correct name of the verified person's face.
+	- If the face is not recognized, run the function again and save the failed match accuracy to a csv file.
+	- Visualize/plot the verification data from the csv.
 - Make a feature that can detect a face and then save samples if that face to known faces.
 - Create a facial classifier, that can be trained on top of the dlib models and provide enhanced probability readings on specific classified faces.
 
