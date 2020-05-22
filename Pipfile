@@ -4,18 +4,24 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
 
 [packages]
 click = "*"
 nose2 = "*"
-face-recognition = "*"
-pymysql = "*"
-cmake = "*"
-sqlalchemy = "*"
 configparser = "*"
 opencv-python = "*"
-frecog = {editable = true,path = "."}
+matplotlib = "*"
+sklearn = "*"
+cmake = "*"
+pillow = "*"
+scipy = "*"
+keras = "*"
+h5py = "*"
+imutils = "*"
+pandas = "*"
+keyboard = "*"
+tensorflow = "*"
+dlib = "*"
 
 [requires]
 python_version = "3.8"
