@@ -5,13 +5,14 @@ import time
 import tkinter as tk
 from tkinter import simpledialog
 import keyboard
+from pathlib import Path, PurePosixPath, PureWindowsPath
 
 
-cv2dir = os.path.dirname(cv2.__file__)
+cv2dir = str(os.path.dirname(cv2.__file__))
 
-face_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_frontalface_default.xml")
-eye_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_eye.xml")
-smile_cascade_path = os_parse_path(f"{cv2dir}\data\haarcascade_smile.xml")
+face_cascade_path = f"{cv2dir}/data/haarcascade_frontalface_default.xml"
+eye_cascade_path = f"{cv2dir}/data/haarcascade_eye.xml"
+smile_cascade_path = f"{cv2dir}/data/haarcascade_smile.xml"
 
 face_cascade = cv2.CascadeClassifier(face_cascade_path)
 eye_cascade = cv2.CascadeClassifier(eye_cascade_path)
@@ -58,11 +59,11 @@ def detect(gray, frame):
                 user_input = name
 
         if take_picture == True:
-            if count <= 5:
+            if count < 5:
                 pathFace = "facerec/known_faces/" + user_input + "/"
                 if not os.path.exists(pathFace):
                     os.makedirs(pathFace)
-                    known_faces_path = pathFace
+                known_faces_path = pathFace
                 pic = pathFace +  user_input + str(count)+".jpg"
                 cv2.imwrite(pic, frame)
                 count += 1

@@ -1,5 +1,5 @@
-*Face_learning_model/vgg_face_matconvnet/vgg_face.mat 
-*facerec
+*face_learning_model/vgg_face_matconvnet/vgg_face.mat
+*face_learning_model/self-trained models/neural_network_with_VGG_weigths.model
 Pipfile.lock
 *Pipfile
 Pipfile
@@ -8,7 +8,10 @@ Pipfile
 *sensitive.ini
 sensitive.ini
 settings/sensitive.ini
-'.log
+log/generallog.log
+log
+log/**
+*generallog.log
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
 
