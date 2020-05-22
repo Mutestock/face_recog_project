@@ -3,7 +3,7 @@ from sklearn import neighbors
 import os
 import os.path
 import pickle
-from PIL import Image, ImageDraw
+from PIL import Image
 import dlib
 import numpy as np
 from pkg_resources import resource_filename
@@ -173,10 +173,8 @@ def classify_single_image(full_picture_path):
         print("- Found {} at ({}, {},{}, {})".format(name, top, right, bottom, left))
 
 
-
-logger = log.logger
-
 def loading_known_faces(model):
+    logger = log.logger
     conf = configparser.ConfigParser()
     conf.read("./settings/configuration.ini")
     frecog_conf = conf["FACE_RECOGNITION"]
@@ -195,7 +193,6 @@ def loading_known_faces(model):
 
             for filename in os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}"):
                 image = load_image_from_path(f"{frecog_conf['KnownFacesDir']}/{name}/{filename}")
-                #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
                 encoding = find_facial_encodings(image,None,1,model)
                 if len(encoding) > 0:
                     encoding = encoding[0]

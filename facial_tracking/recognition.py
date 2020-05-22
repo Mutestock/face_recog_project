@@ -1,10 +1,7 @@
 import cv2
 import numpy as np
-import os, os.path
 import logic.logconfig as log
-from logic.classify_known_faces import face_comparison_list, linear_face_distance, convert_name_to_color, loading_known_faces, load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
-import click
-import configparser
+from logic.classify_known_faces import face_comparison_list, convert_name_to_color, loading_known_faces, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
 from logic.write_to_csv import csv_writer
 from imutils import face_utils
 import keyboard

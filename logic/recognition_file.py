@@ -19,7 +19,6 @@ conf = configparser.ConfigParser()
 conf.read("./settings/configuration.ini")
 frecog_conf = conf["FACE_RECOGNITION"]
 
-#video = cv2.VideoCapture(0)
 
 def compare_faces(known_face_encodings, face_encoding_to_check, tolerance=0.5):
     return list(face_distance(known_face_encodings, face_encoding_to_check) <= tolerance)
@@ -102,7 +101,5 @@ def loadrecog(path=' '):
                 
             
         if count>=size:
-            #cv2.destroyWindow(name)
             break
-     #video.release()
     cv2.destroyAllWindows()

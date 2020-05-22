@@ -1,11 +1,8 @@
 import cv2
 import os, os.path
-from settings.pathing import os_parse_path
-import time
 import tkinter as tk
 from tkinter import simpledialog
 import keyboard
-from pathlib import Path, PurePosixPath, PureWindowsPath
 
 
 cv2dir = str(os.path.dirname(cv2.__file__))
