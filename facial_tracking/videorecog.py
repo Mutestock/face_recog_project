@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import logic.logconfig as log
-from logic.classify_known_faces import face_comparison_list, convert_name_to_color, loading_known_faces, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
+from logic.classify_known_faces import face_comparison_list, convert_name_to_color, loading_known_faces, find_facial_encodings, find_face_locations, find_raw_facial_landmarks, rescale_frame
 from imutils import face_utils
 import keyboard
 from pathlib import Path
@@ -10,11 +10,7 @@ from pathlib import Path
 logger = log.logger
 
 show_facial_landmarks = False
-def rescale_frame(frame, percent=75):
-    width = int(frame.shape[1] * percent/ 100)
-    height = int(frame.shape[0] * percent/ 100)
-    dim = (width, height)
-    return cv2.resize(frame, dim, interpolation =cv2.INTER_AREA)
+
 
 def execute_videorecog(model="large", path =' '):
     global show_facial_landmarks

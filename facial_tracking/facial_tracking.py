@@ -24,13 +24,16 @@ def execute_tracking():
     ROOT = tk.Tk()
     ROOT.withdraw()
 
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(0,cv2.CAP_DSHOW)
     while True:
-        _,frame=cam.read()
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        canvas = detect(gray,frame)
-        cv2.imshow('Face recognition',canvas)
-        if cv2.waitKey(1) & 0xFF==ord('q'):
+        ret, frame=cam.read()
+        if ret:
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            canvas = detect(gray,frame)
+            cv2.imshow('Face recognition',canvas)
+            if cv2.waitKey(1) & 0xFF==ord('q'):
+                break
+        else:
             break
                 
     cam.release()

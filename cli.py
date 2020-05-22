@@ -83,17 +83,18 @@ def play(movie, model, path):
     Face recognises on a video
     E.g: frecog play -m small ./vids/pathTest.mp4
     '''
-    if(movie):
+    if movie:
         execute_videorecog(model, path)
 
 
 @frecog.command()
 @click.option("--folder", "-f", is_flag=True)
 @click.argument('path', required=False)
-def fold(folder, path):
+@click.argument('model', required=False)
+def fold(folder, model, path):
     '''
     Face recognises on a folder of pictures
-    E.g: frecog fold -f ./facerec/unknown_faces
+    E.g: frecog fold -f ./facerec/unknown_faces large
     '''
     if folder:
-        loadrecog(path)
+        loadrecog(model, path)

@@ -10,6 +10,7 @@ from pkg_resources import resource_filename
 import click
 import logic.logconfig as log
 import configparser
+import cv2
 
 
 model_save_path = os.path.join("face_learning_model/models/knn_model.clf")
@@ -220,3 +221,10 @@ def linear_face_distance(face_encodings_list, face_to_compare):
 def convert_name_to_color(name):
     name_color = [(ord(c.lower())-97)*8 for c in name[:3]]
     return name_color
+
+
+def rescale_frame(frame, percent=75):
+    width = int(frame.shape[1] * percent/ 100)
+    height = int(frame.shape[0] * percent/ 100)
+    dim = (width, height)
+    return cv2.resize(frame, dim, interpolation =cv2.INTER_AREA)
