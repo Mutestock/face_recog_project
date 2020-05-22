@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import os, os.path
 import logic.logconfig as log
-from logic.classify_known_faces import load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
+from logic.classify_known_faces import face_comparison_list, linear_face_distance, convert_name_to_color, loading_known_faces, load_image_from_path, find_facial_encodings, find_face_locations, find_raw_facial_landmarks
 import click
 import configparser
 from logic.write_to_csv import csv_writer
@@ -31,6 +31,7 @@ def execute_videorecog(model="large", path =' '):
     else:
         cam = cv2.VideoCapture(videoname)
     known_faces_list, known_names_list = loading_known_faces(model)
+    # Sets the resolution to 240p
     cam.set(3, 426)
     cam.set(4, 240)
     logger.info("Processing unknown faces...")
@@ -98,51 +99,3 @@ def execute_videorecog(model="large", path =' '):
     cv2.destroyAllWindows()
 
 
-def loading_known_faces(model):
-    conf = configparser.ConfigParser()
-    conf.read("./settings/configuration.ini")
-    frecog_conf = conf["FACE_RECOGNITION"]
-
-    logger.info("loading known faces and names...\n")
-    print('Loading known faces and names...')
-
-    known_faces_list = []
-    known_names_list = []
-
-    with click.progressbar(os.listdir(frecog_conf["KnownFacesDir"])) as faces:
-        for name in faces:
-
-            logger.info(len(os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}")))
-            print(len(os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}")))
-
-            for filename in os.listdir(f"{frecog_conf['KnownFacesDir']}/{name}"):
-                image = load_image_from_path(f"{frecog_conf['KnownFacesDir']}/{name}/{filename}")
-                #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-                encoding = find_facial_encodings(image,None,1,model)
-                if len(encoding) > 0:
-                    encoding = encoding[0]
-                else:
-                    logger.info("No faces found in the image!")
-                    print("No faces found in the image!")
-                    pass
-                known_faces_list.append(encoding)
-                known_names_list.append(name)
-
-    return known_faces_list, known_names_list
-
-
-def face_comparison_list(known_face_encodings, face_encoding_to_check, recognition_tolerance):
-    values = linear_face_distance(known_face_encodings, face_encoding_to_check)
-    return list(values <= recognition_tolerance), values
-
-
-def linear_face_distance(face_encodings_list, face_to_compare):
-    if len(face_encodings_list) == 0:
-        return np.empty((0))
-    linarg = np.linalg.norm(face_encodings_list - face_to_compare, axis=1)
-    return linarg
-
-
-def convert_name_to_color(name):
-    name_color = [(ord(c.lower())-97)*8 for c in name[:3]]
-    return name_color

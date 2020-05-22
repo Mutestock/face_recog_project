@@ -66,10 +66,8 @@ def loadrecog(path=' '):
     print('Processing unknown faces...')
     while True:
         size = len(os.listdir(file_path))
-        #"./facerec/testfaces"
         for name in os.listdir(file_path):
             image = load_image_from_path(f"{file_path}/{name}")
-            #video.read()
             locations = find_face_locations(image)
             encodings = find_facial_encodings(image, locations)
             print(f', found {len(encodings)} face(s)')
