@@ -13,14 +13,20 @@ This framework provides cli commands for facial recognition and tracking functio
 Within the process of recognition, we have all so trained own Convolutional, Siamese, and using Convolutional, Siamese, and VGG-Face pre-calibrated neural network models as examples. This primarily involves examples on how to train our own neural networks with Keras and TenserFlow deep learning. For the recognition itself, we have made use of dlib’s pre-trained models for face detectors, facial landmark predictors and recognition models for higher recognition accuracy within the actual framework demo.
 
 # Technologies
-- OpenCV and image processing
 - CLI
-- Neural networks, Deep learning
-- Machine Learning
 - Data processing
+ - Neural networks, Deep learning
+  - Keras
+  - TensorFlow
+ - Machine Learning
+- OpenCV
 - Data wrangling
-- Data collection, working with video capture
-- Working with CSV and plotting
+ - image processing
+ - One-hot labels
+ - Classification
+- Data collection
+ - working with video capture
+ - Working with CSV and plotting
 
 For specific requirements see:  [requirements.txt](https://github.com/Mutestock/face_recog_project/blob/master/requirements.txt).
 
