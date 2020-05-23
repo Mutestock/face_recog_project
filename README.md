@@ -11,6 +11,7 @@ This framework provides cli commands for facial recognition and tracking functio
 Within the process of recognition, we have all so trained own Convolutional, Siamese, and re-trained model neural network models as examples.  This primarily involves examples on how to train our own neural networks with Keras and TenserFlow deep learning. For the recognition itself, we have made use of dlib’s pre-trained models for face detectors, facial landmark predictors and recognition models for higher recognition accuracy within the actual framework demo.
 
 # Technologies
+See requirements.txt
 
 # Installation
 Clone the project, cd into the project.
