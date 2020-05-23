@@ -85,6 +85,7 @@ If you want the framework to work with your face through a webcam, run the track
 ![s](https://user-images.githubusercontent.com/44894132/82733439-019a0800-9d14-11ea-9486-61ec330b69a4.PNG)
 
 The recognition command is run by writing "frecog run -r" followed by either "small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
+![unnamed (6)](https://user-images.githubusercontent.com/44894132/82733682-c26cb680-9d15-11ea-9a0f-d196949c7ffa.png)
 
 By pressing ‘f’ you can toggle on the facial landmarks as either a 5 point or a 68 point representation of the picture, depending on the model size. These landmarks are the ones used by the dlib algorithm to determine the linar distance between two faces and ultimately recognize them.
 ![sdfsd](https://user-images.githubusercontent.com/44894132/82733440-02cb3500-9d14-11ea-95d8-3f09ae7da1f8.PNG)
