@@ -1,3 +1,6 @@
+Rasmus Barfod Prætorius 
+Henning Wiberg
+Lukas Bjornvad
 # Facial recognition project
 
 # Description
