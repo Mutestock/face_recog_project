@@ -5,7 +5,7 @@ Agreeable Government:
 
 Rasmus Barfod Prætorius,
 Henning Wiberg and
-Lukas Bjornvad
+Lukas Bjørnvad
 
 # Description
 This framework provides cli commands for facial recognition and tracking functions to detect users based on webcam and other media footage such as people in photos and videos. The framework utilizes stored facial images for the recognition, and it is possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate.
