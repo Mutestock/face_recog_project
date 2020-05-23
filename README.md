@@ -19,6 +19,7 @@ Within the process of recognition, we have all so trained own Convolutional, Sia
 •    Data wrangling
 •    Data collection, working with video capture
 •    Working with CSV and plotting
+
 For specific requirements see:  [requirements.txt](https://github.com/Mutestock/face_recog_project/blob/master/requirements.txt).
 
 # Installation
