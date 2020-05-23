@@ -75,6 +75,7 @@ The concepts involved in this project regarding the python course and related te
 Install everything you need by following the installation guide.
 Open up a cmd, bash or terminal based in the root of the face_recog_project  project.
 All functions can be found through a "frecog --help" command.
+![image](https://drive.google.com/open?id=117A3XDo6adp-PeTJvCisHmMv9CgKcyFR)
 
 Note that all windows that pop up can be closed by pressing the X at the top or pressing "q". To force a stop presse "ctrl C"
 ### Facial tracking and recognition
