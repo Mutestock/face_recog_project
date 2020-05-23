@@ -5,7 +5,6 @@ from logic.recognition_file import loadrecog
 from logic.classify_known_faces import train_classifier, classify_people_from_path, classify_single_image
 from logic.write_to_csv import plot_csv_data
 from facial_tracking.videorecog import execute_videorecog
-# pip install --editable .
 
 
 @click.group()
