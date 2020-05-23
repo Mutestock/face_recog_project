@@ -75,14 +75,14 @@ The concepts involved in this project regarding the python course and related te
 # Training our own neural network
 Besides using dlib for high precision recognition, we also made a few notebook examples on how neural networks for facial recognition could be trained using tensorflow and keras as well as large collections of facial image data. Among our own attempts to successfully train a neural network, we made several different demos using Convolutional, Siamese, and VGG-Face model pre-calibrated weights. From these demo networks we trained our own models and tested them to see their accuracy and performance.
 
-Convolutional network example:
+[Convolutional network example:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Convolutional%20network.ipynb)
 ![unnamed (7)](https://user-images.githubusercontent.com/44894132/82733864-39ef1580-9d17-11ea-9d99-13036f888499.png)
 
-Siamese network example:
+[Siamese network example:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Siamese%20network.ipynb)
 
 ![unnamed (8)](https://user-images.githubusercontent.com/44894132/82733865-3c516f80-9d17-11ea-8c65-ff2e32c7e530.png)
 
-Neural network with VGG weights:
+[Neural network with VGG weights:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Neural%20network%20with%20VGG%20weigths.ipynb)
 ![unnamed (9)](https://user-images.githubusercontent.com/44894132/82733866-3e1b3300-9d17-11ea-89f9-bf6158cdc1a1.png)
 
 # How to use the framework
