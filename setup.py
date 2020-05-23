@@ -18,8 +18,8 @@ setup(
         'keras == 2.3.1',
         'h5py == 2.10.0',
         'tensorflow == 2.2.0',
-        'dlib == 19.19.0',
         'imutils == 0.5.3',
+        'dlib == 19.19.0',
         'keyboard == 0.13.5'
     ],
     author='TeamOne',

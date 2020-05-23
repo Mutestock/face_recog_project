@@ -1,9 +1,10 @@
-Rasmus Barfod Prætorius, 
-Henning Wiberg,
+Rasmus Barfod Prætorius
+Henning Wiberg
 Lukas Bjornvad
 # Facial recognition project
 
 # Description
+For this project we have developed a facial recognition framework. It's capable of recognizing the people in photos, videos and live through a webcam. It utilizes stored faces for the recognition, it's possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate. 
 
 # Technologies
 

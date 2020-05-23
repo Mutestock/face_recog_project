@@ -25903,3 +25903,220 @@
 2020-05-23 11:48:52,962:INFO:5
 2020-05-23 11:48:56,506:INFO:5
 2020-05-23 11:48:59,946:INFO:5
+2020-05-23 12:32:29,336:INFO:loading known faces and names...
+
+2020-05-23 12:32:29,341:INFO:5
+2020-05-23 12:32:32,192:INFO:5
+2020-05-23 12:32:37,814:INFO:5
+2020-05-23 12:32:40,936:INFO:5
+2020-05-23 12:32:46,980:INFO:5
+2020-05-23 12:32:53,538:INFO:5
+2020-05-23 12:32:56,388:INFO:5
+2020-05-23 12:32:59,867:INFO:5
+2020-05-23 12:33:03,365:INFO:5
+2020-05-23 12:33:06,622:INFO:5
+2020-05-23 12:33:09,868:INFO:Processing unknown faces...
+2020-05-23 12:33:10,510:INFO:, found 1 faces
+2020-05-23 12:33:10,511:INFO:Match found: Lukas, Linarg norm value: 0.6515395959018992%
+2020-05-23 12:33:11,366:INFO:, found 1 faces
+2020-05-23 12:33:11,367:INFO:Match found: Lukas, Linarg norm value: 0.6079491656075273%
+2020-05-23 12:33:12,014:INFO:, found 1 faces
+2020-05-23 12:33:12,015:INFO:Match found: Lukas, Linarg norm value: 0.636265744928427%
+2020-05-23 12:33:12,679:INFO:, found 1 faces
+2020-05-23 12:33:12,680:INFO:Match found: Lukas, Linarg norm value: 0.6068862780661322%
+2020-05-23 12:33:13,343:INFO:, found 1 faces
+2020-05-23 12:33:13,344:INFO:Match found: Lukas, Linarg norm value: 0.6014113733294012%
+2020-05-23 12:33:13,991:INFO:, found 1 faces
+2020-05-23 12:33:13,992:INFO:Match found: Lukas, Linarg norm value: 0.628613745429978%
+2020-05-23 12:33:14,633:INFO:, found 1 faces
+2020-05-23 12:33:14,634:INFO:Match found: Lukas, Linarg norm value: 0.5895117801824042%
+2020-05-23 12:33:15,298:INFO:, found 1 faces
+2020-05-23 12:33:15,299:INFO:Match found: Lukas, Linarg norm value: 0.5933402727218269%
+2020-05-23 12:33:15,948:INFO:, found 1 faces
+2020-05-23 12:33:15,949:INFO:Match found: Lukas, Linarg norm value: 0.5671657198344517%
+2020-05-23 12:33:16,601:INFO:, found 1 faces
+2020-05-23 12:33:16,601:INFO:Match found: Lukas, Linarg norm value: 0.5461093000161154%
+2020-05-23 12:33:17,288:INFO:, found 1 faces
+2020-05-23 12:33:17,288:INFO:Match found: Lukas, Linarg norm value: 0.5766120939308528%
+2020-05-23 12:33:17,940:INFO:, found 1 faces
+2020-05-23 12:33:17,941:INFO:Match found: Lukas, Linarg norm value: 0.5420765608569097%
+2020-05-23 12:33:18,580:INFO:, found 1 faces
+2020-05-23 12:33:18,582:INFO:Match found: Lukas, Linarg norm value: 0.5543939208673487%
+2020-05-23 12:33:19,261:INFO:, found 1 faces
+2020-05-23 12:33:19,262:INFO:Match found: Lukas, Linarg norm value: 0.6006342983470048%
+2020-05-23 12:33:19,910:INFO:, found 1 faces
+2020-05-23 12:33:19,911:INFO:Match found: Lukas, Linarg norm value: 0.528729084696729%
+2020-05-23 12:33:20,548:INFO:, found 1 faces
+2020-05-23 12:33:20,549:INFO:Match found: Lukas, Linarg norm value: 0.5715915699459961%
+2020-05-23 12:33:21,215:INFO:, found 1 faces
+2020-05-23 12:33:21,216:INFO:Match found: Lukas, Linarg norm value: 0.6115797289650724%
+2020-05-23 12:33:21,855:INFO:, found 1 faces
+2020-05-23 12:33:21,856:INFO:Match found: Lukas, Linarg norm value: 0.5747861114714878%
+2020-05-23 12:33:22,500:INFO:, found 1 faces
+2020-05-23 12:33:22,501:INFO:Match found: Lukas, Linarg norm value: 0.6145144315747002%
+2020-05-23 12:33:23,162:INFO:, found 1 faces
+2020-05-23 12:33:23,163:INFO:Match found: Lukas, Linarg norm value: 0.6434990342601268%
+2020-05-23 12:33:23,804:INFO:, found 1 faces
+2020-05-23 12:33:23,806:INFO:Match found: Lukas, Linarg norm value: 0.6114059528111605%
+2020-05-23 12:33:24,452:INFO:, found 1 faces
+2020-05-23 12:33:24,453:INFO:Match found: Lukas, Linarg norm value: 0.6648752643050366%
+2020-05-23 12:33:25,103:INFO:, found 1 faces
+2020-05-23 12:33:25,104:INFO:Match found: Lukas, Linarg norm value: 0.5924394791299413%
+2020-05-23 12:33:25,743:INFO:, found 1 faces
+2020-05-23 12:33:25,743:INFO:Match found: Lukas, Linarg norm value: 0.5390229408691385%
+2020-05-23 12:33:26,419:INFO:, found 1 faces
+2020-05-23 12:33:26,420:INFO:Match found: Lukas, Linarg norm value: 0.5546256575090749%
+2020-05-23 12:33:27,077:INFO:, found 1 faces
+2020-05-23 12:33:27,078:INFO:Match found: Lukas, Linarg norm value: 0.5835806101467157%
+2020-05-23 12:33:27,720:INFO:, found 1 faces
+2020-05-23 12:33:27,721:INFO:Match found: Lukas, Linarg norm value: 0.5675241636462725%
+2020-05-23 12:33:28,360:INFO:, found 1 faces
+2020-05-23 12:33:28,361:INFO:Match found: Lukas, Linarg norm value: 0.6079299402144003%
+2020-05-23 12:33:29,007:INFO:, found 1 faces
+2020-05-23 12:33:29,008:INFO:Match found: Lukas, Linarg norm value: 0.5824885523788825%
+2020-05-23 12:33:29,651:INFO:, found 1 faces
+2020-05-23 12:33:29,652:INFO:Match found: Lukas, Linarg norm value: 0.6392418991359926%
+2020-05-23 12:33:30,292:INFO:, found 1 faces
+2020-05-23 12:33:30,293:INFO:Match found: Lukas, Linarg norm value: 0.6013285615925292%
+2020-05-23 12:33:30,952:INFO:, found 1 faces
+2020-05-23 12:33:30,952:INFO:Match found: Lukas, Linarg norm value: 0.601259821425639%
+2020-05-23 12:33:31,603:INFO:, found 1 faces
+2020-05-23 12:33:31,605:INFO:Match found: Lukas, Linarg norm value: 0.6086448858976068%
+2020-05-23 12:33:32,247:INFO:, found 1 faces
+2020-05-23 12:33:32,248:INFO:Match found: Lukas, Linarg norm value: 0.6269205656378201%
+2020-05-23 12:33:32,903:INFO:, found 1 faces
+2020-05-23 12:33:32,904:INFO:Match found: Lukas, Linarg norm value: 0.5876059269072123%
+2020-05-23 12:33:33,544:INFO:, found 1 faces
+2020-05-23 12:33:33,545:INFO:Match found: Lukas, Linarg norm value: 0.602582898235852%
+2020-05-23 12:33:34,187:INFO:, found 1 faces
+2020-05-23 12:33:34,188:INFO:Match found: Lukas, Linarg norm value: 0.5939356359638222%
+2020-05-23 12:33:34,845:INFO:, found 1 faces
+2020-05-23 12:33:34,846:INFO:Match found: Lukas, Linarg norm value: 0.6261800506308624%
+2020-05-23 12:33:35,499:INFO:, found 1 faces
+2020-05-23 12:33:35,500:INFO:Match found: Lukas, Linarg norm value: 0.5957298631572172%
+2020-05-23 12:33:36,140:INFO:, found 1 faces
+2020-05-23 12:33:36,141:INFO:Match found: Lukas, Linarg norm value: 0.5732853722792748%
+2020-05-23 12:33:36,789:INFO:, found 1 faces
+2020-05-23 12:33:36,790:INFO:Match found: Lukas, Linarg norm value: 0.6100024530844514%
+2020-05-23 12:33:37,432:INFO:, found 1 faces
+2020-05-23 12:33:37,433:INFO:Match found: Lukas, Linarg norm value: 0.5926523524318373%
+2020-05-23 12:33:38,074:INFO:, found 1 faces
+2020-05-23 12:33:38,075:INFO:Match found: Lukas, Linarg norm value: 0.6229437355328635%
+2020-05-23 12:33:38,740:INFO:, found 1 faces
+2020-05-23 12:33:38,741:INFO:Match found: Lukas, Linarg norm value: 0.5761166604666889%
+2020-05-23 12:33:39,391:INFO:, found 1 faces
+2020-05-23 12:33:39,392:INFO:Match found: Lukas, Linarg norm value: 0.6495601412504965%
+2020-05-23 12:33:40,061:INFO:, found 1 faces
+2020-05-23 12:33:40,062:INFO:Match found: Lukas, Linarg norm value: 0.6054572480536404%
+2020-05-23 12:33:40,736:INFO:, found 1 faces
+2020-05-23 12:33:40,737:INFO:Match found: Lukas, Linarg norm value: 0.6450336343207159%
+2020-05-23 12:33:41,405:INFO:, found 1 faces
+2020-05-23 12:33:41,406:INFO:Match found: Lukas, Linarg norm value: 0.6877345239380133%
+2020-05-23 12:33:42,137:INFO:, found 1 faces
+2020-05-23 12:33:42,138:INFO:Match found: Lukas, Linarg norm value: 0.6232638126523133%
+2020-05-23 12:33:42,876:INFO:, found 1 faces
+2020-05-23 12:33:42,877:INFO:Match found: Lukas, Linarg norm value: 0.6243212145927632%
+2020-05-23 12:33:43,550:INFO:, found 1 faces
+2020-05-23 12:33:43,551:INFO:Match found: Lukas, Linarg norm value: 0.613872543684983%
+2020-05-23 12:33:44,247:INFO:, found 1 faces
+2020-05-23 12:33:44,248:INFO:Match found: Lukas, Linarg norm value: 0.6120152022639564%
+2020-05-23 12:33:44,903:INFO:, found 1 faces
+2020-05-23 12:33:44,904:INFO:Match found: Lukas, Linarg norm value: 0.5383512746602318%
+2020-05-23 12:33:45,559:INFO:, found 1 faces
+2020-05-23 12:33:45,560:INFO:Match found: Lukas, Linarg norm value: 0.6658604851675629%
+2020-05-23 12:33:46,215:INFO:, found 1 faces
+2020-05-23 12:33:46,215:INFO:Match found: Lukas, Linarg norm value: 0.6642672196383903%
+2020-05-23 12:33:46,874:INFO:, found 1 faces
+2020-05-23 12:33:46,875:INFO:Match found: Lukas, Linarg norm value: 0.5336266821381322%
+2020-05-23 12:33:47,544:INFO:, found 1 faces
+2020-05-23 12:33:47,544:INFO:Match found: Lukas, Linarg norm value: 0.5939737761484187%
+2020-05-23 12:33:48,178:INFO:, found 1 faces
+2020-05-23 12:33:48,179:INFO:Match found: Lukas, Linarg norm value: 0.5486454809371958%
+2020-05-23 12:33:48,828:INFO:, found 1 faces
+2020-05-23 12:33:48,828:INFO:Match found: Lukas, Linarg norm value: 0.6365527230501131%
+2020-05-23 12:33:49,474:INFO:, found 1 faces
+2020-05-23 12:33:49,474:INFO:Match found: Lukas, Linarg norm value: 0.5987744020835892%
+2020-05-23 12:33:50,127:INFO:, found 1 faces
+2020-05-23 12:33:50,128:INFO:Match found: Lukas, Linarg norm value: 0.6170884093869542%
+2020-05-23 12:33:50,784:INFO:, found 1 faces
+2020-05-23 12:33:50,785:INFO:Match found: Lukas, Linarg norm value: 0.6045697419907528%
+2020-05-23 12:33:51,461:INFO:, found 1 faces
+2020-05-23 12:33:51,462:INFO:Match found: Lukas, Linarg norm value: 0.5933097488432969%
+2020-05-23 12:33:52,099:INFO:, found 1 faces
+2020-05-23 12:33:52,100:INFO:Match found: Lukas, Linarg norm value: 0.6908404640978729%
+2020-05-23 12:33:52,749:INFO:, found 1 faces
+2020-05-23 12:33:52,750:INFO:Match found: Lukas, Linarg norm value: 0.5708865934186376%
+2020-05-23 12:34:04,401:INFO:loading known faces and names...
+
+2020-05-23 12:34:04,404:INFO:5
+2020-05-23 12:34:07,628:INFO:5
+2020-05-23 12:34:13,678:INFO:5
+2020-05-23 12:34:17,066:INFO:5
+2020-05-23 12:34:23,442:INFO:5
+2020-05-23 12:34:30,368:INFO:5
+2020-05-23 12:34:33,466:INFO:5
+2020-05-23 12:34:37,248:INFO:5
+2020-05-23 12:34:40,993:INFO:5
+2020-05-23 12:34:44,492:INFO:5
+2020-05-23 12:34:48,040:INFO:Processing unknown faces...
+2020-05-23 12:35:06,847:INFO:loading known faces and names...
+
+2020-05-23 12:35:06,851:INFO:5
+2020-05-23 12:35:09,757:INFO:5
+2020-05-23 12:35:15,613:INFO:5
+2020-05-23 12:35:18,847:INFO:5
+2020-05-23 12:35:24,984:INFO:5
+2020-05-23 12:35:31,769:INFO:5
+2020-05-23 12:35:34,730:INFO:5
+2020-05-23 12:35:38,259:INFO:5
+2020-05-23 12:35:41,919:INFO:5
+2020-05-23 12:35:45,357:INFO:5
+2020-05-23 12:35:48,719:INFO:Processing unknown faces...
+2020-05-23 12:35:49,388:INFO:, found 1 faces
+2020-05-23 12:35:49,389:INFO:Match found: Lukas, Linarg norm value: 0.4658471361751363%
+2020-05-23 12:35:50,265:INFO:, found 1 faces
+2020-05-23 12:35:50,266:INFO:Match found: Lukas, Linarg norm value: 0.6222870326744332%
+2020-05-23 12:35:50,944:INFO:, found 1 faces
+2020-05-23 12:35:50,944:INFO:Match found: Lukas, Linarg norm value: 0.5984509520880867%
+2020-05-23 12:35:51,607:INFO:, found 1 faces
+2020-05-23 12:35:51,608:INFO:Match found: Lukas, Linarg norm value: 0.5600289720347025%
+2020-05-23 12:35:52,285:INFO:, found 1 faces
+2020-05-23 12:35:52,286:INFO:Match found: Lukas, Linarg norm value: 0.6165671994772719%
+2020-05-23 12:35:52,952:INFO:, found 1 faces
+2020-05-23 12:35:52,953:INFO:Match found: Lukas, Linarg norm value: 0.6582989980559435%
+2020-05-23 12:35:53,626:INFO:, found 1 faces
+2020-05-23 12:35:53,627:INFO:Match found: Lukas, Linarg norm value: 0.6502105735480455%
+2020-05-23 12:35:54,362:INFO:, found 1 faces
+2020-05-23 12:35:54,363:INFO:Match found: Lukas, Linarg norm value: 0.6588626943297389%
+2020-05-23 12:35:55,108:INFO:, found 1 faces
+2020-05-23 12:35:55,111:INFO:Match found: Lukas, Linarg norm value: 0.602548891003509%
+2020-05-23 12:35:55,764:INFO:, found 1 faces
+2020-05-23 12:35:55,765:INFO:Match found: Lukas, Linarg norm value: 0.647045990390565%
+2020-05-23 12:35:56,439:INFO:, found 1 faces
+2020-05-23 12:35:56,440:INFO:Match found: Lukas, Linarg norm value: 0.6257272942950629%
+2020-05-23 12:35:57,142:INFO:, found 1 faces
+2020-05-23 12:35:57,143:INFO:Match found: Lukas, Linarg norm value: 0.6067364174704927%
+2020-05-23 12:35:57,844:INFO:, found 1 faces
+2020-05-23 12:35:57,845:INFO:Match found: Lukas, Linarg norm value: 0.6184541322577883%
+2020-05-23 12:35:58,545:INFO:, found 1 faces
+2020-05-23 12:35:58,545:INFO:Match found: Lukas, Linarg norm value: 0.5693593484174717%
+2020-05-23 12:35:59,244:INFO:, found 1 faces
+2020-05-23 12:35:59,245:INFO:Match found: Lukas, Linarg norm value: 0.6034996749742909%
+2020-05-23 12:35:59,901:INFO:, found 1 faces
+2020-05-23 12:35:59,902:INFO:Match found: Lukas, Linarg norm value: 0.5381830192851151%
+2020-05-23 12:36:00,590:INFO:, found 1 faces
+2020-05-23 12:36:00,592:INFO:Match found: Lukas, Linarg norm value: 0.6182865556993855%
+2020-05-23 12:36:01,259:INFO:, found 1 faces
+2020-05-23 12:36:01,259:INFO:Match found: Lukas, Linarg norm value: 0.5586784038094295%
+2020-05-23 12:36:01,910:INFO:, found 1 faces
+2020-05-23 12:36:01,911:INFO:Match found: Lukas, Linarg norm value: 0.6016295218323876%
+2020-05-23 12:36:02,602:INFO:, found 1 faces
+2020-05-23 12:36:02,605:INFO:Match found: Lukas, Linarg norm value: 0.6049811509299737%
+2020-05-23 12:36:03,317:INFO:, found 1 faces
+2020-05-23 12:36:03,318:INFO:Match found: Lukas, Linarg norm value: 0.5763664643570644%
+2020-05-23 12:36:03,986:INFO:, found 1 faces
+2020-05-23 12:36:03,987:INFO:Match found: Lukas, Linarg norm value: 0.5596544637628875%
+2020-05-23 12:36:04,658:INFO:, found 1 faces
+2020-05-23 12:36:04,659:INFO:Match found: Lukas, Linarg norm value: 0.48286430912953393%
+2020-05-23 12:36:05,362:INFO:, found 1 faces
+2020-05-23 12:36:05,363:INFO:Match found: Lukas, Linarg norm value: 0.5417249179164981%
