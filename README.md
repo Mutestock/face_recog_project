@@ -98,7 +98,7 @@ All functions can be found through a `frecog --help` command.
 Note that all windows that pop up can be closed by pressing the X at the top or pressing "q". To force a stop presse "ctrl C"
 
 ### Facial tracking and recognition
-If you want the framework to work with your face through a webcam, run the tracking command by typing "frecog run -t" and then press "r". This will prompt a pop-up that you have to fill out with your name. The function takes 5 pictures from the webcam and saves them in the ‘face_recog_project\facerec\known_faces’ directory.
+If you want the framework to work with your face through a webcam, run the tracking command by typing `frecog run -t` and then press "r". This will prompt a pop-up that you have to fill out with your name. The function takes 5 pictures from the webcam and saves them in the ‘face_recog_project\facerec\known_faces’ directory.
 ![s](https://user-images.githubusercontent.com/44894132/82733439-019a0800-9d14-11ea-9486-61ec330b69a4.PNG)
 
 The recognition command is run by writing `frecog run -r` followed by either "small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
