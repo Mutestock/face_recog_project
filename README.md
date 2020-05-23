@@ -28,7 +28,17 @@ For specific requirements see:  [requirements.txt](https://github.com/Mutestock/
 Clone the project, cd into the project.
 Run "pip install --editable ."
 
+Project is compatible with pipenv and can be activated with 'pipenv shell', 'pipenv lock', 'pipenv sync'. Change the python version in the pipfile so that it matches yours.
+
+Project cli commands can be run with an 'frecog' or a 'python main.py' prefix, depending on how the requirements were installed.
+cli commands can be found in cli.py and contains examples.
+
+Please be advised, that dlib can be rather sensitive. Especially so on Windows. If errors pop up please check the load order with cmake and imutils. If this doesn't work, you may have to go on a long journey through the VS IDE installer.
+
+
 To use the the facial classification feature, please download and extract the vgg_face.mat file from [here](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/), and place it in the face_recog_project\face_learning_model\vgg_face_matconvnet folder. You will afterwards be able to train the classifier in the command line using ‘frecog trainer -tr large 2’. This classifier can be used to train a k-nearest neighbor model for specific faces to obtain more accurate classification results.
+
+
 
 # Disposition:
 
