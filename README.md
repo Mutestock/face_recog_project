@@ -1,6 +1,8 @@
 # Facial recognition project
 dat4sem2020spring-python
 
+Agreeable Government:
+
 Rasmus Barfod Prætorius,
 Henning Wiberg and
 Lukas Bjornvad
