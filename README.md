@@ -137,6 +137,7 @@ The graph benchmark command is given a name, then utilizes the web-cam to gather
 
 ### Facial recognition of video footage
 The play command runs facial recognition on a video file. The command is run by `frecog play -m`, then a model(“large” or “small”), then it can be given a path to a file(eks: `frecog play -m ./vids/pathTest.mp4`), if it isn’t given a path it will utilize a default mp4.
+
 ![dfd](https://user-images.githubusercontent.com/44894132/82733442-0494f880-9d14-11ea-83f2-e5f8dcf80861.PNG)
 
 ### Facial recognition of single images and from directories
