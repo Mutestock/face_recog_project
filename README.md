@@ -8,6 +8,9 @@ Lukas Bjornvad
 # Technologies
 
 # Installation
+Clone the project, cd into the project.
+Run "pip install --editable ."
+To utilize the training models get matlab at MATLAB
 
 # Disposition:
 
