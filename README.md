@@ -79,6 +79,7 @@ Convolutional network example:
 ![unnamed (7)](https://user-images.githubusercontent.com/44894132/82733864-39ef1580-9d17-11ea-9d99-13036f888499.png)
 
 Siamese network example:
+
 ![unnamed (8)](https://user-images.githubusercontent.com/44894132/82733865-3c516f80-9d17-11ea-8c65-ff2e32c7e530.png)
 
 Neural network with VGG weights:
