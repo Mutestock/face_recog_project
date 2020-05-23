@@ -85,9 +85,11 @@ If you want the framework to work with your face through a webcam, run the track
 ![s](https://user-images.githubusercontent.com/44894132/82733439-019a0800-9d14-11ea-9486-61ec330b69a4.PNG)
 
 The recognition command is run by writing "frecog run -r" followed by either "small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
+
 ![unnamed (6)](https://user-images.githubusercontent.com/44894132/82733682-c26cb680-9d15-11ea-9a0f-d196949c7ffa.png)
 
 By pressing ‘f’ you can toggle on the facial landmarks as either a 5 point or a 68 point representation of the picture, depending on the model size. These landmarks are the ones used by the dlib algorithm to determine the linar distance between two faces and ultimately recognize them.
+
 ![sdfsd](https://user-images.githubusercontent.com/44894132/82733440-02cb3500-9d14-11ea-95d8-3f09ae7da1f8.PNG)
 
 ### Training a facial knn classification model
@@ -103,6 +105,7 @@ The classify single command is run by “frecog classify -s” and then a path t
 
 ### Recognition graph for benchmarking of values and false positives.
 The graph command shows a graph over how sure the program is that the person that it’s looking for, also included in the graph, is the  false positives. The command is run by “frecog graph -c” then a csv file name and then the name of the person you are trying to recognize.
+
 ![unnamed (2)](https://user-images.githubusercontent.com/44894132/82733418-de6f5880-9d13-11ea-9e15-5c2b2e6cc196.png)
 
 The graph benchmark command is given a name, then utilizes the web-cam to gather information with which it creates and shows a graph over how sure the program is that the person that it’s looking for. The command is run by “frecog graph -c” then a pre-existing csv file name or a new csv file name, then the name of the person you are trying to recognize, then “-b” and lastly a model(“large” or “small”).
