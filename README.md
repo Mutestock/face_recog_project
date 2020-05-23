@@ -2,7 +2,6 @@
 dat4sem2020spring-python
 
 Agreeable Government:
-![](facerec/known_faces/Lukas/Lukas0.jpg)
 Rasmus Barfod Prætorius,
 Henning Wiberg and
 Lukas Bjornvad
@@ -76,7 +75,6 @@ The concepts involved in this project regarding the python course and related te
 Install everything you need by following the installation guide.
 Open up a cmd, bash or terminal based in the root of the face_recog_project  project.
 All functions can be found through a "frecog --help" command.
-![image](https://drive.google.com/open?id=117A3XDo6adp-PeTJvCisHmMv9CgKcyFR)
 ![unnamed (5)](https://user-images.githubusercontent.com/44894132/82733413-dd3e2b80-9d13-11ea-8e96-b90f7b4ef3fe.png)
 ![unnamed (4)](https://user-images.githubusercontent.com/44894132/82733415-ddd6c200-9d13-11ea-8c44-cdf0c4de0062.png)
 ![unnamed (3)](https://user-images.githubusercontent.com/44894132/82733416-de6f5880-9d13-11ea-9ba5-cd73751d2c85.png)
