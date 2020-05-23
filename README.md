@@ -75,6 +75,8 @@ The concepts involved in this project regarding the python course and related te
 # How to use.
 - Install everything you need by following the installation guide.
 - Open up a cmd, bash or terminal based in the root of the project.
+- All functions can be found through a "frecog --help" command. Note that all windows that pop up can be closed by pressing the X at the top or pressing "q". To force a stop presse "ctrl C"
 - If you want the framework to work with your face run the tracking command by typing "frecog run -t" and then pressing "r". This will prompt a pop-up that you have to fill out with your name.
+- The recognition command is run by writing "frecog run -r" followed by either"small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
 - 
 
