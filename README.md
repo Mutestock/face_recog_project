@@ -15,18 +15,18 @@ Within the process of recognition, we have all so trained own Convolutional, Sia
 # Technologies
 - CLI
 - Data processing
- - Neural networks, Deep learning
-  - Keras
-  - TensorFlow
- - Machine Learning
+	- Neural networks, Deep learning
+ 		- Keras
+	- Machine Learning
+		- TensorFlow
 - OpenCV
 - Data wrangling
- - image processing
- - One-hot labels
- - Classification
+	- image processing
+	- One-hot labels
+	- Classification
 - Data collection
- - working with video capture
- - Working with CSV and plotting
+	- Working with video capture
+	- Working with CSV and plotting
 
 For specific requirements see:  [requirements.txt](https://github.com/Mutestock/face_recog_project/blob/master/requirements.txt).
 
