@@ -92,7 +92,7 @@ Besides using dlib for high precision recognition, we also made a few notebook e
 # How to use the framework
 Install everything you need by following the installation guide.
 Open up a cmd, bash or terminal based in the root of the face_recog_project  project.
-All functions can be found through a "frecog --help" command.
+All functions can be found through a `frecog --help` command.
 ![unnamed](https://user-images.githubusercontent.com/44894132/82733420-df07ef00-9d13-11ea-83d6-5fa1fbc91972.png)
 
 Note that all windows that pop up can be closed by pressing the X at the top or pressing "q". To force a stop presse "ctrl C"
@@ -101,7 +101,7 @@ Note that all windows that pop up can be closed by pressing the X at the top or 
 If you want the framework to work with your face through a webcam, run the tracking command by typing "frecog run -t" and then press "r". This will prompt a pop-up that you have to fill out with your name. The function takes 5 pictures from the webcam and saves them in the ‘face_recog_project\facerec\known_faces’ directory.
 ![s](https://user-images.githubusercontent.com/44894132/82733439-019a0800-9d14-11ea-9486-61ec330b69a4.PNG)
 
-The recognition command is run by writing "frecog run -r" followed by either "small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
+The recognition command is run by writing `frecog run -r` followed by either "small" or "large", this will determine the size of the model that will be used. If nothing is added at the end of the command, the default which is "large" will be run with, thus making the process slower.
 
 ![unnamed (6)](https://user-images.githubusercontent.com/44894132/82733682-c26cb680-9d15-11ea-9a0f-d196949c7ffa.png)
 
@@ -110,30 +110,30 @@ By pressing ‘f’ you can toggle on the facial landmarks as either a 5 point o
 ![sdfsd](https://user-images.githubusercontent.com/44894132/82733440-02cb3500-9d14-11ea-95d8-3f09ae7da1f8.PNG)
 
 ### Training a facial knn classification model
-The trainer command is used to train the models that does the recognition, it’s run by “frecog trainer -tr” followed by either "small" or "large" and then an integer that represents the number of neighbors in the classified regression.
+The trainer command is used to train the models that does the recognition, it’s run by `frecog trainer -tr` followed by either "small" or "large" and then an integer that represents the number of neighbors in the classified regression.
 ![unnamed (5)](https://user-images.githubusercontent.com/44894132/82733413-dd3e2b80-9d13-11ea-8e96-b90f7b4ef3fe.png)
 
 ### Facial recognition through knn classification
-The classify by path command is run by “frecog classify -p” and then a path to a folder containing pictures. It then prints out its results of the facial recognition on the pictures contained in the folder.
+The classify by path command is run by `frecog classify -p` and then a path to a folder containing pictures. It then prints out its results of the facial recognition on the pictures contained in the folder.
 ![unnamed (4)](https://user-images.githubusercontent.com/44894132/82733415-ddd6c200-9d13-11ea-8c44-cdf0c4de0062.png)
 
-The classify single command is run by “frecog classify -s” and then a path to a picture. It then prints out the results of the facial recognition on the picture.
+The classify single command is run by `frecog classify -s` and then a path to a picture. It then prints out the results of the facial recognition on the picture.
 ![unnamed (3)](https://user-images.githubusercontent.com/44894132/82733416-de6f5880-9d13-11ea-9ba5-cd73751d2c85.png)
 
 ### Recognition graph for benchmarking of values and false positives.
-The graph command shows a graph over how sure the program is that the person that it’s looking for, also included in the graph, is the  false positives. The command is run by “frecog graph -c” then a csv file name and then the name of the person you are trying to recognize.
+The graph command shows a graph over how sure the program is that the person that it’s looking for, also included in the graph, is the  false positives. The command is run by `frecog graph -c` then a csv file name and then the name of the person you are trying to recognize.
 
 ![unnamed (2)](https://user-images.githubusercontent.com/44894132/82733418-de6f5880-9d13-11ea-9e15-5c2b2e6cc196.png)
 
-The graph benchmark command is given a name, then utilizes the web-cam to gather information with which it creates and shows a graph over how sure the program is that the person that it’s looking for. The command is run by “frecog graph -c” then a pre-existing csv file name or a new csv file name, then the name of the person you are trying to recognize, then “-b” and lastly a model(“large” or “small”).
+The graph benchmark command is given a name, then utilizes the web-cam to gather information with which it creates and shows a graph over how sure the program is that the person that it’s looking for. The command is run by `frecog graph -c` then a pre-existing csv file name or a new csv file name, then the name of the person you are trying to recognize, then “-b” and lastly a model(“large” or “small”).
 ![dsdfs](https://user-images.githubusercontent.com/44894132/82733444-052d8f00-9d14-11ea-968c-3aba45e197f7.PNG)
 
 ### Facial recognition of video footage
-The play command runs facial recognition on a video file. The command is run by “frecog play -m”, then a model(“large” or “small”), then it can be given a path to a file(eks: “./vids/pathTest.mp4”), if it isn’t given a path it will utilize a default mp4.
+The play command runs facial recognition on a video file. The command is run by `frecog play -m`, then a model(“large” or “small”), then it can be given a path to a file(eks: `frecog play -m ./vids/pathTest.mp4`), if it isn’t given a path it will utilize a default mp4.
 ![dfd](https://user-images.githubusercontent.com/44894132/82733442-0494f880-9d14-11ea-83f2-e5f8dcf80861.PNG)
 
 ### Facial recognition of single images and from directories
-The fold command takes a folder of images, then it uses facial recognition on them then it opens them in a window where the result and information is displayed. The command is run by “frecog fold -f”, then a model(“large” or “small”), then it can be given a path to a folder. If it doesn’t receive a path it runs on a default folder path.
+The fold command takes a folder of images, then it uses facial recognition on them then it opens them in a window where the result and information is displayed. The command is run by `frecog fold -f`, then a model(“large” or “small”), then it can be given a path to a folder. If it doesn’t receive a path it runs on a default folder path.
 ![unnamed (1)](https://user-images.githubusercontent.com/44894132/82733419-df07ef00-9d13-11ea-8f75-f48e2323980e.png)
 
 # Technologies we would have added if we had more time
