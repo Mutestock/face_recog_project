@@ -75,28 +75,26 @@ def graph(csv, benchmark):
 
 
 @frecog.command()   
-@click.option('--movie' , '-m', is_flag=True)
-@click.argument('model', required=False)
+@click.option('--movie' , '-m', type=click.Choice(['small', 'large']))
 @click.argument('path', required=False)
-def play(movie, model, path):
+def play(movie, path):
     '''
     Face recognises on a video
     E.g: frecog play -m small
     E.g: frecog play -m small ./vids/pathTest.mp4
     '''
     if movie:
-        execute_videorecog(model, path)
+        execute_videorecog(movie, path)
 
 
 @frecog.command()
-@click.option("--folder", "-f", is_flag=True)
+@click.option("--folder", "-f", type=click.Choice(['small', 'large']))
 @click.argument('path', required=False)
-@click.argument('model', required=False)
-def fold(folder, model, path):
+def fold(folder, path):
     '''
     Face recognises on a folder of pictures
-    E.g: frecog fold -f 
-    E.g: frecog fold -f ./facerec/unknown_faces large
+    E.g: frecog fold -f large
+    E.g: frecog fold -f large ./facerec/unknown_faces
     '''
     if folder:
-        loadrecog(model, path)
+        loadrecog(folder, path)

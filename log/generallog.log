@@ -24948,7 +24948,6 @@
 2020-05-22 19:19:46,818:INFO:5
 2020-05-22 19:19:49,274:INFO:5
 2020-05-22 19:19:51,533:INFO:5
-<<<<<<< HEAD
 2020-05-23 11:26:50,382:INFO:loading known faces and names...
 
 2020-05-23 11:26:50,385:INFO:5
@@ -26147,7 +26146,6 @@
 2020-05-23 11:39:08,862:INFO:Match found: Lukas, Linarg norm value: 0.6898512155914798%
 2020-05-23 11:39:09,251:INFO:, found 1 faces
 2020-05-23 11:39:09,251:INFO:Match found: Lukas, Linarg norm value: 0.703329210861395%
-=======
 2020-05-23 11:17:46,052:INFO:loading known faces and names...
 
 2020-05-23 11:17:46,055:INFO:5
@@ -27103,4 +27101,956 @@
 2020-05-23 11:48:52,962:INFO:5
 2020-05-23 11:48:56,506:INFO:5
 2020-05-23 11:48:59,946:INFO:5
->>>>>>> 796f7716148c94cc26dc53e9f263ea6f5fab62b7
+2020-05-23 12:02:56,280:INFO:loading known faces and names...
+
+2020-05-23 12:02:56,281:INFO:5
+2020-05-23 12:02:58,268:INFO:5
+2020-05-23 12:03:02,126:INFO:5
+2020-05-23 12:03:04,308:INFO:5
+2020-05-23 12:03:08,432:INFO:5
+2020-05-23 12:03:12,935:INFO:5
+2020-05-23 12:03:14,963:INFO:5
+2020-05-23 12:03:17,375:INFO:5
+2020-05-23 12:03:19,834:INFO:5
+2020-05-23 12:03:22,096:INFO:5
+2020-05-23 12:03:24,364:INFO:Processing unknown faces...
+2020-05-23 12:03:24,448:INFO:, found 0 faces
+2020-05-23 12:03:24,649:INFO:, found 0 faces
+2020-05-23 12:03:24,719:INFO:, found 0 faces
+2020-05-23 12:03:24,791:INFO:, found 0 faces
+2020-05-23 12:03:24,863:INFO:, found 0 faces
+2020-05-23 12:03:24,939:INFO:, found 0 faces
+2020-05-23 12:03:25,011:INFO:, found 0 faces
+2020-05-23 12:03:25,084:INFO:, found 0 faces
+2020-05-23 12:03:25,157:INFO:, found 0 faces
+2020-05-23 12:03:25,227:INFO:, found 0 faces
+2020-05-23 12:03:25,299:INFO:, found 0 faces
+2020-05-23 12:03:25,371:INFO:, found 0 faces
+2020-05-23 12:03:25,444:INFO:, found 0 faces
+2020-05-23 12:03:25,516:INFO:, found 0 faces
+2020-05-23 12:03:25,588:INFO:, found 0 faces
+2020-05-23 12:03:25,659:INFO:, found 0 faces
+2020-05-23 12:03:25,731:INFO:, found 0 faces
+2020-05-23 12:03:25,803:INFO:, found 0 faces
+2020-05-23 12:03:25,875:INFO:, found 0 faces
+2020-05-23 12:03:25,947:INFO:, found 0 faces
+2020-05-23 12:03:26,018:INFO:, found 0 faces
+2020-05-23 12:03:26,089:INFO:, found 0 faces
+2020-05-23 12:03:26,161:INFO:, found 0 faces
+2020-05-23 12:03:26,232:INFO:, found 0 faces
+2020-05-23 12:03:26,304:INFO:, found 0 faces
+2020-05-23 12:03:26,376:INFO:, found 0 faces
+2020-05-23 12:03:26,448:INFO:, found 0 faces
+2020-05-23 12:03:26,519:INFO:, found 0 faces
+2020-05-23 12:03:26,589:INFO:, found 0 faces
+2020-05-23 12:03:26,661:INFO:, found 0 faces
+2020-05-23 12:03:26,733:INFO:, found 0 faces
+2020-05-23 12:03:26,805:INFO:, found 0 faces
+2020-05-23 12:03:26,877:INFO:, found 0 faces
+2020-05-23 12:03:26,949:INFO:, found 0 faces
+2020-05-23 12:03:27,020:INFO:, found 0 faces
+2020-05-23 12:03:27,091:INFO:, found 0 faces
+2020-05-23 12:03:27,163:INFO:, found 0 faces
+2020-05-23 12:03:27,234:INFO:, found 0 faces
+2020-05-23 12:03:27,305:INFO:, found 0 faces
+2020-05-23 12:03:27,377:INFO:, found 0 faces
+2020-05-23 12:03:27,449:INFO:, found 0 faces
+2020-05-23 12:03:27,521:INFO:, found 0 faces
+2020-05-23 12:03:27,592:INFO:, found 0 faces
+2020-05-23 12:03:27,664:INFO:, found 0 faces
+2020-05-23 12:03:27,736:INFO:, found 0 faces
+2020-05-23 12:03:27,806:INFO:, found 0 faces
+2020-05-23 12:03:27,878:INFO:, found 0 faces
+2020-05-23 12:03:27,950:INFO:, found 0 faces
+2020-05-23 12:03:28,023:INFO:, found 0 faces
+2020-05-23 12:03:28,094:INFO:, found 0 faces
+2020-05-23 12:03:28,168:INFO:, found 0 faces
+2020-05-23 12:03:28,241:INFO:, found 0 faces
+2020-05-23 12:03:28,313:INFO:, found 0 faces
+2020-05-23 12:03:28,385:INFO:, found 0 faces
+2020-05-23 12:03:28,456:INFO:, found 0 faces
+2020-05-23 12:03:28,528:INFO:, found 0 faces
+2020-05-23 12:03:28,600:INFO:, found 0 faces
+2020-05-23 12:03:28,673:INFO:, found 0 faces
+2020-05-23 12:03:28,746:INFO:, found 0 faces
+2020-05-23 12:03:28,816:INFO:, found 0 faces
+2020-05-23 12:03:28,887:INFO:, found 0 faces
+2020-05-23 12:03:28,960:INFO:, found 0 faces
+2020-05-23 12:03:29,033:INFO:, found 0 faces
+2020-05-23 12:03:29,105:INFO:, found 0 faces
+2020-05-23 12:03:29,177:INFO:, found 0 faces
+2020-05-23 12:03:29,250:INFO:, found 0 faces
+2020-05-23 12:03:29,322:INFO:, found 0 faces
+2020-05-23 12:03:29,394:INFO:, found 0 faces
+2020-05-23 12:03:29,466:INFO:, found 0 faces
+2020-05-23 12:03:29,537:INFO:, found 0 faces
+2020-05-23 12:03:29,609:INFO:, found 0 faces
+2020-05-23 12:03:29,680:INFO:, found 0 faces
+2020-05-23 12:03:29,753:INFO:, found 0 faces
+2020-05-23 12:03:29,825:INFO:, found 0 faces
+2020-05-23 12:03:29,896:INFO:, found 0 faces
+2020-05-23 12:03:29,968:INFO:, found 0 faces
+2020-05-23 12:03:30,039:INFO:, found 0 faces
+2020-05-23 12:03:30,110:INFO:, found 0 faces
+2020-05-23 12:03:30,182:INFO:, found 0 faces
+2020-05-23 12:03:30,254:INFO:, found 0 faces
+2020-05-23 12:03:30,326:INFO:, found 0 faces
+2020-05-23 12:03:30,398:INFO:, found 0 faces
+2020-05-23 12:03:30,469:INFO:, found 0 faces
+2020-05-23 12:03:30,541:INFO:, found 0 faces
+2020-05-23 12:03:30,613:INFO:, found 0 faces
+2020-05-23 12:03:30,684:INFO:, found 0 faces
+2020-05-23 12:03:30,756:INFO:, found 0 faces
+2020-05-23 12:03:30,827:INFO:, found 0 faces
+2020-05-23 12:03:30,899:INFO:, found 0 faces
+2020-05-23 12:03:30,972:INFO:, found 0 faces
+2020-05-23 12:03:31,043:INFO:, found 0 faces
+2020-05-23 12:03:31,116:INFO:, found 0 faces
+2020-05-23 12:03:31,189:INFO:, found 0 faces
+2020-05-23 12:03:31,260:INFO:, found 0 faces
+2020-05-23 12:03:31,331:INFO:, found 0 faces
+2020-05-23 12:03:31,404:INFO:, found 0 faces
+2020-05-23 12:03:31,476:INFO:, found 0 faces
+2020-05-23 12:03:31,548:INFO:, found 0 faces
+2020-05-23 12:03:31,619:INFO:, found 0 faces
+2020-05-23 12:03:31,690:INFO:, found 0 faces
+2020-05-23 12:03:31,762:INFO:, found 0 faces
+2020-05-23 12:03:31,834:INFO:, found 0 faces
+2020-05-23 12:03:31,904:INFO:, found 0 faces
+2020-05-23 12:03:31,976:INFO:, found 0 faces
+2020-05-23 12:03:32,049:INFO:, found 0 faces
+2020-05-23 12:03:32,121:INFO:, found 0 faces
+2020-05-23 12:03:32,193:INFO:, found 0 faces
+2020-05-23 12:03:32,264:INFO:, found 0 faces
+2020-05-23 12:03:32,337:INFO:, found 0 faces
+2020-05-23 12:03:32,409:INFO:, found 0 faces
+2020-05-23 12:03:32,481:INFO:, found 0 faces
+2020-05-23 12:03:32,553:INFO:, found 0 faces
+2020-05-23 12:03:32,625:INFO:, found 0 faces
+2020-05-23 12:03:32,698:INFO:, found 0 faces
+2020-05-23 12:03:32,769:INFO:, found 0 faces
+2020-05-23 12:03:32,840:INFO:, found 0 faces
+2020-05-23 12:03:33,228:INFO:, found 1 faces
+2020-05-23 12:03:33,229:INFO:Match found: Lukas, Linarg norm value: 0.6239534843937833%
+2020-05-23 12:03:33,617:INFO:, found 1 faces
+2020-05-23 12:03:33,617:INFO:Match found: Lukas, Linarg norm value: 0.6337434595196556%
+2020-05-23 12:03:34,007:INFO:, found 1 faces
+2020-05-23 12:03:34,007:INFO:Match found: Lukas, Linarg norm value: 0.6938657814537735%
+2020-05-23 12:03:34,396:INFO:, found 1 faces
+2020-05-23 12:03:34,396:INFO:Match found: Lukas, Linarg norm value: 0.7032858151161181%
+2020-05-23 12:03:34,785:INFO:, found 1 faces
+2020-05-23 12:03:34,785:INFO:Match found: Lukas, Linarg norm value: 0.6884190326741224%
+2020-05-23 12:03:35,173:INFO:, found 1 faces
+2020-05-23 12:03:35,173:INFO:Match found: Lukas, Linarg norm value: 0.7164268938581619%
+2020-05-23 12:03:35,562:INFO:, found 1 faces
+2020-05-23 12:03:35,562:INFO:Match found: Lukas, Linarg norm value: 0.7095427209340088%
+2020-05-23 12:03:35,951:INFO:, found 1 faces
+2020-05-23 12:03:35,951:INFO:Match found: Lukas, Linarg norm value: 0.6969875700868768%
+2020-05-23 12:03:36,341:INFO:, found 1 faces
+2020-05-23 12:03:36,341:INFO:Match found: Lukas, Linarg norm value: 0.6889482221200571%
+2020-05-23 12:03:36,730:INFO:, found 1 faces
+2020-05-23 12:03:36,730:INFO:Match found: Lukas, Linarg norm value: 0.715365340813306%
+2020-05-23 12:03:37,120:INFO:, found 1 faces
+2020-05-23 12:03:37,120:INFO:Match found: Lukas, Linarg norm value: 0.7168810719829743%
+2020-05-23 12:03:37,511:INFO:, found 1 faces
+2020-05-23 12:03:37,511:INFO:Match found: Lukas, Linarg norm value: 0.7154486388354402%
+2020-05-23 12:03:37,899:INFO:, found 1 faces
+2020-05-23 12:03:37,899:INFO:Match found: Lukas, Linarg norm value: 0.6976245460169442%
+2020-05-23 12:03:38,290:INFO:, found 1 faces
+2020-05-23 12:03:38,291:INFO:Match found: Lukas, Linarg norm value: 0.719011691264317%
+2020-05-23 12:03:38,679:INFO:, found 1 faces
+2020-05-23 12:03:38,680:INFO:Match found: Lukas, Linarg norm value: 0.7087286086809227%
+2020-05-23 12:03:39,069:INFO:, found 1 faces
+2020-05-23 12:03:39,069:INFO:Match found: Lukas, Linarg norm value: 0.7169847377687065%
+2020-05-23 12:03:39,459:INFO:, found 1 faces
+2020-05-23 12:03:39,459:INFO:Match found: Lukas, Linarg norm value: 0.72419143892989%
+2020-05-23 12:03:39,852:INFO:, found 1 faces
+2020-05-23 12:03:39,852:INFO:Match found: Lukas, Linarg norm value: 0.7154964670284099%
+2020-05-23 12:03:40,241:INFO:, found 1 faces
+2020-05-23 12:03:40,241:INFO:Match found: Lukas, Linarg norm value: 0.7138970713034412%
+2020-05-23 12:03:40,630:INFO:, found 1 faces
+2020-05-23 12:03:40,631:INFO:Match found: Lukas, Linarg norm value: 0.7106496951356607%
+2020-05-23 12:03:41,022:INFO:, found 1 faces
+2020-05-23 12:03:41,023:INFO:Match found: Lukas, Linarg norm value: 0.7160396581842785%
+2020-05-23 12:03:41,415:INFO:, found 1 faces
+2020-05-23 12:03:41,415:INFO:Match found: Lukas, Linarg norm value: 0.7375680151768748%
+2020-05-23 12:03:41,809:INFO:, found 1 faces
+2020-05-23 12:03:41,809:INFO:Match found: Lukas, Linarg norm value: 0.7160449615353875%
+2020-05-23 12:03:42,231:INFO:, found 1 faces
+2020-05-23 12:03:42,231:INFO:Match found: Lukas, Linarg norm value: 0.7137710065215593%
+2020-05-23 12:03:42,666:INFO:, found 1 faces
+2020-05-23 12:03:42,666:INFO:Match found: Lukas, Linarg norm value: 0.7050272809599553%
+2020-05-23 12:03:43,064:INFO:, found 1 faces
+2020-05-23 12:03:43,064:INFO:Match found: Lukas, Linarg norm value: 0.7046160956868924%
+2020-05-23 12:03:43,456:INFO:, found 1 faces
+2020-05-23 12:03:43,456:INFO:Match found: Lukas, Linarg norm value: 0.7208857148163301%
+2020-05-23 12:03:43,847:INFO:, found 1 faces
+2020-05-23 12:03:43,847:INFO:Match found: Lukas, Linarg norm value: 0.7059624202354079%
+2020-05-23 12:03:44,240:INFO:, found 1 faces
+2020-05-23 12:03:44,240:INFO:Match found: Lukas, Linarg norm value: 0.7189404483131451%
+2020-05-23 12:03:44,630:INFO:, found 1 faces
+2020-05-23 12:03:44,631:INFO:Match found: Lukas, Linarg norm value: 0.7014080019341984%
+2020-05-23 12:03:45,021:INFO:, found 1 faces
+2020-05-23 12:03:45,022:INFO:Match found: Lukas, Linarg norm value: 0.7176451643448829%
+2020-05-23 12:03:45,410:INFO:, found 1 faces
+2020-05-23 12:03:45,410:INFO:Match found: Lukas, Linarg norm value: 0.7120537832342229%
+2020-05-23 12:03:45,802:INFO:, found 1 faces
+2020-05-23 12:03:45,803:INFO:Match found: Lukas, Linarg norm value: 0.7095069328956389%
+2020-05-23 12:03:46,198:INFO:, found 1 faces
+2020-05-23 12:03:46,198:INFO:Match found: Lukas, Linarg norm value: 0.6657844440876456%
+2020-05-23 12:03:46,270:INFO:, found 0 faces
+2020-05-23 12:03:46,344:INFO:, found 0 faces
+2020-05-23 12:03:46,417:INFO:, found 0 faces
+2020-05-23 12:03:46,497:INFO:, found 0 faces
+2020-05-23 12:03:46,570:INFO:, found 0 faces
+2020-05-23 12:03:46,644:INFO:, found 0 faces
+2020-05-23 12:03:46,717:INFO:, found 0 faces
+2020-05-23 12:03:46,788:INFO:, found 0 faces
+2020-05-23 12:03:46,860:INFO:, found 0 faces
+2020-05-23 12:03:46,932:INFO:, found 0 faces
+2020-05-23 12:03:47,004:INFO:, found 0 faces
+2020-05-23 12:03:47,075:INFO:, found 0 faces
+2020-05-23 12:03:47,148:INFO:, found 0 faces
+2020-05-23 12:03:47,218:INFO:, found 0 faces
+2020-05-23 12:03:47,290:INFO:, found 0 faces
+2020-05-23 12:03:47,362:INFO:, found 0 faces
+2020-05-23 12:03:47,434:INFO:, found 0 faces
+2020-05-23 12:03:47,506:INFO:, found 0 faces
+2020-05-23 12:03:47,578:INFO:, found 0 faces
+2020-05-23 12:03:47,649:INFO:, found 0 faces
+2020-05-23 12:03:47,721:INFO:, found 0 faces
+2020-05-23 12:03:47,793:INFO:, found 0 faces
+2020-05-23 12:03:47,865:INFO:, found 0 faces
+2020-05-23 12:03:47,938:INFO:, found 0 faces
+2020-05-23 12:03:48,010:INFO:, found 0 faces
+2020-05-23 12:03:48,082:INFO:, found 0 faces
+2020-05-23 12:03:48,154:INFO:, found 0 faces
+2020-05-23 12:03:48,542:INFO:, found 1 faces
+2020-05-23 12:03:48,542:INFO:Match found: Lukas, Linarg norm value: 0.6505361350577916%
+2020-05-23 12:03:48,930:INFO:, found 1 faces
+2020-05-23 12:03:48,930:INFO:Match found: Lukas, Linarg norm value: 0.6631870780967701%
+2020-05-23 12:03:49,318:INFO:, found 1 faces
+2020-05-23 12:03:49,319:INFO:Match found: Lukas, Linarg norm value: 0.6434564986392033%
+2020-05-23 12:03:49,707:INFO:, found 1 faces
+2020-05-23 12:03:49,707:INFO:Match found: Lukas, Linarg norm value: 0.6432613165771155%
+2020-05-23 12:03:50,095:INFO:, found 1 faces
+2020-05-23 12:03:50,095:INFO:Match found: Lukas, Linarg norm value: 0.6469670090576702%
+2020-05-23 12:03:50,483:INFO:, found 1 faces
+2020-05-23 12:03:50,484:INFO:Match found: Lukas, Linarg norm value: 0.630756332344885%
+2020-05-23 12:03:50,875:INFO:, found 1 faces
+2020-05-23 12:03:50,875:INFO:Match found: Lukas, Linarg norm value: 0.6454149368858324%
+2020-05-23 12:03:51,264:INFO:, found 1 faces
+2020-05-23 12:03:51,265:INFO:Match found: Lukas, Linarg norm value: 0.5989658666050358%
+2020-05-23 12:03:51,656:INFO:, found 1 faces
+2020-05-23 12:03:51,656:INFO:Match found: Lukas, Linarg norm value: 0.6322334484124552%
+2020-05-23 12:03:52,045:INFO:, found 1 faces
+2020-05-23 12:03:52,045:INFO:Match found: Lukas, Linarg norm value: 0.6217218842672108%
+2020-05-23 12:03:52,433:INFO:, found 1 faces
+2020-05-23 12:03:52,433:INFO:Match found: Lukas, Linarg norm value: 0.5970984488111453%
+2020-05-23 12:03:52,505:INFO:, found 0 faces
+2020-05-23 12:03:52,577:INFO:, found 0 faces
+2020-05-23 12:03:52,648:INFO:, found 0 faces
+2020-05-23 12:03:52,720:INFO:, found 0 faces
+2020-05-23 12:03:52,792:INFO:, found 0 faces
+2020-05-23 12:03:52,864:INFO:, found 0 faces
+2020-05-23 12:03:52,935:INFO:, found 0 faces
+2020-05-23 12:03:53,007:INFO:, found 0 faces
+2020-05-23 12:03:53,079:INFO:, found 0 faces
+2020-05-23 12:03:53,151:INFO:, found 0 faces
+2020-05-23 12:03:53,222:INFO:, found 0 faces
+2020-05-23 12:03:53,293:INFO:, found 0 faces
+2020-05-23 12:03:53,364:INFO:, found 0 faces
+2020-05-23 12:03:53,435:INFO:, found 0 faces
+2020-05-23 12:03:53,508:INFO:, found 0 faces
+2020-05-23 12:03:53,580:INFO:, found 0 faces
+2020-05-23 12:03:53,651:INFO:, found 0 faces
+2020-05-23 12:03:53,722:INFO:, found 0 faces
+2020-05-23 12:03:53,794:INFO:, found 0 faces
+2020-05-23 12:03:53,866:INFO:, found 0 faces
+2020-05-23 12:03:53,937:INFO:, found 0 faces
+2020-05-23 12:03:54,009:INFO:, found 0 faces
+2020-05-23 12:03:54,080:INFO:, found 0 faces
+2020-05-23 12:03:54,151:INFO:, found 0 faces
+2020-05-23 12:03:54,223:INFO:, found 0 faces
+2020-05-23 12:03:54,294:INFO:, found 0 faces
+2020-05-23 12:03:54,366:INFO:, found 0 faces
+2020-05-23 12:03:54,437:INFO:, found 0 faces
+2020-05-23 12:03:54,510:INFO:, found 0 faces
+2020-05-23 12:03:54,582:INFO:, found 0 faces
+2020-05-23 12:03:54,654:INFO:, found 0 faces
+2020-05-23 12:03:54,724:INFO:, found 0 faces
+2020-05-23 12:03:54,797:INFO:, found 0 faces
+2020-05-23 12:03:54,868:INFO:, found 0 faces
+2020-05-23 12:03:54,940:INFO:, found 0 faces
+2020-05-23 12:03:55,012:INFO:, found 0 faces
+2020-05-23 12:03:55,084:INFO:, found 0 faces
+2020-05-23 12:03:55,156:INFO:, found 0 faces
+2020-05-23 12:03:55,228:INFO:, found 0 faces
+2020-05-23 12:03:55,299:INFO:, found 0 faces
+2020-05-23 12:03:55,370:INFO:, found 0 faces
+2020-05-23 12:04:11,790:INFO:loading known faces and names...
+
+2020-05-23 12:04:11,792:INFO:5
+2020-05-23 12:04:13,775:INFO:5
+2020-05-23 12:04:17,626:INFO:5
+2020-05-23 12:04:19,810:INFO:5
+2020-05-23 12:04:23,946:INFO:5
+2020-05-23 12:04:28,441:INFO:5
+2020-05-23 12:04:30,469:INFO:5
+2020-05-23 12:04:32,881:INFO:5
+2020-05-23 12:04:35,347:INFO:5
+2020-05-23 12:04:37,615:INFO:5
+2020-05-23 12:04:39,878:INFO:Processing unknown faces...
+2020-05-23 12:04:39,963:INFO:, found 0 faces
+2020-05-23 12:04:40,163:INFO:, found 0 faces
+2020-05-23 12:04:40,235:INFO:, found 0 faces
+2020-05-23 12:04:40,306:INFO:, found 0 faces
+2020-05-23 12:04:40,378:INFO:, found 0 faces
+2020-05-23 12:04:40,449:INFO:, found 0 faces
+2020-05-23 12:04:40,522:INFO:, found 0 faces
+2020-05-23 12:04:40,593:INFO:, found 0 faces
+2020-05-23 12:04:40,664:INFO:, found 0 faces
+2020-05-23 12:04:40,736:INFO:, found 0 faces
+2020-05-23 12:04:40,808:INFO:, found 0 faces
+2020-05-23 12:04:40,880:INFO:, found 0 faces
+2020-05-23 12:04:40,952:INFO:, found 0 faces
+2020-05-23 12:04:41,022:INFO:, found 0 faces
+2020-05-23 12:04:41,093:INFO:, found 0 faces
+2020-05-23 12:04:41,165:INFO:, found 0 faces
+2020-05-23 12:04:41,237:INFO:, found 0 faces
+2020-05-23 12:04:41,309:INFO:, found 0 faces
+2020-05-23 12:04:41,381:INFO:, found 0 faces
+2020-05-23 12:04:41,452:INFO:, found 0 faces
+2020-05-23 12:04:41,523:INFO:, found 0 faces
+2020-05-23 12:04:41,594:INFO:, found 0 faces
+2020-05-23 12:04:41,666:INFO:, found 0 faces
+2020-05-23 12:04:41,739:INFO:, found 0 faces
+2020-05-23 12:04:41,809:INFO:, found 0 faces
+2020-05-23 12:04:41,880:INFO:, found 0 faces
+2020-05-23 12:04:41,952:INFO:, found 0 faces
+2020-05-23 12:04:42,025:INFO:, found 0 faces
+2020-05-23 12:04:42,097:INFO:, found 0 faces
+2020-05-23 12:04:42,171:INFO:, found 0 faces
+2020-05-23 12:04:42,243:INFO:, found 0 faces
+2020-05-23 12:04:42,315:INFO:, found 0 faces
+2020-05-23 12:04:42,386:INFO:, found 0 faces
+2020-05-23 12:04:42,457:INFO:, found 0 faces
+2020-05-23 12:04:42,529:INFO:, found 0 faces
+2020-05-23 12:04:42,602:INFO:, found 0 faces
+2020-05-23 12:04:42,674:INFO:, found 0 faces
+2020-05-23 12:04:42,745:INFO:, found 0 faces
+2020-05-23 12:04:42,818:INFO:, found 0 faces
+2020-05-23 12:04:42,891:INFO:, found 0 faces
+2020-05-23 12:04:42,963:INFO:, found 0 faces
+2020-05-23 12:04:43,035:INFO:, found 0 faces
+2020-05-23 12:04:43,108:INFO:, found 0 faces
+2020-05-23 12:04:43,180:INFO:, found 0 faces
+2020-05-23 12:04:43,569:INFO:, found 1 faces
+2020-05-23 12:04:43,569:INFO:Match found: Unknown, Linarg norm value: 0.38278859755158334%
+2020-05-23 12:04:43,957:INFO:, found 1 faces
+2020-05-23 12:04:43,957:INFO:Match found: Unknown, Linarg norm value: 0.3524215828686097%
+2020-05-23 12:04:44,349:INFO:, found 1 faces
+2020-05-23 12:04:44,349:INFO:Match found: Unknown, Linarg norm value: 0.39125604723730345%
+2020-05-23 12:04:44,737:INFO:, found 1 faces
+2020-05-23 12:04:44,737:INFO:Match found: Unknown, Linarg norm value: 0.37597486971257243%
+2020-05-23 12:04:45,126:INFO:, found 1 faces
+2020-05-23 12:04:45,127:INFO:Match found: Unknown, Linarg norm value: 0.3640618319876373%
+2020-05-23 12:04:45,514:INFO:, found 1 faces
+2020-05-23 12:04:45,515:INFO:Match found: Lukas, Linarg norm value: 0.5174928295634266%
+2020-05-23 12:04:45,904:INFO:, found 1 faces
+2020-05-23 12:04:45,904:INFO:Match found: Lukas, Linarg norm value: 0.5816707643347926%
+2020-05-23 12:04:46,293:INFO:, found 1 faces
+2020-05-23 12:04:46,294:INFO:Match found: Lukas, Linarg norm value: 0.6547350828069942%
+2020-05-23 12:04:46,685:INFO:, found 1 faces
+2020-05-23 12:04:46,686:INFO:Match found: Lukas, Linarg norm value: 0.637047547740198%
+2020-05-23 12:04:47,073:INFO:, found 1 faces
+2020-05-23 12:04:47,073:INFO:Match found: Lukas, Linarg norm value: 0.6898512155914798%
+2020-05-23 12:04:47,462:INFO:, found 1 faces
+2020-05-23 12:04:47,462:INFO:Match found: Lukas, Linarg norm value: 0.703329210861395%
+2020-05-23 12:04:47,851:INFO:, found 1 faces
+2020-05-23 12:04:47,852:INFO:Match found: Lukas, Linarg norm value: 0.7131048954448717%
+2020-05-23 12:04:48,242:INFO:, found 1 faces
+2020-05-23 12:04:48,243:INFO:Match found: Lukas, Linarg norm value: 0.7147894554230061%
+2020-05-23 12:04:48,632:INFO:, found 1 faces
+2020-05-23 12:04:48,633:INFO:Match found: Lukas, Linarg norm value: 0.680159638410196%
+2020-05-23 12:04:49,021:INFO:, found 1 faces
+2020-05-23 12:04:49,021:INFO:Match found: Lukas, Linarg norm value: 0.7142556696658409%
+2020-05-23 12:04:49,410:INFO:, found 1 faces
+2020-05-23 12:04:49,411:INFO:Match found: Lukas, Linarg norm value: 0.7239450879460854%
+2020-05-23 12:04:49,798:INFO:, found 1 faces
+2020-05-23 12:04:49,799:INFO:Match found: Lukas, Linarg norm value: 0.7103317255679761%
+2020-05-23 12:04:50,187:INFO:, found 1 faces
+2020-05-23 12:04:50,188:INFO:Match found: Lukas, Linarg norm value: 0.7066452934200607%
+2020-05-23 12:04:50,576:INFO:, found 1 faces
+2020-05-23 12:04:50,576:INFO:Match found: Lukas, Linarg norm value: 0.7127314466972487%
+2020-05-23 12:04:50,966:INFO:, found 1 faces
+2020-05-23 12:04:50,966:INFO:Match found: Lukas, Linarg norm value: 0.7118105560238741%
+2020-05-23 12:04:51,355:INFO:, found 1 faces
+2020-05-23 12:04:51,356:INFO:Match found: Lukas, Linarg norm value: 0.7285969760010556%
+2020-05-23 12:04:51,743:INFO:, found 1 faces
+2020-05-23 12:04:51,743:INFO:Match found: Lukas, Linarg norm value: 0.7084590814531169%
+2020-05-23 12:04:52,132:INFO:, found 1 faces
+2020-05-23 12:04:52,132:INFO:Match found: Lukas, Linarg norm value: 0.7161515870082861%
+2020-05-23 12:04:52,521:INFO:, found 1 faces
+2020-05-23 12:04:52,522:INFO:Match found: Lukas, Linarg norm value: 0.7088826599574686%
+2020-05-23 12:04:52,910:INFO:, found 1 faces
+2020-05-23 12:04:52,910:INFO:Match found: Lukas, Linarg norm value: 0.7159736352916517%
+2020-05-23 12:04:53,300:INFO:, found 1 faces
+2020-05-23 12:04:53,300:INFO:Match found: Lukas, Linarg norm value: 0.7197314513031026%
+2020-05-23 12:04:53,688:INFO:, found 1 faces
+2020-05-23 12:04:53,689:INFO:Match found: Lukas, Linarg norm value: 0.7098992125059005%
+2020-05-23 12:04:54,078:INFO:, found 1 faces
+2020-05-23 12:04:54,079:INFO:Match found: Lukas, Linarg norm value: 0.7159674922232055%
+2020-05-23 12:04:54,470:INFO:, found 1 faces
+2020-05-23 12:04:54,470:INFO:Match found: Lukas, Linarg norm value: 0.7160681709921192%
+2020-05-23 12:04:54,859:INFO:, found 1 faces
+2020-05-23 12:04:54,859:INFO:Match found: Lukas, Linarg norm value: 0.7103990046937455%
+2020-05-23 12:04:55,247:INFO:, found 1 faces
+2020-05-23 12:04:55,248:INFO:Match found: Lukas, Linarg norm value: 0.7243296972719937%
+2020-05-23 12:04:55,635:INFO:, found 1 faces
+2020-05-23 12:04:55,635:INFO:Match found: Lukas, Linarg norm value: 0.716963829774909%
+2020-05-23 12:04:56,025:INFO:, found 1 faces
+2020-05-23 12:04:56,026:INFO:Match found: Lukas, Linarg norm value: 0.7172031851749487%
+2020-05-23 12:04:56,414:INFO:, found 1 faces
+2020-05-23 12:04:56,414:INFO:Match found: Lukas, Linarg norm value: 0.722953262292683%
+2020-05-23 12:04:56,803:INFO:, found 1 faces
+2020-05-23 12:04:56,803:INFO:Match found: Lukas, Linarg norm value: 0.712777876905444%
+2020-05-23 12:04:57,192:INFO:, found 1 faces
+2020-05-23 12:04:57,192:INFO:Match found: Lukas, Linarg norm value: 0.7228209619955905%
+2020-05-23 12:04:57,580:INFO:, found 1 faces
+2020-05-23 12:04:57,580:INFO:Match found: Lukas, Linarg norm value: 0.7337081170981652%
+2020-05-23 12:04:57,968:INFO:, found 1 faces
+2020-05-23 12:04:57,969:INFO:Match found: Lukas, Linarg norm value: 0.7395462164490161%
+2020-05-23 12:04:58,360:INFO:, found 1 faces
+2020-05-23 12:04:58,360:INFO:Match found: Lukas, Linarg norm value: 0.7286412703446165%
+2020-05-23 12:04:58,750:INFO:, found 1 faces
+2020-05-23 12:04:58,750:INFO:Match found: Lukas, Linarg norm value: 0.7176433979011714%
+2020-05-23 12:04:59,139:INFO:, found 1 faces
+2020-05-23 12:04:59,139:INFO:Match found: Lukas, Linarg norm value: 0.7298782986164917%
+2020-05-23 12:04:59,527:INFO:, found 1 faces
+2020-05-23 12:04:59,528:INFO:Match found: Lukas, Linarg norm value: 0.7132012499102749%
+2020-05-23 12:04:59,915:INFO:, found 1 faces
+2020-05-23 12:04:59,916:INFO:Match found: Lukas, Linarg norm value: 0.7198062780245331%
+2020-05-23 12:05:00,304:INFO:, found 1 faces
+2020-05-23 12:05:00,305:INFO:Match found: Lukas, Linarg norm value: 0.7253937112802312%
+2020-05-23 12:05:00,692:INFO:, found 1 faces
+2020-05-23 12:05:00,692:INFO:Match found: Lukas, Linarg norm value: 0.7191799190476418%
+2020-05-23 12:05:01,080:INFO:, found 1 faces
+2020-05-23 12:05:01,080:INFO:Match found: Lukas, Linarg norm value: 0.7189481564417226%
+2020-05-23 12:05:01,468:INFO:, found 1 faces
+2020-05-23 12:05:01,469:INFO:Match found: Lukas, Linarg norm value: 0.6973888535591624%
+2020-05-23 12:05:01,856:INFO:, found 1 faces
+2020-05-23 12:05:01,857:INFO:Match found: Lukas, Linarg norm value: 0.696443301796625%
+2020-05-23 12:05:02,246:INFO:, found 1 faces
+2020-05-23 12:05:02,246:INFO:Match found: Lukas, Linarg norm value: 0.7102462609970861%
+2020-05-23 12:05:02,634:INFO:, found 1 faces
+2020-05-23 12:05:02,634:INFO:Match found: Lukas, Linarg norm value: 0.7126662174171721%
+2020-05-23 12:05:03,023:INFO:, found 1 faces
+2020-05-23 12:05:03,024:INFO:Match found: Lukas, Linarg norm value: 0.6971352760294292%
+2020-05-23 12:05:03,414:INFO:, found 1 faces
+2020-05-23 12:05:03,414:INFO:Match found: Lukas, Linarg norm value: 0.7061424805496181%
+2020-05-23 12:05:03,802:INFO:, found 1 faces
+2020-05-23 12:05:03,802:INFO:Match found: Lukas, Linarg norm value: 0.706271780271333%
+2020-05-23 12:05:04,191:INFO:, found 1 faces
+2020-05-23 12:05:04,191:INFO:Match found: Lukas, Linarg norm value: 0.7254462441134514%
+2020-05-23 12:05:04,579:INFO:, found 1 faces
+2020-05-23 12:05:04,579:INFO:Match found: Lukas, Linarg norm value: 0.7224396851449189%
+2020-05-23 12:05:04,967:INFO:, found 1 faces
+2020-05-23 12:05:04,968:INFO:Match found: Lukas, Linarg norm value: 0.7277928127735247%
+2020-05-23 12:05:05,356:INFO:, found 1 faces
+2020-05-23 12:05:05,356:INFO:Match found: Lukas, Linarg norm value: 0.7288719973779141%
+2020-05-23 12:05:05,744:INFO:, found 1 faces
+2020-05-23 12:05:05,744:INFO:Match found: Lukas, Linarg norm value: 0.7283627921920603%
+2020-05-23 12:05:06,132:INFO:, found 1 faces
+2020-05-23 12:05:06,132:INFO:Match found: Lukas, Linarg norm value: 0.6841607887136856%
+2020-05-23 12:05:06,520:INFO:, found 1 faces
+2020-05-23 12:05:06,521:INFO:Match found: Lukas, Linarg norm value: 0.6643264653878687%
+2020-05-23 12:05:06,909:INFO:, found 1 faces
+2020-05-23 12:05:06,909:INFO:Match found: Lukas, Linarg norm value: 0.6716363661017285%
+2020-05-23 12:05:07,299:INFO:, found 1 faces
+2020-05-23 12:05:07,300:INFO:Match found: Lukas, Linarg norm value: 0.6390680689965983%
+2020-05-23 12:05:07,687:INFO:, found 1 faces
+2020-05-23 12:05:07,687:INFO:Match found: Lukas, Linarg norm value: 0.5654868421721129%
+2020-05-23 12:05:07,759:INFO:, found 0 faces
+2020-05-23 12:05:07,830:INFO:, found 0 faces
+2020-05-23 12:05:07,903:INFO:, found 0 faces
+2020-05-23 12:05:07,974:INFO:, found 0 faces
+2020-05-23 12:05:08,045:INFO:, found 0 faces
+2020-05-23 12:05:08,117:INFO:, found 0 faces
+2020-05-23 12:05:08,189:INFO:, found 0 faces
+2020-05-23 12:05:08,262:INFO:, found 0 faces
+2020-05-23 12:05:08,332:INFO:, found 0 faces
+2020-05-23 12:05:08,403:INFO:, found 0 faces
+2020-05-23 12:05:08,476:INFO:, found 0 faces
+2020-05-23 12:05:08,547:INFO:, found 0 faces
+2020-05-23 12:05:08,618:INFO:, found 0 faces
+2020-05-23 12:05:08,690:INFO:, found 0 faces
+2020-05-23 12:05:08,761:INFO:, found 0 faces
+2020-05-23 12:05:08,833:INFO:, found 0 faces
+2020-05-23 12:05:08,904:INFO:, found 0 faces
+2020-05-23 12:05:08,977:INFO:, found 0 faces
+2020-05-23 12:05:09,050:INFO:, found 0 faces
+2020-05-23 12:05:09,123:INFO:, found 0 faces
+2020-05-23 12:05:09,194:INFO:, found 0 faces
+2020-05-23 12:05:09,266:INFO:, found 0 faces
+2020-05-23 12:05:09,337:INFO:, found 0 faces
+2020-05-23 12:05:09,408:INFO:, found 0 faces
+2020-05-23 12:05:09,480:INFO:, found 0 faces
+2020-05-23 12:05:09,552:INFO:, found 0 faces
+2020-05-23 12:05:09,623:INFO:, found 0 faces
+2020-05-23 12:05:09,694:INFO:, found 0 faces
+2020-05-23 12:05:09,766:INFO:, found 0 faces
+2020-05-23 12:05:09,838:INFO:, found 0 faces
+2020-05-23 12:05:09,909:INFO:, found 0 faces
+2020-05-23 12:05:09,980:INFO:, found 0 faces
+2020-05-23 12:05:10,052:INFO:, found 0 faces
+2020-05-23 12:05:10,125:INFO:, found 0 faces
+2020-05-23 12:05:10,199:INFO:, found 0 faces
+2020-05-23 12:05:10,272:INFO:, found 0 faces
+2020-05-23 12:05:10,343:INFO:, found 0 faces
+2020-05-23 12:05:10,414:INFO:, found 0 faces
+2020-05-23 12:05:10,485:INFO:, found 0 faces
+2020-05-23 12:05:10,556:INFO:, found 0 faces
+2020-05-23 12:05:10,627:INFO:, found 0 faces
+2020-05-23 12:05:10,698:INFO:, found 0 faces
+2020-05-23 12:05:10,769:INFO:, found 0 faces
+2020-05-23 12:05:10,841:INFO:, found 0 faces
+2020-05-23 12:05:10,912:INFO:, found 0 faces
+2020-05-23 12:05:10,983:INFO:, found 0 faces
+2020-05-23 12:05:11,371:INFO:, found 1 faces
+2020-05-23 12:05:11,371:INFO:Match found: Lukas, Linarg norm value: 0.6129872803293518%
+2020-05-23 12:05:11,759:INFO:, found 1 faces
+2020-05-23 12:05:11,760:INFO:Match found: Lukas, Linarg norm value: 0.6801942975564057%
+2020-05-23 12:05:12,148:INFO:, found 1 faces
+2020-05-23 12:05:12,149:INFO:Match found: Lukas, Linarg norm value: 0.7321607309779006%
+2020-05-23 12:05:12,537:INFO:, found 1 faces
+2020-05-23 12:05:12,537:INFO:Match found: Lukas, Linarg norm value: 0.747685077615709%
+2020-05-23 12:05:12,925:INFO:, found 1 faces
+2020-05-23 12:05:12,925:INFO:Match found: Lukas, Linarg norm value: 0.7399246854304634%
+2020-05-23 12:05:13,316:INFO:, found 1 faces
+2020-05-23 12:05:13,316:INFO:Match found: Lukas, Linarg norm value: 0.7514668476332687%
+2020-05-23 12:05:13,705:INFO:, found 1 faces
+2020-05-23 12:05:13,705:INFO:Match found: Lukas, Linarg norm value: 0.7560327263129468%
+2020-05-23 12:05:14,096:INFO:, found 1 faces
+2020-05-23 12:05:14,096:INFO:Match found: Lukas, Linarg norm value: 0.7699682089452591%
+2020-05-23 12:05:14,485:INFO:, found 1 faces
+2020-05-23 12:05:14,485:INFO:Match found: Lukas, Linarg norm value: 0.7527087062959267%
+2020-05-23 12:05:14,876:INFO:, found 1 faces
+2020-05-23 12:05:14,876:INFO:Match found: Lukas, Linarg norm value: 0.7525837307682863%
+2020-05-23 12:05:15,265:INFO:, found 1 faces
+2020-05-23 12:05:15,265:INFO:Match found: Lukas, Linarg norm value: 0.7603473507478405%
+2020-05-23 12:05:15,652:INFO:, found 1 faces
+2020-05-23 12:05:15,653:INFO:Match found: Lukas, Linarg norm value: 0.750299643882337%
+2020-05-23 12:05:16,042:INFO:, found 1 faces
+2020-05-23 12:05:16,042:INFO:Match found: Lukas, Linarg norm value: 0.7521467291089006%
+2020-05-23 12:05:16,431:INFO:, found 1 faces
+2020-05-23 12:05:16,431:INFO:Match found: Lukas, Linarg norm value: 0.738991963236046%
+2020-05-23 12:05:16,820:INFO:, found 1 faces
+2020-05-23 12:05:16,820:INFO:Match found: Lukas, Linarg norm value: 0.757408749881362%
+2020-05-23 12:05:17,207:INFO:, found 1 faces
+2020-05-23 12:05:17,208:INFO:Match found: Lukas, Linarg norm value: 0.7471277883117744%
+2020-05-23 12:05:17,597:INFO:, found 1 faces
+2020-05-23 12:05:17,598:INFO:Match found: Lukas, Linarg norm value: 0.7565065834201206%
+2020-05-23 12:05:17,987:INFO:, found 1 faces
+2020-05-23 12:05:17,987:INFO:Match found: Lukas, Linarg norm value: 0.75561849006895%
+2020-05-23 12:05:18,377:INFO:, found 1 faces
+2020-05-23 12:05:18,377:INFO:Match found: Lukas, Linarg norm value: 0.7573352028640437%
+2020-05-23 12:05:18,766:INFO:, found 1 faces
+2020-05-23 12:05:18,767:INFO:Match found: Lukas, Linarg norm value: 0.7559168679896844%
+2020-05-23 12:05:19,156:INFO:, found 1 faces
+2020-05-23 12:05:19,156:INFO:Match found: Lukas, Linarg norm value: 0.7653411975122071%
+2020-05-23 12:05:19,545:INFO:, found 1 faces
+2020-05-23 12:05:19,545:INFO:Match found: Lukas, Linarg norm value: 0.7606169691402257%
+2020-05-23 12:05:19,934:INFO:, found 1 faces
+2020-05-23 12:05:19,934:INFO:Match found: Lukas, Linarg norm value: 0.7559497962127328%
+2020-05-23 12:05:20,322:INFO:, found 1 faces
+2020-05-23 12:05:20,323:INFO:Match found: Lukas, Linarg norm value: 0.7521080962312241%
+2020-05-23 12:05:20,711:INFO:, found 1 faces
+2020-05-23 12:05:20,711:INFO:Match found: Lukas, Linarg norm value: 0.7504011544282532%
+2020-05-23 12:05:21,103:INFO:, found 1 faces
+2020-05-23 12:05:21,103:INFO:Match found: Lukas, Linarg norm value: 0.7446721716030531%
+2020-05-23 12:05:21,491:INFO:, found 1 faces
+2020-05-23 12:05:21,491:INFO:Match found: Lukas, Linarg norm value: 0.7552655223525976%
+2020-05-23 12:05:21,879:INFO:, found 1 faces
+2020-05-23 12:05:21,879:INFO:Match found: Lukas, Linarg norm value: 0.7571578783685828%
+2020-05-23 12:05:22,268:INFO:, found 1 faces
+2020-05-23 12:05:22,268:INFO:Match found: Lukas, Linarg norm value: 0.7531046308417821%
+2020-05-23 12:05:22,657:INFO:, found 1 faces
+2020-05-23 12:05:22,657:INFO:Match found: Lukas, Linarg norm value: 0.735617947273424%
+2020-05-23 12:05:23,045:INFO:, found 1 faces
+2020-05-23 12:05:23,046:INFO:Match found: Lukas, Linarg norm value: 0.7528139654780617%
+2020-05-23 12:05:23,433:INFO:, found 1 faces
+2020-05-23 12:05:23,434:INFO:Match found: Lukas, Linarg norm value: 0.7504851810351375%
+2020-05-23 12:05:23,821:INFO:, found 1 faces
+2020-05-23 12:05:23,822:INFO:Match found: Lukas, Linarg norm value: 0.7535419958196217%
+2020-05-23 12:05:24,210:INFO:, found 1 faces
+2020-05-23 12:05:24,211:INFO:Match found: Lukas, Linarg norm value: 0.7435267169991273%
+2020-05-23 12:05:24,600:INFO:, found 1 faces
+2020-05-23 12:05:24,600:INFO:Match found: Lukas, Linarg norm value: 0.7529252630600283%
+2020-05-23 12:05:24,989:INFO:, found 1 faces
+2020-05-23 12:05:24,989:INFO:Match found: Lukas, Linarg norm value: 0.7538770758134548%
+2020-05-23 12:05:25,377:INFO:, found 1 faces
+2020-05-23 12:05:25,377:INFO:Match found: Lukas, Linarg norm value: 0.7040058530541643%
+2020-05-23 12:05:25,765:INFO:, found 1 faces
+2020-05-23 12:05:25,766:INFO:Match found: Lukas, Linarg norm value: 0.6902794447779241%
+2020-05-23 12:05:26,153:INFO:, found 1 faces
+2020-05-23 12:05:26,153:INFO:Match found: Lukas, Linarg norm value: 0.5945346591797003%
+2020-05-23 12:05:26,225:INFO:, found 0 faces
+2020-05-23 12:05:26,297:INFO:, found 0 faces
+2020-05-23 12:05:26,369:INFO:, found 0 faces
+2020-05-23 12:05:26,440:INFO:, found 0 faces
+2020-05-23 12:05:26,514:INFO:, found 0 faces
+2020-05-23 12:05:26,586:INFO:, found 0 faces
+2020-05-23 12:05:26,657:INFO:, found 0 faces
+2020-05-23 12:05:26,730:INFO:, found 0 faces
+2020-05-23 12:05:26,802:INFO:, found 0 faces
+2020-05-23 12:05:26,874:INFO:, found 0 faces
+2020-05-23 12:05:26,947:INFO:, found 0 faces
+2020-05-23 12:05:27,018:INFO:, found 0 faces
+2020-05-23 12:05:27,089:INFO:, found 0 faces
+2020-05-23 12:05:27,160:INFO:, found 0 faces
+2020-05-23 12:05:27,232:INFO:, found 0 faces
+2020-05-23 12:05:27,304:INFO:, found 0 faces
+2020-05-23 12:05:27,375:INFO:, found 0 faces
+2020-05-23 12:05:27,448:INFO:, found 0 faces
+2020-05-23 12:05:27,521:INFO:, found 0 faces
+2020-05-23 12:05:27,592:INFO:, found 0 faces
+2020-05-23 12:05:27,663:INFO:, found 0 faces
+2020-05-23 12:05:27,734:INFO:, found 0 faces
+2020-05-23 12:05:27,806:INFO:, found 0 faces
+2020-05-23 12:05:27,877:INFO:, found 0 faces
+2020-05-23 12:05:27,949:INFO:, found 0 faces
+2020-05-23 12:05:28,021:INFO:, found 0 faces
+2020-05-23 12:05:28,094:INFO:, found 0 faces
+2020-05-23 12:05:28,166:INFO:, found 0 faces
+2020-05-23 12:05:28,239:INFO:, found 0 faces
+2020-05-23 12:05:28,310:INFO:, found 0 faces
+2020-05-23 12:05:28,383:INFO:, found 0 faces
+2020-05-23 12:05:28,455:INFO:, found 0 faces
+2020-05-23 12:05:28,527:INFO:, found 0 faces
+2020-05-23 12:05:28,598:INFO:, found 0 faces
+2020-05-23 12:05:28,668:INFO:, found 0 faces
+2020-05-23 12:05:28,740:INFO:, found 0 faces
+2020-05-23 12:05:28,811:INFO:, found 0 faces
+2020-05-23 12:05:28,884:INFO:, found 0 faces
+2020-05-23 12:05:28,956:INFO:, found 0 faces
+2020-05-23 12:05:29,027:INFO:, found 0 faces
+2020-05-23 12:05:29,098:INFO:, found 0 faces
+2020-05-23 12:05:29,171:INFO:, found 0 faces
+2020-05-23 12:05:29,243:INFO:, found 0 faces
+2020-05-23 12:05:29,315:INFO:, found 0 faces
+2020-05-23 12:05:29,385:INFO:, found 0 faces
+2020-05-23 12:05:29,457:INFO:, found 0 faces
+2020-05-23 12:05:29,528:INFO:, found 0 faces
+2020-05-23 12:05:29,600:INFO:, found 0 faces
+2020-05-23 12:06:24,892:INFO:loading known faces and names...
+
+2020-05-23 12:06:24,894:INFO:5
+2020-05-23 12:06:26,878:INFO:5
+2020-05-23 12:06:30,726:INFO:5
+2020-05-23 12:06:32,910:INFO:5
+2020-05-23 12:06:37,034:INFO:5
+2020-05-23 12:06:41,548:INFO:5
+2020-05-23 12:06:43,627:INFO:5
+2020-05-23 12:06:46,039:INFO:5
+2020-05-23 12:06:48,493:INFO:5
+2020-05-23 12:06:50,755:INFO:5
+2020-05-23 12:06:53,021:INFO:Processing unknown faces...
+2020-05-23 12:06:53,108:INFO:, found 0 faces
+2020-05-23 12:06:53,305:INFO:, found 0 faces
+2020-05-23 12:06:53,380:INFO:, found 0 faces
+2020-05-23 12:06:53,452:INFO:, found 0 faces
+2020-05-23 12:06:53,523:INFO:, found 0 faces
+2020-05-23 12:06:53,596:INFO:, found 0 faces
+2020-05-23 12:06:53,668:INFO:, found 0 faces
+2020-05-23 12:06:53,739:INFO:, found 0 faces
+2020-05-23 12:06:53,811:INFO:, found 0 faces
+2020-05-23 12:06:53,883:INFO:, found 0 faces
+2020-05-23 12:06:53,955:INFO:, found 0 faces
+2020-05-23 12:06:54,026:INFO:, found 0 faces
+2020-05-23 12:06:54,099:INFO:, found 0 faces
+2020-05-23 12:06:54,169:INFO:, found 0 faces
+2020-05-23 12:06:54,243:INFO:, found 0 faces
+2020-05-23 12:06:54,316:INFO:, found 0 faces
+2020-05-23 12:06:54,387:INFO:, found 0 faces
+2020-05-23 12:06:54,461:INFO:, found 0 faces
+2020-05-23 12:06:54,534:INFO:, found 0 faces
+2020-05-23 12:06:54,606:INFO:, found 0 faces
+2020-05-23 12:06:54,677:INFO:, found 0 faces
+2020-05-23 12:06:54,749:INFO:, found 0 faces
+2020-05-23 12:06:54,822:INFO:, found 0 faces
+2020-05-23 12:06:54,895:INFO:, found 0 faces
+2020-05-23 12:06:54,967:INFO:, found 0 faces
+2020-05-23 12:06:55,038:INFO:, found 0 faces
+2020-05-23 12:06:55,110:INFO:, found 0 faces
+2020-05-23 12:06:55,182:INFO:, found 0 faces
+2020-05-23 12:06:55,256:INFO:, found 0 faces
+2020-05-23 12:06:55,328:INFO:, found 0 faces
+2020-05-23 12:06:55,399:INFO:, found 0 faces
+2020-05-23 12:06:55,472:INFO:, found 0 faces
+2020-05-23 12:06:55,545:INFO:, found 0 faces
+2020-05-23 12:06:55,617:INFO:, found 0 faces
+2020-05-23 12:06:55,688:INFO:, found 0 faces
+2020-05-23 12:06:55,761:INFO:, found 0 faces
+2020-05-23 12:06:55,832:INFO:, found 0 faces
+2020-05-23 12:06:55,903:INFO:, found 0 faces
+2020-05-23 12:06:55,975:INFO:, found 0 faces
+2020-05-23 12:06:56,046:INFO:, found 0 faces
+2020-05-23 12:06:56,118:INFO:, found 0 faces
+2020-05-23 12:06:56,190:INFO:, found 0 faces
+2020-05-23 12:06:56,261:INFO:, found 0 faces
+2020-05-23 12:06:56,333:INFO:, found 0 faces
+2020-05-23 12:06:56,404:INFO:, found 0 faces
+2020-05-23 12:06:56,475:INFO:, found 0 faces
+2020-05-23 12:06:56,547:INFO:, found 0 faces
+2020-05-23 12:06:56,620:INFO:, found 0 faces
+2020-05-23 12:06:56,692:INFO:, found 0 faces
+2020-05-23 12:06:56,763:INFO:, found 0 faces
+2020-05-23 12:06:56,833:INFO:, found 0 faces
+2020-05-23 12:06:56,906:INFO:, found 0 faces
+2020-05-23 12:06:56,978:INFO:, found 0 faces
+2020-05-23 12:06:57,052:INFO:, found 0 faces
+2020-05-23 12:06:57,123:INFO:, found 0 faces
+2020-05-23 12:06:57,196:INFO:, found 0 faces
+2020-05-23 12:06:57,267:INFO:, found 0 faces
+2020-05-23 12:06:57,338:INFO:, found 0 faces
+2020-05-23 12:06:57,410:INFO:, found 0 faces
+2020-05-23 12:06:57,482:INFO:, found 0 faces
+2020-05-23 12:06:57,555:INFO:, found 0 faces
+2020-05-23 12:06:57,628:INFO:, found 0 faces
+2020-05-23 12:06:57,698:INFO:, found 0 faces
+2020-05-23 12:06:57,769:INFO:, found 0 faces
+2020-05-23 12:06:57,841:INFO:, found 0 faces
+2020-05-23 12:06:57,914:INFO:, found 0 faces
+2020-05-23 12:06:57,985:INFO:, found 0 faces
+2020-05-23 12:06:58,055:INFO:, found 0 faces
+2020-05-23 12:06:58,127:INFO:, found 0 faces
+2020-05-23 12:06:58,200:INFO:, found 0 faces
+2020-05-23 12:06:58,273:INFO:, found 0 faces
+2020-05-23 12:06:58,344:INFO:, found 0 faces
+2020-05-23 12:06:58,416:INFO:, found 0 faces
+2020-05-23 12:06:58,489:INFO:, found 0 faces
+2020-05-23 12:06:58,562:INFO:, found 0 faces
+2020-05-23 12:06:58,632:INFO:, found 0 faces
+2020-05-23 12:06:58,704:INFO:, found 0 faces
+2020-05-23 12:06:58,775:INFO:, found 0 faces
+2020-05-23 12:06:58,847:INFO:, found 0 faces
+2020-05-23 12:06:58,918:INFO:, found 0 faces
+2020-05-23 12:06:58,989:INFO:, found 0 faces
+2020-05-23 12:06:59,062:INFO:, found 0 faces
+2020-05-23 12:06:59,135:INFO:, found 0 faces
+2020-05-23 12:06:59,207:INFO:, found 0 faces
+2020-05-23 12:06:59,279:INFO:, found 0 faces
+2020-05-23 12:06:59,351:INFO:, found 0 faces
+2020-05-23 12:06:59,424:INFO:, found 0 faces
+2020-05-23 12:06:59,495:INFO:, found 0 faces
+2020-05-23 12:06:59,566:INFO:, found 0 faces
+2020-05-23 12:06:59,639:INFO:, found 0 faces
+2020-05-23 12:06:59,711:INFO:, found 0 faces
+2020-05-23 12:06:59,782:INFO:, found 0 faces
+2020-05-23 12:06:59,854:INFO:, found 0 faces
+2020-05-23 12:06:59,926:INFO:, found 0 faces
+2020-05-23 12:06:59,997:INFO:, found 0 faces
+2020-05-23 12:07:00,075:INFO:, found 0 faces
+2020-05-23 12:07:00,146:INFO:, found 0 faces
+2020-05-23 12:07:00,216:INFO:, found 0 faces
+2020-05-23 12:07:00,289:INFO:, found 0 faces
+2020-05-23 12:07:00,360:INFO:, found 0 faces
+2020-05-23 12:07:00,433:INFO:, found 0 faces
+2020-05-23 12:07:00,504:INFO:, found 0 faces
+2020-05-23 12:07:00,577:INFO:, found 0 faces
+2020-05-23 12:07:00,648:INFO:, found 0 faces
+2020-05-23 12:07:00,719:INFO:, found 0 faces
+2020-05-23 12:07:00,791:INFO:, found 0 faces
+2020-05-23 12:07:00,864:INFO:, found 0 faces
+2020-05-23 12:07:00,934:INFO:, found 0 faces
+2020-05-23 12:07:01,006:INFO:, found 0 faces
+2020-05-23 12:07:01,078:INFO:, found 0 faces
+2020-05-23 12:07:01,151:INFO:, found 0 faces
+2020-05-23 12:07:01,222:INFO:, found 0 faces
+2020-05-23 12:07:01,295:INFO:, found 0 faces
+2020-05-23 12:07:01,367:INFO:, found 0 faces
+2020-05-23 12:07:01,439:INFO:, found 0 faces
+2020-05-23 12:07:01,512:INFO:, found 0 faces
+2020-05-23 12:07:01,900:INFO:, found 1 faces
+2020-05-23 12:07:01,901:INFO:Match found: Lukas, Linarg norm value: 0.6239534843937833%
+2020-05-23 12:07:02,290:INFO:, found 1 faces
+2020-05-23 12:07:02,290:INFO:Match found: Lukas, Linarg norm value: 0.6337434595196556%
+2020-05-23 12:07:02,679:INFO:, found 1 faces
+2020-05-23 12:07:02,680:INFO:Match found: Lukas, Linarg norm value: 0.6938657814537735%
+2020-05-23 12:07:03,068:INFO:, found 1 faces
+2020-05-23 12:07:03,068:INFO:Match found: Lukas, Linarg norm value: 0.7032858151161181%
+2020-05-23 12:07:03,457:INFO:, found 1 faces
+2020-05-23 12:07:03,458:INFO:Match found: Lukas, Linarg norm value: 0.6884190326741224%
+2020-05-23 12:07:03,849:INFO:, found 1 faces
+2020-05-23 12:07:03,850:INFO:Match found: Lukas, Linarg norm value: 0.7164268938581619%
+2020-05-23 12:07:04,238:INFO:, found 1 faces
+2020-05-23 12:07:04,238:INFO:Match found: Lukas, Linarg norm value: 0.7095427209340088%
+2020-05-23 12:07:04,627:INFO:, found 1 faces
+2020-05-23 12:07:04,627:INFO:Match found: Lukas, Linarg norm value: 0.6969875700868768%
+2020-05-23 12:07:05,015:INFO:, found 1 faces
+2020-05-23 12:07:05,015:INFO:Match found: Lukas, Linarg norm value: 0.6889482221200571%
+2020-05-23 12:07:05,403:INFO:, found 1 faces
+2020-05-23 12:07:05,404:INFO:Match found: Lukas, Linarg norm value: 0.715365340813306%
+2020-05-23 12:07:05,791:INFO:, found 1 faces
+2020-05-23 12:07:05,791:INFO:Match found: Lukas, Linarg norm value: 0.7168810719829743%
+2020-05-23 12:07:06,185:INFO:, found 1 faces
+2020-05-23 12:07:06,185:INFO:Match found: Lukas, Linarg norm value: 0.7154486388354402%
+2020-05-23 12:07:06,573:INFO:, found 1 faces
+2020-05-23 12:07:06,574:INFO:Match found: Lukas, Linarg norm value: 0.6976245460169442%
+2020-05-23 12:07:06,962:INFO:, found 1 faces
+2020-05-23 12:07:06,962:INFO:Match found: Lukas, Linarg norm value: 0.719011691264317%
+2020-05-23 12:07:07,351:INFO:, found 1 faces
+2020-05-23 12:07:07,351:INFO:Match found: Lukas, Linarg norm value: 0.7087286086809227%
+2020-05-23 12:07:07,739:INFO:, found 1 faces
+2020-05-23 12:07:07,739:INFO:Match found: Lukas, Linarg norm value: 0.7169847377687065%
+2020-05-23 12:07:08,127:INFO:, found 1 faces
+2020-05-23 12:07:08,127:INFO:Match found: Lukas, Linarg norm value: 0.72419143892989%
+2020-05-23 12:07:08,518:INFO:, found 1 faces
+2020-05-23 12:07:08,518:INFO:Match found: Lukas, Linarg norm value: 0.7154964670284099%
+2020-05-23 12:07:08,906:INFO:, found 1 faces
+2020-05-23 12:07:08,906:INFO:Match found: Lukas, Linarg norm value: 0.7138970713034412%
+2020-05-23 12:07:09,295:INFO:, found 1 faces
+2020-05-23 12:07:09,295:INFO:Match found: Lukas, Linarg norm value: 0.7106496951356607%
+2020-05-23 12:07:09,682:INFO:, found 1 faces
+2020-05-23 12:07:09,683:INFO:Match found: Lukas, Linarg norm value: 0.7160396581842785%
+2020-05-23 12:07:10,070:INFO:, found 1 faces
+2020-05-23 12:07:10,070:INFO:Match found: Lukas, Linarg norm value: 0.7375680151768748%
+2020-05-23 12:07:10,459:INFO:, found 1 faces
+2020-05-23 12:07:10,460:INFO:Match found: Lukas, Linarg norm value: 0.7160449615353875%
+2020-05-23 12:07:10,847:INFO:, found 1 faces
+2020-05-23 12:07:10,847:INFO:Match found: Lukas, Linarg norm value: 0.7137710065215593%
+2020-05-23 12:07:11,235:INFO:, found 1 faces
+2020-05-23 12:07:11,235:INFO:Match found: Lukas, Linarg norm value: 0.7050272809599553%
+2020-05-23 12:07:11,624:INFO:, found 1 faces
+2020-05-23 12:07:11,625:INFO:Match found: Lukas, Linarg norm value: 0.7046160956868924%
+2020-05-23 12:07:12,016:INFO:, found 1 faces
+2020-05-23 12:07:12,017:INFO:Match found: Lukas, Linarg norm value: 0.7208857148163301%
+2020-05-23 12:07:12,405:INFO:, found 1 faces
+2020-05-23 12:07:12,406:INFO:Match found: Lukas, Linarg norm value: 0.7059624202354079%
+2020-05-23 12:07:12,795:INFO:, found 1 faces
+2020-05-23 12:07:12,795:INFO:Match found: Lukas, Linarg norm value: 0.7189404483131451%
+2020-05-23 12:07:13,184:INFO:, found 1 faces
+2020-05-23 12:07:13,185:INFO:Match found: Lukas, Linarg norm value: 0.7014080019341984%
+2020-05-23 12:07:13,574:INFO:, found 1 faces
+2020-05-23 12:07:13,574:INFO:Match found: Lukas, Linarg norm value: 0.7176451643448829%
+2020-05-23 12:07:13,961:INFO:, found 1 faces
+2020-05-23 12:07:13,962:INFO:Match found: Lukas, Linarg norm value: 0.7120537832342229%
+2020-05-23 12:07:14,350:INFO:, found 1 faces
+2020-05-23 12:07:14,351:INFO:Match found: Lukas, Linarg norm value: 0.7095069328956389%
+2020-05-23 12:07:14,742:INFO:, found 1 faces
+2020-05-23 12:07:14,743:INFO:Match found: Lukas, Linarg norm value: 0.6657844440876456%
+2020-05-23 12:07:14,814:INFO:, found 0 faces
+2020-05-23 12:07:14,885:INFO:, found 0 faces
+2020-05-23 12:07:14,956:INFO:, found 0 faces
+2020-05-23 12:07:15,027:INFO:, found 0 faces
+2020-05-23 12:07:15,098:INFO:, found 0 faces
+2020-05-23 12:07:15,171:INFO:, found 0 faces
+2020-05-23 12:07:15,242:INFO:, found 0 faces
+2020-05-23 12:07:15,313:INFO:, found 0 faces
+2020-05-23 12:07:15,386:INFO:, found 0 faces
+2020-05-23 12:07:15,456:INFO:, found 0 faces
+2020-05-23 12:07:15,528:INFO:, found 0 faces
+2020-05-23 12:07:15,599:INFO:, found 0 faces
+2020-05-23 12:07:15,670:INFO:, found 0 faces
+2020-05-23 12:07:15,742:INFO:, found 0 faces
+2020-05-23 12:07:15,813:INFO:, found 0 faces
+2020-05-23 12:07:15,884:INFO:, found 0 faces
+2020-05-23 12:07:15,954:INFO:, found 0 faces
+2020-05-23 12:07:16,027:INFO:, found 0 faces
+2020-05-23 12:07:16,099:INFO:, found 0 faces
+2020-05-23 12:07:16,170:INFO:, found 0 faces
+2020-05-23 12:07:16,243:INFO:, found 0 faces
+2020-05-23 12:07:16,316:INFO:, found 0 faces
+2020-05-23 12:07:16,390:INFO:, found 0 faces
+2020-05-23 12:07:16,462:INFO:, found 0 faces
+2020-05-23 12:07:16,534:INFO:, found 0 faces
+2020-05-23 12:07:16,607:INFO:, found 0 faces
+2020-05-23 12:07:16,677:INFO:, found 0 faces
+2020-05-23 12:07:17,065:INFO:, found 1 faces
+2020-05-23 12:07:17,065:INFO:Match found: Lukas, Linarg norm value: 0.6505361350577916%
+2020-05-23 12:07:17,453:INFO:, found 1 faces
+2020-05-23 12:07:17,453:INFO:Match found: Lukas, Linarg norm value: 0.6631870780967701%
+2020-05-23 12:07:17,841:INFO:, found 1 faces
+2020-05-23 12:07:17,841:INFO:Match found: Lukas, Linarg norm value: 0.6434564986392033%
+2020-05-23 12:07:18,229:INFO:, found 1 faces
+2020-05-23 12:07:18,229:INFO:Match found: Lukas, Linarg norm value: 0.6432613165771155%
+2020-05-23 12:07:18,617:INFO:, found 1 faces
+2020-05-23 12:07:18,617:INFO:Match found: Lukas, Linarg norm value: 0.6469670090576702%
+2020-05-23 12:07:19,006:INFO:, found 1 faces
+2020-05-23 12:07:19,007:INFO:Match found: Lukas, Linarg norm value: 0.630756332344885%
+2020-05-23 12:07:19,397:INFO:, found 1 faces
+2020-05-23 12:07:19,397:INFO:Match found: Lukas, Linarg norm value: 0.6454149368858324%
+2020-05-23 12:07:19,785:INFO:, found 1 faces
+2020-05-23 12:07:19,785:INFO:Match found: Lukas, Linarg norm value: 0.5989658666050358%
+2020-05-23 12:07:20,173:INFO:, found 1 faces
+2020-05-23 12:07:20,173:INFO:Match found: Lukas, Linarg norm value: 0.6322334484124552%
+2020-05-23 12:07:20,563:INFO:, found 1 faces
+2020-05-23 12:07:20,563:INFO:Match found: Lukas, Linarg norm value: 0.6217218842672108%
+2020-05-23 12:07:20,951:INFO:, found 1 faces
+2020-05-23 12:07:20,952:INFO:Match found: Lukas, Linarg norm value: 0.5970984488111453%
+2020-05-23 12:07:21,023:INFO:, found 0 faces
+2020-05-23 12:07:21,096:INFO:, found 0 faces
+2020-05-23 12:07:21,168:INFO:, found 0 faces
+2020-05-23 12:07:21,239:INFO:, found 0 faces
+2020-05-23 12:07:21,312:INFO:, found 0 faces
+2020-05-23 12:07:21,383:INFO:, found 0 faces
+2020-05-23 12:07:21,454:INFO:, found 0 faces
+2020-05-23 12:07:21,525:INFO:, found 0 faces
+2020-05-23 12:07:21,596:INFO:, found 0 faces
+2020-05-23 12:07:21,668:INFO:, found 0 faces
+2020-05-23 12:07:21,739:INFO:, found 0 faces
+2020-05-23 12:07:21,810:INFO:, found 0 faces
+2020-05-23 12:07:21,881:INFO:, found 0 faces
+2020-05-23 12:07:21,953:INFO:, found 0 faces
+2020-05-23 12:07:22,026:INFO:, found 0 faces
+2020-05-23 12:07:22,097:INFO:, found 0 faces
+2020-05-23 12:07:22,168:INFO:, found 0 faces
+2020-05-23 12:07:22,241:INFO:, found 0 faces
+2020-05-23 12:07:22,313:INFO:, found 0 faces
+2020-05-23 12:07:22,385:INFO:, found 0 faces
+2020-05-23 12:07:22,455:INFO:, found 0 faces
+2020-05-23 12:07:22,527:INFO:, found 0 faces
+2020-05-23 12:07:22,598:INFO:, found 0 faces
+2020-05-23 12:07:22,668:INFO:, found 0 faces
+2020-05-23 12:07:22,739:INFO:, found 0 faces
+2020-05-23 12:07:22,811:INFO:, found 0 faces
+2020-05-23 12:07:22,882:INFO:, found 0 faces
+2020-05-23 12:07:22,953:INFO:, found 0 faces
+2020-05-23 12:07:23,024:INFO:, found 0 faces
+2020-05-23 12:07:23,096:INFO:, found 0 faces
+2020-05-23 12:07:23,168:INFO:, found 0 faces
+2020-05-23 12:07:23,238:INFO:, found 0 faces
+2020-05-23 12:07:23,309:INFO:, found 0 faces
+2020-05-23 12:07:23,383:INFO:, found 0 faces
+2020-05-23 12:07:23,454:INFO:, found 0 faces
+2020-05-23 12:07:23,525:INFO:, found 0 faces
+2020-05-23 12:07:23,598:INFO:, found 0 faces
+2020-05-23 12:07:23,669:INFO:, found 0 faces
+2020-05-23 12:07:23,740:INFO:, found 0 faces
+2020-05-23 12:07:23,811:INFO:, found 0 faces
+2020-05-23 12:07:23,882:INFO:, found 0 faces
+2020-05-23 12:08:37,512:INFO:loading known faces and names...
+
+2020-05-23 12:08:37,514:INFO:5
+2020-05-23 12:08:39,504:INFO:5
+2020-05-23 12:08:43,387:INFO:5
+2020-05-23 12:08:45,575:INFO:5
+2020-05-23 12:08:49,711:INFO:5
+2020-05-23 12:08:54,209:INFO:5
+2020-05-23 12:08:56,241:INFO:5
+2020-05-23 12:08:58,660:INFO:5
+2020-05-23 12:09:01,125:INFO:5
+2020-05-23 12:09:03,390:INFO:5
+2020-05-23 12:09:47,593:INFO:loading known faces and names...
+
+2020-05-23 12:09:47,595:INFO:5
+2020-05-23 12:09:49,585:INFO:5
+2020-05-23 12:09:53,436:INFO:5
+2020-05-23 12:09:55,625:INFO:5
+2020-05-23 12:09:59,765:INFO:5
+2020-05-23 12:10:04,265:INFO:5
+2020-05-23 12:10:06,307:INFO:5
+2020-05-23 12:10:08,763:INFO:5
+2020-05-23 12:10:11,265:INFO:5
+2020-05-23 12:10:13,529:INFO:5
