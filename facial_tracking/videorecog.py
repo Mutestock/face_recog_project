@@ -19,7 +19,7 @@ def execute_videorecog(model="large", path =' '):
     frame = 3
     font = 2
     videoname = path 
-    if(videoname == ' '):
+    if(videoname == None):
         cam = cv2.VideoCapture('./vids/test.mp4')
     else:
         if(Path(videoname).exists()):

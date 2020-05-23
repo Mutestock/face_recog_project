@@ -51,7 +51,7 @@ def classify(single, path):
     '''
     Classifies unknown pictures in a directory using the knn_model
     E.g. path: frecog classify -p facerec/unknown_faces
-    E.g. single: frecog classify -s C:/Users/rasmu/Desktop/face_recog_project/facerec/unknown_faces/eka01.jpg
+    E.g. single: frecog classify -s facerec/unknown_faces/eka01.jpg
     '''
     if path:
         classify_people_from_path(path)
@@ -81,6 +81,7 @@ def graph(csv, benchmark):
 def play(movie, model, path):
     '''
     Face recognises on a video
+    E.g: frecog play -m small
     E.g: frecog play -m small ./vids/pathTest.mp4
     '''
     if movie:
@@ -94,6 +95,7 @@ def play(movie, model, path):
 def fold(folder, model, path):
     '''
     Face recognises on a folder of pictures
+    E.g: frecog fold -f 
     E.g: frecog fold -f ./facerec/unknown_faces large
     '''
     if folder:

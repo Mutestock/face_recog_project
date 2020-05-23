@@ -5,6 +5,7 @@ setup(
     version='0.0.2',
     py_modules=['main'],
     install_requires=[
+        'pandas == 1.0.3',
         'Click == 7.1.2',
         'nose2 == 0.9.2',
         'configparser == 5.0.0',
@@ -19,8 +20,7 @@ setup(
         'tensorflow == 2.2.0',
         'dlib == 19.19.0',
         'imutils == 0.5.3',
-        'keyboard == 0.13.5',
-        'pandas == 1.0.3'
+        'keyboard == 0.13.5'
     ],
     author='TeamOne',
     entry_points='''
