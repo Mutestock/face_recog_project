@@ -71,11 +71,23 @@ The concepts involved in this project regarding the python course and related te
 - Data wrangling
 - Data collection, working with video capture
 - Working with CSV and plotting
+
 # How to use.
 Install everything you need by following the installation guide.
 Open up a cmd, bash or terminal based in the root of the face_recog_project  project.
 All functions can be found through a "frecog --help" command.
 ![image](https://drive.google.com/open?id=117A3XDo6adp-PeTJvCisHmMv9CgKcyFR)
+![unnamed (5)](https://user-images.githubusercontent.com/44894132/82733413-dd3e2b80-9d13-11ea-8e96-b90f7b4ef3fe.png)
+![unnamed (4)](https://user-images.githubusercontent.com/44894132/82733415-ddd6c200-9d13-11ea-8c44-cdf0c4de0062.png)
+![unnamed (3)](https://user-images.githubusercontent.com/44894132/82733416-de6f5880-9d13-11ea-9ba5-cd73751d2c85.png)
+![unnamed (2)](https://user-images.githubusercontent.com/44894132/82733418-de6f5880-9d13-11ea-9e15-5c2b2e6cc196.png)
+![unnamed (1)](https://user-images.githubusercontent.com/44894132/82733419-df07ef00-9d13-11ea-8f75-f48e2323980e.png)
+![unnamed](https://user-images.githubusercontent.com/44894132/82733420-df07ef00-9d13-11ea-83d6-5fa1fbc91972.png)
+![s](https://user-images.githubusercontent.com/44894132/82733439-019a0800-9d14-11ea-9486-61ec330b69a4.PNG)
+![sdfsd](https://user-images.githubusercontent.com/44894132/82733440-02cb3500-9d14-11ea-95d8-3f09ae7da1f8.PNG)
+![dfd](https://user-images.githubusercontent.com/44894132/82733442-0494f880-9d14-11ea-83f2-e5f8dcf80861.PNG)
+![dsdfs](https://user-images.githubusercontent.com/44894132/82733444-052d8f00-9d14-11ea-968c-3aba45e197f7.PNG)
+
 
 Note that all windows that pop up can be closed by pressing the X at the top or pressing "q". To force a stop presse "ctrl C"
 ### Facial tracking and recognition
