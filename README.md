@@ -1,8 +1,8 @@
 # Facial recognition project
 dat4sem2020spring-python
 
-Rasmus Barfod Prætorius
-Henning Wiberg
+Rasmus Barfod Prætorius,
+Henning Wiberg and
 Lukas Bjornvad
 
 # Description
