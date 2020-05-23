@@ -1,5 +1,5 @@
-Rasmus Barfod Prætorius 
-Henning Wiberg
+Rasmus Barfod Prætorius, 
+Henning Wiberg,
 Lukas Bjornvad
 # Facial recognition project
 
