@@ -5,7 +5,7 @@ Agreeable Government:
 
 Rasmus Barfod Prætorius,
 Henning Wiberg and
-Lukas Bjornvad
+Lukas Bjørnvad
 
 # Description
 This framework provides cli commands for facial recognition and tracking functions to detect users based on webcam and other media footage such as people in photos and videos. The framework utilizes stored facial images for the recognition, and it is possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate.
@@ -13,14 +13,20 @@ This framework provides cli commands for facial recognition and tracking functio
 Within the process of recognition, we have all so trained own Convolutional, Siamese, and using Convolutional, Siamese, and VGG-Face pre-calibrated neural network models as examples. This primarily involves examples on how to train our own neural networks with Keras and TenserFlow deep learning. For the recognition itself, we have made use of dlib’s pre-trained models for face detectors, facial landmark predictors and recognition models for higher recognition accuracy within the actual framework demo.
 
 # Technologies
-- OpenCV and image processing
 - CLI
-- Neural networks, Deep learning
-- Machine Learning
 - Data processing
+	- Neural networks, Deep learning
+ 		- Keras
+	- Machine Learning
+		- TensorFlow
+- OpenCV
 - Data wrangling
-- Data collection, working with video capture
-- Working with CSV and plotting
+	- Image processing
+	- One-hot labels
+	- Classification
+- Data collection
+	- Working with video capture
+	- Working with CSV and plotting
 
 For specific requirements see:  [requirements.txt](https://github.com/Mutestock/face_recog_project/blob/master/requirements.txt).
 
@@ -72,7 +78,20 @@ The concepts involved in this project regarding the python course and related te
 - Data collection, working with video capture
 - Working with CSV and plotting
 
-# How to use.
+# Training our own neural network
+Besides using dlib for high precision recognition, we also made a few notebook examples on how neural networks for facial recognition could be trained using tensorflow and keras as well as large collections of facial image data. Among our own attempts to successfully train a neural network, we made several different demos using Convolutional, Siamese, and VGG-Face model pre-calibrated weights. From these demo networks we trained our own models and tested them to see their accuracy and performance.
+
+[Convolutional network example:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Convolutional%20network.ipynb)
+![unnamed (7)](https://user-images.githubusercontent.com/44894132/82733864-39ef1580-9d17-11ea-9d99-13036f888499.png)
+
+[Siamese network example:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Siamese%20network.ipynb)
+
+![unnamed (8)](https://user-images.githubusercontent.com/44894132/82733865-3c516f80-9d17-11ea-8c65-ff2e32c7e530.png)
+
+[Neural network with VGG weights:](https://github.com/Mutestock/face_recog_project/blob/master/face_learning_model/Neural%20network%20with%20VGG%20weigths.ipynb)
+![unnamed (9)](https://user-images.githubusercontent.com/44894132/82733866-3e1b3300-9d17-11ea-89f9-bf6158cdc1a1.png)
+
+# How to use the framework
 Install everything you need by following the installation guide.
 Open up a cmd, bash or terminal based in the root of the face_recog_project  project.
 All functions can be found through a "frecog --help" command.
