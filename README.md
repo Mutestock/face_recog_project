@@ -1,11 +1,19 @@
 # Facial recognition project
-dat4sem2020spring-python
+Agreeable Government, dat4sem2020spring-python
 
-Agreeable Government:
+### Made by:
+- cph-rp134 Rasmus Barfod Prætorius
+- cph-hw98 Henning Wiberg
+- cph-lb269 Lukas Bjørnvad
 
-Rasmus Barfod Prætorius,
-Henning Wiberg and
-Lukas Bjørnvad
+### Table of Contents:
+- [Description](https://github.com/Mutestock/face_recog_project#description)
+- [Technologies](https://github.com/Mutestock/face_recog_project#technologies)
+- [Installation](https://github.com/Mutestock/face_recog_project#installation)
+- [Disposition](https://github.com/Mutestock/face_recog_project#disposition)
+- [Training our own neural network](https://github.com/Mutestock/face_recog_project#training-our-own-neural-network)
+- [How to use the framework](https://github.com/Mutestock/face_recog_project#how-to-use-the-framework)
+- [Technologies we would have added if we had more time](https://github.com/Mutestock/technologies-we-would-have-added-if-we-had-more-time)
 
 # Description
 This framework provides cli commands for facial recognition and tracking functions to detect users based on webcam and other media footage such as people in photos and videos. The framework utilizes stored facial images for the recognition, and it is possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate.
@@ -44,8 +52,7 @@ Please be advised, that dlib can be rather sensitive. Especially so on Windows. 
 
 To use the the facial classification feature, please download and extract the vgg_face.mat file from [here](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/), and place it in the face_recog_project\face_learning_model\vgg_face_matconvnet folder. You will afterwards be able to train the classifier in the command line using ‘frecog trainer -tr large 2’. This classifier can be used to train a k-nearest neighbor model for specific faces to obtain more accurate classification results.
 
-# Disposition:
-
+# Disposition
 The project will be focusing on the development of a facial recognition framework that with a high certainty can detect users based on webcam and other media footage.
 
 ### Summary:
