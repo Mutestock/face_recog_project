@@ -21,7 +21,7 @@ Within the process of recognition, we have all so trained own Convolutional, Sia
 		- TensorFlow
 - OpenCV
 - Data wrangling
-	- image processing
+	- Image processing
 	- One-hot labels
 	- Classification
 - Data collection
