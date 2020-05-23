@@ -4,14 +4,17 @@ Lukas Bjornvad
 # Facial recognition project
 
 # Description
-For this project we have developed a facial recognition framework. It's capable of recognizing the people in photos, videos and live through a webcam. It utilizes stored faces for the recognition, it's possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate. 
+This framework provides cli commands for facial recognition and tracking functions to detect users based on webcam and other media footage such as people in photos and videos. The framework utilizes stored facial images for the recognition, and it is possible for the user to add more through the tracking feature. The project has a set of cli commands for each main function. The project requires a moderate amount of technical knowledge to operate.
+ 
+Within the process of recognition, we have all so trained own Convolutional, Siamese, and re-trained model neural network models as examples.  This primarily involves examples on how to train our own neural networks with Keras and TenserFlow deep learning. For the recognition itself, we have made use of dlib’s pre-trained models for face detectors, facial landmark predictors and recognition models for higher recognition accuracy within the actual framework demo.
 
 # Technologies
 
 # Installation
 Clone the project, cd into the project.
 Run "pip install --editable ."
-To utilize the training models get matlab at MATLAB
+
+To use the the facial classification feature, please download and extract the vgg_face.mat file from [here](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/), and place it in the face_recog_project\face_learning_model\vgg_face_matconvnet folder. You will afterwards be able to train the classifier in the command line using ‘frecog trainer -tr large 2’. This classifier can be used to train a k-nearest neighbor model for specific faces to obtain more accurate classification results.
 
 # Disposition:
 
