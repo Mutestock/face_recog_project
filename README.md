@@ -72,3 +72,9 @@ The concepts involved in this project regarding the python course and related te
 - Data collection, working with video capture
 - Working with CSV and plotting
 
+# How to use.
+- Install everything you need by following the installation guide.
+- Open up a cmd, bash or terminal based in the root of the project.
+- If you want the framework to work with your face run the tracking command by typing "frecog run -t" and then pressing "r". This will prompt a pop-up that you have to fill out with your name.
+- 
+
