@@ -8,7 +8,7 @@ Pipfile
 *sensitive.ini
 sensitive.ini
 settings/sensitive.ini
-log/generallog.log
+*log/generallog.log
 log
 log/**
 *generallog.log
