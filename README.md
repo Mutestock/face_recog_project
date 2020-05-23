@@ -13,7 +13,6 @@ This framework provides cli commands for facial recognition and tracking functio
 Within the process of recognition, we have all so trained own Convolutional, Siamese, and using Convolutional, Siamese, and VGG-Face pre-calibrated neural network models as examples. This primarily involves examples on how to train our own neural networks with Keras and TenserFlow deep learning. For the recognition itself, we have made use of dlib’s pre-trained models for face detectors, facial landmark predictors and recognition models for higher recognition accuracy within the actual framework demo.
 
 # Technologies
-- CLI
 - Data processing
 	- Neural networks, Deep learning
  		- Keras
@@ -27,6 +26,7 @@ Within the process of recognition, we have all so trained own Convolutional, Sia
 - Data collection
 	- Working with video capture
 	- Working with CSV and plotting
+- CLI
 
 For specific requirements see:  [requirements.txt](https://github.com/Mutestock/face_recog_project/blob/master/requirements.txt).
 
@@ -44,17 +44,15 @@ Please be advised, that dlib can be rather sensitive. Especially so on Windows. 
 
 To use the the facial classification feature, please download and extract the vgg_face.mat file from [here](https://www.robots.ox.ac.uk/~vgg/data/vgg_face/), and place it in the face_recog_project\face_learning_model\vgg_face_matconvnet folder. You will afterwards be able to train the classifier in the command line using ‘frecog trainer -tr large 2’. This classifier can be used to train a k-nearest neighbor model for specific faces to obtain more accurate classification results.
 
-
-
 # Disposition:
 
 The project will be focusing on the development of a facial recognition framework that with a high certainty can detect users based on webcam and other media footage.
 
-Summary:
+### Summary:
 
 We will develop our own facial recognition framework that can receive a picture of a person, then through a neural network match the face with known faces to recognize and confirm the person in the picture.
 
-Goals for functionality:
+### Goals for functionality:
 - Detect faces in a picture/frame
 - Make out own neural network examples that with somewhat high certainty can recognize faces by matching them with known faces. This part requires a lot of machine learning and training with a large dataset. Try Convolutional, Siamese, and VGG-Face pre-calibrated model types.
 - Use pre-trained models by dlib to display a more accurate use of facial recognition within the framework itself. Here pre-trained models for face detectors, facial landmark predictors and recognition models will be used.
@@ -66,7 +64,7 @@ Goals for functionality:
 - Make a feature that can detect a face and then save samples if that face to known faces.
 - Create a facial classifier, that can be trained on top of the dlib models and provide enhanced probability readings on specific classified faces.
 
-Concepts and Focus Areas:
+### Concepts and Focus Areas:
 
 The concepts involved in this project regarding the python course and related technologies include the following entries:
 - OpenCV and image processing
@@ -137,3 +135,9 @@ The play command runs facial recognition on a video file. The command is run by 
 ### Facial recognition of single images and from directories
 The fold command takes a folder of images, then it uses facial recognition on them then it opens them in a window where the result and information is displayed. The command is run by “frecog fold -f”, then a model(“large” or “small”), then it can be given a path to a folder. If it doesn’t receive a path it runs on a default folder path.
 ![unnamed (1)](https://user-images.githubusercontent.com/44894132/82733419-df07ef00-9d13-11ea-8f75-f48e2323980e.png)
+
+# Technologies we would have added if we had more time
+- Python web services with flask
+- Requests, Headers and Authentication
+- Host the neural network training on an external server
+- Deployment of framework to a droplet
