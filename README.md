@@ -40,7 +40,7 @@ For specific requirements see:  [requirements.txt](https://github.com/Mutestock/
 
 # Installation
 Clone the project, cd into the project.
-Run "pip install --editable ."
+Run `pip install --editable .`
 
 Project is compatible with pipenv and can be activated with 'pipenv shell', 'pipenv lock', 'pipenv sync'. Change the python version in the pipfile so that it matches yours.
 
