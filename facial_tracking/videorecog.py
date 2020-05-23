@@ -77,7 +77,7 @@ def execute_videorecog(model="large", path =' '):
                     percent = linarg_value * 100
                     cv2.putText(image, facial_match + f' {"%.2f" % percent}%', (face_location[3] + 10, face_location[2] + 15), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (200, 200, 200), font)
 
-                cv2.imshow('Face recognizing on video', image)
+                cv2.imshow('Running facial recognition', image)
                 if cv2.waitKey(1) & 0xFF == ord("q"):
                     break
 
