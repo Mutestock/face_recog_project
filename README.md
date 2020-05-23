@@ -2,7 +2,7 @@
 dat4sem2020spring-python
 
 Agreeable Government:
-
+![](facerec/known_faces/Lukas/Lukas0.jpg)
 Rasmus Barfod Prætorius,
 Henning Wiberg and
 Lukas Bjornvad
